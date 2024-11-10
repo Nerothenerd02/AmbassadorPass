@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.ambassadorpass.app-mergeDebugResources-55:/values-port/values-port.xml",
+            "outputFile": "com.example.ambassadorpass.app-mergeDebugResources-71:/values-port/values-port.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-3\\527dae1ae0a8e438a6654c37e7552e99\\transformed\\appcompat-1.6.1\\res\\values-port\\values-port.xml",
+                    "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-3\\e6f04903b1e031bdee95b6ec0b3493fb\\transformed\\appcompat-1.6.1\\res\\values-port\\values-port.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

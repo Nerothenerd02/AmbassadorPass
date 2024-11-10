@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <style name="Theme.AmbassadorPass" parent="Theme.MaterialComponents.NoActionBar">
+        <!-- Primary color for main elements like the app bar -->
+        <item name="colorPrimary">@color/colorPrimary</item>
 
+        <!-- Accent color for highlights -->
+        <item name="colorAccent">@color/colorSecondary</item>
 
-    <style name="Theme.AmbassadorPass" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Text color for readability on dark backgrounds -->
+        <item name="android:textColor">@color/colorText</item>
 
+        <!-- Background color if needed -->
+        <item name="android:windowBackground">@color/backgroundColor</item>
     </style>
-
 </resources>

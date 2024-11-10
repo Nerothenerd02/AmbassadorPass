@@ -5,6 +5,9 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.EditText;
+import android.widget.ImageView;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.databinding.DataBindingUtil;
@@ -16,16 +19,33 @@ import java.lang.Object;
 
 public abstract class ActivityMainBinding extends ViewDataBinding {
   @NonNull
+  public final EditText keycodeEditText;
+
+  @NonNull
+  public final Button loginButton;
+
+  @NonNull
+  public final TextView loginText;
+
+  @NonNull
+  public final ImageView logoImageView;
+
+  @NonNull
   public final PlayerView playerView;
 
   @NonNull
-  public final Button start;
+  public final Button validateKeycodeButton;
 
   protected ActivityMainBinding(Object _bindingComponent, View _root, int _localFieldCount,
-      PlayerView playerView, Button start) {
+      EditText keycodeEditText, Button loginButton, TextView loginText, ImageView logoImageView,
+      PlayerView playerView, Button validateKeycodeButton) {
     super(_bindingComponent, _root, _localFieldCount);
+    this.keycodeEditText = keycodeEditText;
+    this.loginButton = loginButton;
+    this.loginText = loginText;
+    this.logoImageView = logoImageView;
     this.playerView = playerView;
-    this.start = start;
+    this.validateKeycodeButton = validateKeycodeButton;
   }
 
   @NonNull

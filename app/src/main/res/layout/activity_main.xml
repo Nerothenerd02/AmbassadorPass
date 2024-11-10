@@ -12,17 +12,79 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             app:show_buffering="when_playing"
-            app:use_controller="false"
-            android:scaleType="centerCrop" />
+            app:use_controller="false" />
 
-        <!-- Button overlayed on top of the video -->
-        <Button
-            android:id="@+id/start"
+        <!-- Logo ImageView -->
+        <ImageView
+            android:id="@+id/logoImageView"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center_horizontal|top"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/gemini" /> <!-- Reference the drawable logo here -->
+
+        <!-- Vertical layout to hold form and login button -->
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal|bottom"
-            android:layout_marginBottom="18dp"
-            android:text="Login" />
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="20dp">
 
+            <!-- Overlayed LinearLayout for keycode form -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="30dp"
+                android:background="@drawable/form_background"
+                android:gravity="center_horizontal"
+                android:layout_marginStart="40dp"
+                android:layout_marginEnd="40dp">
+
+                <TextView
+                    android:id="@+id/loginText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="AMBASSAPASS"
+                    android:textSize="24sp"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorText"
+                    android:layout_gravity="center_horizontal" />
+
+                <EditText
+                    android:id="@+id/keycodeEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="12dp"
+                    android:padding="8dp"
+                    android:background="@color/backgroundColor"
+                    android:hint="Event key"
+                    android:textColor="@color/colorPrimary"
+                    android:textColorHint="@color/colorPrimary" />
+
+                <Button
+                    android:id="@+id/validateKeycodeButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="Validate Key"
+                    android:textColor="@color/colorText"
+                    android:backgroundTint="@color/colorSecondary"
+                    android:layout_gravity="center_horizontal" />
+            </LinearLayout>
+
+            <!-- Login button right below the form -->
+            <Button
+                android:id="@+id/loginButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="Login"
+                android:textColor="@color/colorText"
+                android:backgroundTint="@color/colorSecondary" />
+        </LinearLayout>
     </FrameLayout>
 </layout>

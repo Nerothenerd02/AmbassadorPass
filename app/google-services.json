@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "564311636348",
+    "firebase_url": "https://ambassador-cca32-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "ambassador-cca32",
+    "storage_bucket": "ambassador-cca32.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:564311636348:android:f15c49da35d1a903414cf9",
+        "android_client_info": {
+          "package_name": "com.example.ambassadorpass"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA50pkNHqIEHJKvW5vQG-ahH-kCnyF94t0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

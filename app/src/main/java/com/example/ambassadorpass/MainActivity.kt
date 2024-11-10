@@ -1,14 +1,22 @@
 package com.example.ambassadorpass
 
+import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
+import android.widget.Button
+import android.widget.EditText
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
 import androidx.media3.common.MediaItem
 import androidx.media3.common.Player
 import androidx.media3.exoplayer.ExoPlayer
+import androidx.media3.common.util.UnstableApi
+import androidx.media3.exoplayer.trackselection.DefaultTrackSelector
+import androidx.media3.common.C
 import com.example.ambassadorpass.databinding.ActivityMainBinding
 
+@UnstableApi // Opt-in to use Unstable APIs from ExoPlayer
 class MainActivity : AppCompatActivity() {
 
     private lateinit var player: ExoPlayer
@@ -23,8 +31,16 @@ class MainActivity : AppCompatActivity() {
         // Reference to PlayerView in layout
         val playerView = binding.playerView
 
-        // Initialize ExoPlayer
-        player = ExoPlayer.Builder(this).build()
+        // Initialize a DefaultTrackSelector and disable audio tracks
+        val trackSelector = DefaultTrackSelector(this)
+        trackSelector.setParameters(
+            trackSelector.buildUponParameters().setRendererDisabled(C.TRACK_TYPE_AUDIO, true)
+        )
+
+        // Initialize ExoPlayer with the track selector
+        player = ExoPlayer.Builder(this)
+            .setTrackSelector(trackSelector)
+            .build()
         playerView.player = player
 
         // Prepare the media item
@@ -40,6 +56,33 @@ class MainActivity : AppCompatActivity() {
         // Prepare and start playback
         player.prepare()
         player.playWhenReady = true
+
+        // Keycode validation button
+        val validateKeycodeButton: Button = binding.validateKeycodeButton
+        val keycodeEditText: EditText = binding.keycodeEditText
+        validateKeycodeButton.setOnClickListener {
+            val keycode = keycodeEditText.text.toString()
+            if (keycode.isNotEmpty()) {
+                // Placeholder for future navigation to Event Information Activity
+                // Uncomment and implement when EventInfoActivity is available
+                // val intent = Intent(this, EventInfoActivity::class.java)
+                // intent.putExtra("KEYCODE", keycode)
+                // startActivity(intent)
+                Toast.makeText(this, "Keycode entered: $keycode", Toast.LENGTH_SHORT).show()
+            } else {
+                Toast.makeText(this, "Please enter a keycode", Toast.LENGTH_SHORT).show()
+            }
+        }
+
+        // Login button
+        val loginButton: Button = binding.loginButton
+        loginButton.setOnClickListener {
+            // Placeholder for future navigation to Login Activity
+            // Uncomment and implement when LoginActivity is available
+            // val intent = Intent(this, LoginActivity::class.java)
+            // startActivity(intent)
+            Toast.makeText(this, "Login button clicked", Toast.LENGTH_SHORT).show()
+        }
     }
 
     override fun onStart() {

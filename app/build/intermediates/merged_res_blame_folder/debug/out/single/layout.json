@@ -1,10 +1,10 @@
 [
     {
-        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-mergeDebugResources-56:\\layout\\activity_main.xml",
-        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-main-59:\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-mergeDebugResources-72:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-main-75:\\layout\\activity_main.xml"
     },
     {
-        "merged": "com.example.ambassadorpass.app-mergeDebugResources-56:/layout/activity_main.xml",
-        "source": "com.example.ambassadorpass.app-main-59:/layout/activity_main.xml"
+        "merged": "com.example.ambassadorpass.app-mergeDebugResources-72:/layout/activity_main.xml",
+        "source": "com.example.ambassadorpass.app-main-75:/layout/activity_main.xml"
     }
 ]
