@@ -21,7 +21,7 @@
             android:layout_height="150dp"
             android:layout_gravity="center_horizontal|top"
             android:layout_marginTop="50dp"
-            android:src="@drawable/gemini" /> <!-- Reference the drawable logo here -->
+            android:src="@drawable/gemini" />
 
         <!-- Vertical layout to hold form and login button -->
         <LinearLayout

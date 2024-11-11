@@ -63,25 +63,17 @@ class MainActivity : AppCompatActivity() {
         validateKeycodeButton.setOnClickListener {
             val keycode = keycodeEditText.text.toString()
             if (keycode.isNotEmpty()) {
-                // Placeholder for future navigation to Event Information Activity
-                // Uncomment and implement when EventInfoActivity is available
-                // val intent = Intent(this, EventInfoActivity::class.java)
-                // intent.putExtra("KEYCODE", keycode)
-                // startActivity(intent)
                 Toast.makeText(this, "Keycode entered: $keycode", Toast.LENGTH_SHORT).show()
             } else {
                 Toast.makeText(this, "Please enter a keycode", Toast.LENGTH_SHORT).show()
             }
         }
 
-        // Login button
+        // Login button - Navigate to MainActivity2
         val loginButton: Button = binding.loginButton
         loginButton.setOnClickListener {
-            // Placeholder for future navigation to Login Activity
-            // Uncomment and implement when LoginActivity is available
-            // val intent = Intent(this, LoginActivity::class.java)
-            // startActivity(intent)
-            Toast.makeText(this, "Login button clicked", Toast.LENGTH_SHORT).show()
+            val intent = Intent(this, MainActivity2::class.java)
+            startActivity(intent)
         }
     }
 
