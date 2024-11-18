@@ -15,9 +15,8 @@ drawable ic_back_red
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 id backButton
+id dashboardTitle
 id keycodeEditText
-id loginAdminButton
-id loginAmbassadorButton
 id loginButton
 id loginText
 id logoImageView
@@ -25,10 +24,10 @@ id password
 id playerView
 id username
 id validateKeycodeButton
+layout activity_admindashboard
+layout activity_ambassadordashboard
 layout activity_login_admin
-layout activity_login_ambassador
 layout activity_main
-layout activity_main2
 mipmap ic_launcher
 mipmap ic_launcher_round
 raw videoone

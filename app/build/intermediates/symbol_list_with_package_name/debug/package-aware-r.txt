@@ -3418,6 +3418,7 @@ id custom
 id customPanel
 id cut
 id dark
+id dashboardTitle
 id dataBinding
 id date_picker_actions
 id decelerate
@@ -3583,8 +3584,6 @@ id line3
 id linear
 id listMode
 id list_item
-id loginAdminButton
-id loginAmbassadorButton
 id loginButton
 id loginText
 id logoImageView
@@ -3981,10 +3980,10 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_admindashboard
+layout activity_ambassadordashboard
 layout activity_login_admin
-layout activity_login_ambassador
 layout activity_main
-layout activity_main2
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
 layout custom_dialog
