@@ -12,8 +12,16 @@
         "source": "com.example.ambassadorpass.app-main-76:/layout/activity_login_admin.xml"
     },
     {
+        "merged": "com.example.ambassadorpass.app-merged_res-74:/layout_activity_create_party.xml.flat",
+        "source": "com.example.ambassadorpass.app-main-76:/layout/activity_create_party.xml"
+    },
+    {
         "merged": "com.example.ambassadorpass.app-merged_res-74:/mipmap-xxxhdpi_ic_launcher.webp.flat",
         "source": "com.example.ambassadorpass.app-main-76:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.ambassadorpass.app-merged_res-74:/layout_activity_create_admin.xml.flat",
+        "source": "com.example.ambassadorpass.app-main-76:/layout/activity_create_admin.xml"
     },
     {
         "merged": "com.example.ambassadorpass.app-merged_res-74:/xml_backup_rules.xml.flat",
@@ -64,6 +72,10 @@
         "source": "com.example.ambassadorpass.app-main-76:/mipmap-hdpi/ic_launcher.webp"
     },
     {
+        "merged": "com.example.ambassadorpass.app-merged_res-74:/layout_activity_assign_ambassadors.xml.flat",
+        "source": "com.example.ambassadorpass.app-main-76:/layout/activity_assign_ambassadors.xml"
+    },
+    {
         "merged": "com.example.ambassadorpass.app-merged_res-74:/drawable_background.jpeg.flat",
         "source": "com.example.ambassadorpass.app-main-76:/drawable/background.jpeg"
     },
@@ -102,6 +114,10 @@
     {
         "merged": "com.example.ambassadorpass.app-merged_res-74:/mipmap-hdpi_ic_launcher_round.webp.flat",
         "source": "com.example.ambassadorpass.app-main-76:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.ambassadorpass.app-merged_res-74:/layout_activity_photo_preview.xml.flat",
+        "source": "com.example.ambassadorpass.app-main-76:/layout/activity_photo_preview.xml"
     },
     {
         "merged": "com.example.ambassadorpass.app-merged_res-74:/drawable_custom_edittext.xml.flat",

@@ -32,13 +32,25 @@
         android:testOnly="true"
         android:theme="@style/Theme.AmbassadorPass" >
         <activity
+            android:name="com.example.ambassadorpass.view.admin.PhotoPreviewActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.ambassadorpass.view.admin.CreateAdminActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.ambassadorpass.view.admin.AssignAmbassadorsActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.ambassadorpass.view.admin.CreatePartyActivity"
+            android:exported="false" />
+        <activity
             android:name="com.example.ambassadorpass.view.LoginActivityAdmin"
             android:exported="false" />
         <activity
             android:name="com.example.ambassadorpass.view.AmbassadorDashboard"
             android:exported="false" />
         <activity
-            android:name="com.example.ambassadorpass.view.AdminDashboard"
+            android:name="com.example.ambassadorpass.view.admin.AdminDashboard"
             android:exported="false" />
         <activity
             android:name="com.example.ambassadorpass.view.MainActivity"
@@ -56,6 +68,9 @@
             android:directBootAware="true"
             android:exported="false" >
             <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.storage.ktx.FirebaseStorageLegacyRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
                 android:name="com.google.firebase.components:com.google.firebase.database.ktx.FirebaseDatabaseLegacyRegistrar"
                 android:value="com.google.firebase.components.ComponentRegistrar" />
             <meta-data
@@ -63,6 +78,12 @@
                 android:value="com.google.firebase.components.ComponentRegistrar" />
             <meta-data
                 android:name="com.google.firebase.components:com.google.firebase.auth.ktx.FirebaseAuthLegacyRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.storage.FirebaseStorageKtxRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
                 android:value="com.google.firebase.components.ComponentRegistrar" />
             <meta-data
                 android:name="com.google.firebase.components:com.google.firebase.database.FirebaseDatabaseKtxRegistrar"
@@ -78,6 +99,12 @@
                 android:value="com.google.firebase.components.ComponentRegistrar" />
             <meta-data
                 android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckKtxRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckRegistrar"
                 android:value="com.google.firebase.components.ComponentRegistrar" />
             <meta-data
                 android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
