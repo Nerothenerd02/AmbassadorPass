@@ -24,6 +24,12 @@ public final class ActivityCreatePartyBinding implements ViewBinding {
   private final ScrollView rootView;
 
   @NonNull
+  public final TextInputLayout Ticketprice;
+
+  @NonNull
+  public final TextInputEditText TicketpriceEditText;
+
+  @NonNull
   public final TextInputEditText ambassadorMarkupEditText;
 
   @NonNull
@@ -69,6 +75,7 @@ public final class ActivityCreatePartyBinding implements ViewBinding {
   public final Button selectPhotosButton;
 
   private ActivityCreatePartyBinding(@NonNull ScrollView rootView,
+      @NonNull TextInputLayout Ticketprice, @NonNull TextInputEditText TicketpriceEditText,
       @NonNull TextInputEditText ambassadorMarkupEditText,
       @NonNull TextInputLayout ambassadorMarkupLayout,
       @NonNull TextInputEditText availableTicketsEditText,
@@ -80,6 +87,8 @@ public final class ActivityCreatePartyBinding implements ViewBinding {
       @NonNull TextInputLayout partyLocationLayout, @NonNull TextInputEditText partyNameEditText,
       @NonNull TextInputLayout partyNameLayout, @NonNull Button selectPhotosButton) {
     this.rootView = rootView;
+    this.Ticketprice = Ticketprice;
+    this.TicketpriceEditText = TicketpriceEditText;
     this.ambassadorMarkupEditText = ambassadorMarkupEditText;
     this.ambassadorMarkupLayout = ambassadorMarkupLayout;
     this.availableTicketsEditText = availableTicketsEditText;
@@ -124,6 +133,18 @@ public final class ActivityCreatePartyBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.Ticketprice;
+      TextInputLayout Ticketprice = ViewBindings.findChildViewById(rootView, id);
+      if (Ticketprice == null) {
+        break missingId;
+      }
+
+      id = R.id.TicketpriceEditText;
+      TextInputEditText TicketpriceEditText = ViewBindings.findChildViewById(rootView, id);
+      if (TicketpriceEditText == null) {
+        break missingId;
+      }
+
       id = R.id.ambassadorMarkupEditText;
       TextInputEditText ambassadorMarkupEditText = ViewBindings.findChildViewById(rootView, id);
       if (ambassadorMarkupEditText == null) {
@@ -214,11 +235,11 @@ public final class ActivityCreatePartyBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityCreatePartyBinding((ScrollView) rootView, ambassadorMarkupEditText,
-          ambassadorMarkupLayout, availableTicketsEditText, availableTicketsLayout, backButton,
-          createPartyTitle, partyDateEditText, partyDateLayout, partyDescriptionEditText,
-          partyDescriptionLayout, partyLocationEditText, partyLocationLayout, partyNameEditText,
-          partyNameLayout, selectPhotosButton);
+      return new ActivityCreatePartyBinding((ScrollView) rootView, Ticketprice, TicketpriceEditText,
+          ambassadorMarkupEditText, ambassadorMarkupLayout, availableTicketsEditText,
+          availableTicketsLayout, backButton, createPartyTitle, partyDateEditText, partyDateLayout,
+          partyDescriptionEditText, partyDescriptionLayout, partyLocationEditText,
+          partyLocationLayout, partyNameEditText, partyNameLayout, selectPhotosButton);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

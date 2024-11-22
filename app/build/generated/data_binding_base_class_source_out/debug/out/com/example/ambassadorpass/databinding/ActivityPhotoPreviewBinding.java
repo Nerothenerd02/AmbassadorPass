@@ -5,8 +5,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
+import android.widget.ProgressBar;
+import android.widget.ScrollView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
@@ -18,10 +20,16 @@ import java.lang.String;
 
 public final class ActivityPhotoPreviewBinding implements ViewBinding {
   @NonNull
-  private final LinearLayout rootView;
+  private final ScrollView rootView;
+
+  @NonNull
+  public final ImageButton backButton;
 
   @NonNull
   public final Button createPartyButton;
+
+  @NonNull
+  public final ImageView logoImageView;
 
   @NonNull
   public final ImageView photo1;
@@ -32,19 +40,48 @@ public final class ActivityPhotoPreviewBinding implements ViewBinding {
   @NonNull
   public final ImageView photo3;
 
-  private ActivityPhotoPreviewBinding(@NonNull LinearLayout rootView,
-      @NonNull Button createPartyButton, @NonNull ImageView photo1, @NonNull ImageView photo2,
-      @NonNull ImageView photo3) {
+  @NonNull
+  public final ImageView photo4;
+
+  @NonNull
+  public final ProgressBar progressBar;
+
+  @NonNull
+  public final ProgressBar progressCircular1;
+
+  @NonNull
+  public final ProgressBar progressCircular2;
+
+  @NonNull
+  public final ProgressBar progressCircular3;
+
+  @NonNull
+  public final ProgressBar progressCircular4;
+
+  private ActivityPhotoPreviewBinding(@NonNull ScrollView rootView, @NonNull ImageButton backButton,
+      @NonNull Button createPartyButton, @NonNull ImageView logoImageView,
+      @NonNull ImageView photo1, @NonNull ImageView photo2, @NonNull ImageView photo3,
+      @NonNull ImageView photo4, @NonNull ProgressBar progressBar,
+      @NonNull ProgressBar progressCircular1, @NonNull ProgressBar progressCircular2,
+      @NonNull ProgressBar progressCircular3, @NonNull ProgressBar progressCircular4) {
     this.rootView = rootView;
+    this.backButton = backButton;
     this.createPartyButton = createPartyButton;
+    this.logoImageView = logoImageView;
     this.photo1 = photo1;
     this.photo2 = photo2;
     this.photo3 = photo3;
+    this.photo4 = photo4;
+    this.progressBar = progressBar;
+    this.progressCircular1 = progressCircular1;
+    this.progressCircular2 = progressCircular2;
+    this.progressCircular3 = progressCircular3;
+    this.progressCircular4 = progressCircular4;
   }
 
   @Override
   @NonNull
-  public LinearLayout getRoot() {
+  public ScrollView getRoot() {
     return rootView;
   }
 
@@ -69,9 +106,21 @@ public final class ActivityPhotoPreviewBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.backButton;
+      ImageButton backButton = ViewBindings.findChildViewById(rootView, id);
+      if (backButton == null) {
+        break missingId;
+      }
+
       id = R.id.createPartyButton;
       Button createPartyButton = ViewBindings.findChildViewById(rootView, id);
       if (createPartyButton == null) {
+        break missingId;
+      }
+
+      id = R.id.logoImageView;
+      ImageView logoImageView = ViewBindings.findChildViewById(rootView, id);
+      if (logoImageView == null) {
         break missingId;
       }
 
@@ -93,8 +142,45 @@ public final class ActivityPhotoPreviewBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityPhotoPreviewBinding((LinearLayout) rootView, createPartyButton, photo1,
-          photo2, photo3);
+      id = R.id.photo4;
+      ImageView photo4 = ViewBindings.findChildViewById(rootView, id);
+      if (photo4 == null) {
+        break missingId;
+      }
+
+      id = R.id.progressBar;
+      ProgressBar progressBar = ViewBindings.findChildViewById(rootView, id);
+      if (progressBar == null) {
+        break missingId;
+      }
+
+      id = R.id.progress_circular1;
+      ProgressBar progressCircular1 = ViewBindings.findChildViewById(rootView, id);
+      if (progressCircular1 == null) {
+        break missingId;
+      }
+
+      id = R.id.progress_circular2;
+      ProgressBar progressCircular2 = ViewBindings.findChildViewById(rootView, id);
+      if (progressCircular2 == null) {
+        break missingId;
+      }
+
+      id = R.id.progress_circular3;
+      ProgressBar progressCircular3 = ViewBindings.findChildViewById(rootView, id);
+      if (progressCircular3 == null) {
+        break missingId;
+      }
+
+      id = R.id.progress_circular4;
+      ProgressBar progressCircular4 = ViewBindings.findChildViewById(rootView, id);
+      if (progressCircular4 == null) {
+        break missingId;
+      }
+
+      return new ActivityPhotoPreviewBinding((ScrollView) rootView, backButton, createPartyButton,
+          logoImageView, photo1, photo2, photo3, photo4, progressBar, progressCircular1,
+          progressCircular2, progressCircular3, progressCircular4);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

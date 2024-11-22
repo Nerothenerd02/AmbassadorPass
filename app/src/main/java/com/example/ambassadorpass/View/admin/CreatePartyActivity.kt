@@ -2,14 +2,10 @@ package com.example.ambassadorpass.view.admin
 
 import android.app.DatePickerDialog
 import android.content.Intent
-import android.net.Uri
 import android.os.Bundle
-import android.provider.MediaStore
 import android.widget.Button
 import android.widget.ImageButton
 import android.widget.Toast
-import androidx.activity.result.ActivityResultLauncher
-import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
 import com.google.android.material.textfield.TextInputEditText
@@ -22,7 +18,6 @@ import java.util.Calendar
 class CreatePartyActivity : AppCompatActivity() {
 
     private lateinit var viewModel: CreatePartyViewModel
-    private lateinit var photoPickerLauncher: ActivityResultLauncher<Intent>
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -41,58 +36,57 @@ class CreatePartyActivity : AppCompatActivity() {
             finish() // Go back to the previous activity
         }
 
+
         // Initialize UI elements
         val selectPhotosButton: Button = findViewById(R.id.selectPhotosButton)
         val partyNameEditText: TextInputEditText = findViewById(R.id.partyNameEditText)
         val partyDateEditText: TextInputEditText = findViewById(R.id.partyDateEditText)
+        val partyDescriptionEditText: TextInputEditText = findViewById(R.id.partyDescriptionEditText)
+        val partyLocationEditText: TextInputEditText = findViewById(R.id.partyLocationEditText)
+        val ticketsAvailableEditText: TextInputEditText = findViewById(R.id.availableTicketsEditText)
+        val ticketPriceEditText: TextInputEditText = findViewById(R.id.TicketpriceEditText)
+        val ambassadorMarkupEditText: TextInputEditText = findViewById(R.id.ambassadorMarkupEditText)
 
-        // Initialize the photo picker launcher
-        photoPickerLauncher = registerForActivityResult(ActivityResultContracts.StartActivityForResult()) { result ->
-            if (result.resultCode == RESULT_OK && result.data != null) {
-                val data = result.data!!
-                viewModel.selectedImages.clear()
-
-                if (data.clipData != null) {
-                    val count = data.clipData!!.itemCount
-                    for (i in 0 until minOf(count, 3)) {
-                        val imageUri = data.clipData!!.getItemAt(i).uri
-                        viewModel.selectedImages.add(imageUri)
-                    }
-                } else if (data.data != null) {
-                    val imageUri = data.data!!
-                    viewModel.selectedImages.add(imageUri)
-                }
-
-                // Navigate to the Photo Preview Page
-                if (viewModel.selectedImages.isNotEmpty()) {
-                    navigateToPhotoPreview()
-                } else {
-                    Toast.makeText(this, "No images selected", Toast.LENGTH_SHORT).show()
-                }
-            }
-        }
 
         selectPhotosButton.setOnClickListener {
             val partyName = partyNameEditText.text.toString()
             val partyDate = partyDateEditText.text.toString()
+            val partyDescription = partyDescriptionEditText.text.toString()
+            val partyLocation = partyLocationEditText.text.toString()
+            val ticketsAvailableStr = ticketsAvailableEditText.text.toString()
+            val ticketPriceStr = ticketPriceEditText.text.toString()
+            val ambassadorMarkupStr = ambassadorMarkupEditText.text.toString()
 
-            if (partyName.isEmpty() || partyDate.isEmpty()) {
+            if (partyName.isEmpty() || partyDate.isEmpty() || partyDescription.isEmpty() ||
+                partyLocation.isEmpty() || ticketsAvailableStr.isEmpty() || ticketPriceStr.isEmpty() ||
+                ambassadorMarkupStr.isEmpty()) {
                 Toast.makeText(this, "Please fill all the fields", Toast.LENGTH_SHORT).show()
+                return@setOnClickListener
+            }
+
+            // Convert numeric strings to appropriate types
+            val ticketsAvailable = ticketsAvailableStr.toIntOrNull()
+            val ticketPrice = ticketPriceStr.toDoubleOrNull()
+            val ambassadorMarkup = ambassadorMarkupStr.toDoubleOrNull()
+
+            if (ticketsAvailable == null || ticketPrice == null || ambassadorMarkup == null) {
+                Toast.makeText(this, "Please enter valid numbers for tickets, price, and markup", Toast.LENGTH_SHORT).show()
                 return@setOnClickListener
             }
 
             // Store current values to ViewModel to prevent data loss
             viewModel.partyName = partyName
             viewModel.partyDate = partyDate
+            viewModel.partyDescription = partyDescription
+            viewModel.partyLocation = partyLocation
+            viewModel.ticketsAvailable = ticketsAvailable
+            viewModel.ticketPrice = ticketPrice
+            viewModel.ambassadorMarkup = ambassadorMarkup
 
-            // Intent to open gallery to pick images
-            val intent = Intent().apply {
-                type = "image/*"
-                putExtra(Intent.EXTRA_ALLOW_MULTIPLE, true)
-                action = Intent.ACTION_GET_CONTENT
-            }
-            photoPickerLauncher.launch(Intent.createChooser(intent, "Select Pictures"))
+            // Navigate to Photo Preview Page
+            navigateToPhotoPreview()
         }
+
 
         // Set up click listener for party date edit text to open a date picker dialog
         partyDateEditText.setOnClickListener {
@@ -121,7 +115,17 @@ class CreatePartyActivity : AppCompatActivity() {
     }
 
     private fun navigateToPhotoPreview() {
-        val intent = Intent(this, PhotoPreviewActivity::class.java)
+        val intent = Intent(this, PhotoPreviewActivity::class.java).apply {
+            putExtra("partyName", viewModel.partyName)
+            putExtra("partyDate", viewModel.partyDate)
+            putExtra("partyDescription", viewModel.partyDescription)
+            putExtra("partyLocation", viewModel.partyLocation)
+            putExtra("ticketsAvailable", viewModel.ticketsAvailable)
+            putExtra("ticketPrice", viewModel.ticketPrice)
+            putExtra("ambassadorMarkup", viewModel.ambassadorMarkup)
+        }
         startActivity(intent)
     }
+
+
 }

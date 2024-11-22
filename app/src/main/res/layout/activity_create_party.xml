@@ -138,6 +138,23 @@
                         android:textColorHint="#AAAAAA" />
                 </com.google.android.material.textfield.TextInputLayout>
 
+                <!-- Ticket Prices-->
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/Ticketprice"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/TicketpriceEditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Ticket Price"
+                        android:inputType="number"
+                        android:textColor="@android:color/black"
+                        android:textColorHint="#AAAAAA" />
+                </com.google.android.material.textfield.TextInputLayout>
+
                 <!-- Ambassador Markup Field -->
                 <com.google.android.material.textfield.TextInputLayout
                     android:id="@+id/ambassadorMarkupLayout"
