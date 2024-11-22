@@ -2,6 +2,7 @@ package com.example.ambassadorpass.repository
 
 import android.net.Uri
 import android.util.Log
+import com.google.firebase.Timestamp
 import com.google.firebase.firestore.FirebaseFirestore
 import com.google.firebase.storage.FirebaseStorage
 import java.util.UUID
@@ -21,7 +22,7 @@ class CreatePartyRepository {
     fun createParty(
         partyName: String,
         partyDescription: String,
-        partyDate: String,
+        partyDate: Timestamp,
         partyLocation: String,
         ticketsAvailable: Int,
         ticketPrice: Double,
@@ -39,7 +40,9 @@ class CreatePartyRepository {
             "ticketsAvailable" to ticketsAvailable,
             "ticketPrice" to ticketPrice,
             "ambassadorMarkup" to ambassadorMarkup,
-            "ticketsSold" to 0
+            "ticketsSold" to 0,
+            "ambassadors" to listOf<String>(),
+            "partyLinks" to listOf<String>(),
         )
 
         Log.d(TAG, "Starting to create party in Firestore with data: $partyData")
@@ -61,7 +64,6 @@ class CreatePartyRepository {
                 callback(false)
             }
     }
-
 
     private fun uploadPhotos(partyId: String, selectedImages: List<Uri>, callback: (Boolean) -> Unit) {
         Log.d(TAG, "Starting to upload photos for party ID: $partyId")

@@ -18,6 +18,8 @@ import com.example.ambassadorpass.R
 import com.example.ambassadorpass.repository.CreatePartyRepository
 import com.example.ambassadorpass.viewmodel.CreatePartyViewModel
 import com.example.ambassadorpass.viewmodel.CreatePartyViewModelFactory
+import com.google.firebase.Timestamp
+import java.util.Date
 
 class PhotoPreviewActivity : AppCompatActivity() {
 
@@ -53,28 +55,29 @@ class PhotoPreviewActivity : AppCompatActivity() {
         val photo4: ImageView = findViewById(R.id.photo4)
 
         // Initialize the photo picker launcher
-        photoPickerLauncher = registerForActivityResult(ActivityResultContracts.StartActivityForResult()) { result ->
-            if (result.resultCode == RESULT_OK && result.data != null) {
-                val data = result.data!!
-                val selectedUri = if (data.clipData != null) {
-                    data.clipData!!.getItemAt(0).uri
+        photoPickerLauncher =
+            registerForActivityResult(ActivityResultContracts.StartActivityForResult()) { result ->
+                if (result.resultCode == RESULT_OK && result.data != null) {
+                    val data = result.data!!
+                    val selectedUri = if (data.clipData != null) {
+                        data.clipData!!.getItemAt(0).uri
+                    } else {
+                        data.data!!
+                    }
+
+                    // Set the URI for the clicked ImageView
+                    val selectedImageViewId = viewModel.selectedImageViewId
+                    if (selectedImageViewId != null) {
+                        imagesMap[selectedImageViewId] = selectedUri
+                        updateImageView(selectedImageViewId)
+
+                        // Store the selected image in the ViewModel
+                        viewModel.updateSelectedImage(selectedImageViewId, selectedUri)
+                    }
                 } else {
-                    data.data!!
+                    Toast.makeText(this, "No image selected", Toast.LENGTH_SHORT).show()
                 }
-
-                // Set the URI for the clicked ImageView
-                val selectedImageViewId = viewModel.selectedImageViewId
-                if (selectedImageViewId != null) {
-                    imagesMap[selectedImageViewId] = selectedUri
-                    updateImageView(selectedImageViewId)
-
-                    // Store the selected image in the ViewModel
-                    viewModel.updateSelectedImage(selectedImageViewId, selectedUri)
-                }
-            } else {
-                Toast.makeText(this, "No image selected", Toast.LENGTH_SHORT).show()
             }
-        }
 
         // Set up image click listeners to open the photo picker
         val imageClickListener = { imageViewId: Int ->
@@ -96,7 +99,12 @@ class PhotoPreviewActivity : AppCompatActivity() {
 
         // Retrieve data from Intent extras
         viewModel.partyName = intent.getStringExtra("partyName")
-        viewModel.partyDate = intent.getStringExtra("partyDate")
+        viewModel.partyDateMillis = intent.getLongExtra("partyDateMillis", 0L)
+        if (viewModel.partyDateMillis != 0L) {
+            viewModel.partyDate = Timestamp(Date(viewModel.partyDateMillis!!))
+        } else {
+            Log.e("PhotoPreviewActivity", "Invalid party date")
+        }
         viewModel.partyDescription = intent.getStringExtra("partyDescription")
         viewModel.partyLocation = intent.getStringExtra("partyLocation")
         viewModel.ticketsAvailable = intent.getIntExtra("ticketsAvailable", 0)

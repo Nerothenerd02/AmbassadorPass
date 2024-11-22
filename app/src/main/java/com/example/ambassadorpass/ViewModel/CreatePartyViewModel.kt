@@ -6,11 +6,13 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import com.example.ambassadorpass.repository.CreatePartyRepository
+import com.google.firebase.Timestamp
 
 class CreatePartyViewModel(private val repository: CreatePartyRepository) : ViewModel() {
 
     var partyName: String? = null
-    var partyDate: String? = null
+    var partyDate: Timestamp? = null
+    var partyDateMillis: Long? = null
     var partyDescription: String? = null
     var partyLocation: String? = null
     var ticketsAvailable: Int? = null
@@ -61,7 +63,10 @@ class CreatePartyViewModel(private val repository: CreatePartyRepository) : View
             return
         }
 
-        Log.d("CreatePartyViewModel", "Creating party with name: $name, date: $date, description: $description, location: $location, tickets: $tickets, price: $price, markup: $markup")
+        Log.d(
+            "CreatePartyViewModel",
+            "Creating party with name: $name, date: $date, description: $description, location: $location, tickets: $tickets, price: $price, markup: $markup"
+        )
 
         repository.createParty(
             partyName = name,
@@ -77,4 +82,5 @@ class CreatePartyViewModel(private val repository: CreatePartyRepository) : View
                 _partyCreationStatus.postValue(success)
             }
         )
-    }}
+    }
+}

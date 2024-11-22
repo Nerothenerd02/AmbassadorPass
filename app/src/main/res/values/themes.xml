@@ -13,4 +13,6 @@
         <!-- Background color if needed -->
         <item name="android:windowBackground">@color/backgroundColor</item>
     </style>
+
+
 </resources>

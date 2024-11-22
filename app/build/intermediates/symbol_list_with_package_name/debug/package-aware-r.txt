@@ -3045,6 +3045,7 @@ drawable avd_hide_password
 drawable avd_show_password
 drawable background
 drawable baseline_add_24
+drawable baseline_diamond_24
 drawable baseline_lock_24
 drawable baseline_person_24
 drawable baseline_send_24
@@ -3596,8 +3597,12 @@ id light
 id line1
 id line3
 id linear
+id listId
+id listImage
 id listMode
+id listName
 id list_item
+id listview
 id loginButton
 id loginText
 id logoImageView
@@ -3696,6 +3701,7 @@ id parent
 id parentPanel
 id parentRelative
 id parent_matrix
+id partyDate
 id partyDateEditText
 id partyDateLayout
 id partyDescriptionEditText
@@ -4050,6 +4056,7 @@ layout exo_styled_sub_settings_list_item
 layout exo_track_selection_dialog
 layout ime_base_split_test_activity
 layout ime_secondary_split_test_activity
+layout list_item
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title
