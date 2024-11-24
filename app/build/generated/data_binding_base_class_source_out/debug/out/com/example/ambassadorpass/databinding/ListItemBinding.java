@@ -11,6 +11,7 @@ import androidx.cardview.widget.CardView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.ambassadorpass.R;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.imageview.ShapeableImageView;
 import java.lang.NullPointerException;
 import java.lang.Override;
@@ -19,6 +20,9 @@ import java.lang.String;
 public final class ListItemBinding implements ViewBinding {
   @NonNull
   private final CardView rootView;
+
+  @NonNull
+  public final FloatingActionButton assignAmbassadorButton;
 
   @NonNull
   public final TextView listId;
@@ -32,10 +36,12 @@ public final class ListItemBinding implements ViewBinding {
   @NonNull
   public final TextView partyDate;
 
-  private ListItemBinding(@NonNull CardView rootView, @NonNull TextView listId,
+  private ListItemBinding(@NonNull CardView rootView,
+      @NonNull FloatingActionButton assignAmbassadorButton, @NonNull TextView listId,
       @NonNull ShapeableImageView listImage, @NonNull TextView listName,
       @NonNull TextView partyDate) {
     this.rootView = rootView;
+    this.assignAmbassadorButton = assignAmbassadorButton;
     this.listId = listId;
     this.listImage = listImage;
     this.listName = listName;
@@ -69,6 +75,12 @@ public final class ListItemBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.assignAmbassadorButton;
+      FloatingActionButton assignAmbassadorButton = ViewBindings.findChildViewById(rootView, id);
+      if (assignAmbassadorButton == null) {
+        break missingId;
+      }
+
       id = R.id.listId;
       TextView listId = ViewBindings.findChildViewById(rootView, id);
       if (listId == null) {
@@ -93,7 +105,8 @@ public final class ListItemBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ListItemBinding((CardView) rootView, listId, listImage, listName, partyDate);
+      return new ListItemBinding((CardView) rootView, assignAmbassadorButton, listId, listImage,
+          listName, partyDate);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

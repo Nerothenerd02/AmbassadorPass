@@ -3046,6 +3046,7 @@ drawable avd_show_password
 drawable background
 drawable baseline_add_24
 drawable baseline_diamond_24
+drawable baseline_email_24
 drawable baseline_lock_24
 drawable baseline_person_24
 drawable baseline_send_24
@@ -3164,6 +3165,7 @@ drawable exo_styled_controls_speed
 drawable exo_styled_controls_subtitle_off
 drawable exo_styled_controls_subtitle_on
 drawable exo_styled_controls_vr
+drawable fab_background_black
 drawable form_background
 drawable gemini
 drawable googleg_disabled_color_18
@@ -3346,13 +3348,17 @@ id activity_chooser_view_content
 id add
 id adjust_height
 id adjust_width
+id adminEmail
+id adminName
 id alertTitle
 id aligned
 id all
 id allStates
 id always
+id ambassadorEmail
 id ambassadorMarkupEditText
 id ambassadorMarkupLayout
+id ambassadorName
 id androidx_compose_ui_view_composition_context
 id animateToEnd
 id animateToStart
@@ -3360,6 +3366,7 @@ id antiClockwise
 id anticipate
 id arc
 id asConfigured
+id assignAmbassadorButton
 id assignAmbassadorsButton
 id async
 id auto
@@ -3426,6 +3433,8 @@ id cos
 id counterclockwise
 id cradle
 id createAdmin
+id createAdminButton
+id createAdminText
 id createPartyButton
 id createPartyTitle
 id currentState
@@ -3782,6 +3791,7 @@ id selectPhotosButton
 id select_dialog_listview
 id selected
 id selection_type
+id sendButton
 id sharedValueSet
 id sharedValueUnset
 id shortcut
@@ -4044,6 +4054,7 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout dialog_assign_ambassador
 layout exo_legacy_player_control_view
 layout exo_list_divider
 layout exo_player_control_ffwd_button

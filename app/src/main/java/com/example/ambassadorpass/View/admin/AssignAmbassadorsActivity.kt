@@ -8,11 +8,14 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.Observer
 import com.example.ambassadorpass.R
 import com.example.ambassadorpass.viewmodel.AssignAmbassadorViewModel
+import com.example.ambassadorpass.viewmodel.AssignAmbassadorViewModelFactory
 import com.example.ambassadorpass.adapter.PartyAdapter
 
 class AssignAmbassadorsActivity : AppCompatActivity() {
 
-    private val viewModel: AssignAmbassadorViewModel by viewModels()
+    // Create an instance of ViewModelFactory
+    private val factory = AssignAmbassadorViewModelFactory(this)
+    private val viewModel: AssignAmbassadorViewModel by viewModels { factory }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -27,7 +30,7 @@ class AssignAmbassadorsActivity : AppCompatActivity() {
 
         // Reference the ListView and set up the adapter
         val listView: ListView = findViewById(R.id.listview)
-        val adapter = PartyAdapter(this, mutableListOf())
+        val adapter = PartyAdapter(this, mutableListOf(), viewModel)
         listView.adapter = adapter
 
         // Observe changes in the party list and update the adapter

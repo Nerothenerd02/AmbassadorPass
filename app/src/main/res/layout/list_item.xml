@@ -8,8 +8,7 @@
     android:layout_marginEnd="12dp"
     android:layout_marginVertical="10dp"
     app:cardCornerRadius="20dp"
-    app:cardElevation="8dp"
-    app:layout_constraintWidth_percent="0.6">
+    app:cardElevation="8dp">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -18,9 +17,9 @@
 
         <!-- Shapeable ImageView -->
         <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/listImage"
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:id="@+id/listImage"
             android:src="@drawable/baseline_diamond_24"
             android:scaleType="centerCrop"
             android:layout_marginStart="10dp"
@@ -64,6 +63,21 @@
             android:textSize="14sp"
             android:textColor="@android:color/black"
             android:layout_marginTop="8dp" />
+
+        <!-- Floating Action Button for Assigning Ambassadors -->
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/assignAmbassadorButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_add_24"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="16dp"
+            android:layout_centerVertical="true"
+            android:contentDescription="Assign Ambassador"
+            app:backgroundTint="@android:color/white"
+            app:elevation="4dp"
+            app:maxImageSize="40dp" />
+
 
     </RelativeLayout>
 </androidx.cardview.widget.CardView>

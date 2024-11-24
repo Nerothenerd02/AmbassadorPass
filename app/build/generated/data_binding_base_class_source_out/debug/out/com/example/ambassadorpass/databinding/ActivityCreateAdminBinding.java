@@ -4,25 +4,59 @@ package com.example.ambassadorpass.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.ImageButton;
+import android.widget.ImageView;
+import android.widget.RelativeLayout;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import com.example.ambassadorpass.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
+import java.lang.String;
 
 public final class ActivityCreateAdminBinding implements ViewBinding {
   @NonNull
-  private final ConstraintLayout rootView;
+  private final RelativeLayout rootView;
 
-  private ActivityCreateAdminBinding(@NonNull ConstraintLayout rootView) {
+  @NonNull
+  public final EditText adminEmail;
+
+  @NonNull
+  public final EditText adminName;
+
+  @NonNull
+  public final ImageButton backButton;
+
+  @NonNull
+  public final Button createAdminButton;
+
+  @NonNull
+  public final TextView createAdminText;
+
+  @NonNull
+  public final ImageView logoImageView;
+
+  private ActivityCreateAdminBinding(@NonNull RelativeLayout rootView, @NonNull EditText adminEmail,
+      @NonNull EditText adminName, @NonNull ImageButton backButton,
+      @NonNull Button createAdminButton, @NonNull TextView createAdminText,
+      @NonNull ImageView logoImageView) {
     this.rootView = rootView;
+    this.adminEmail = adminEmail;
+    this.adminName = adminName;
+    this.backButton = backButton;
+    this.createAdminButton = createAdminButton;
+    this.createAdminText = createAdminText;
+    this.logoImageView = logoImageView;
   }
 
   @Override
   @NonNull
-  public ConstraintLayout getRoot() {
+  public RelativeLayout getRoot() {
     return rootView;
   }
 
@@ -43,10 +77,50 @@ public final class ActivityCreateAdminBinding implements ViewBinding {
 
   @NonNull
   public static ActivityCreateAdminBinding bind(@NonNull View rootView) {
-    if (rootView == null) {
-      throw new NullPointerException("rootView");
-    }
+    // The body of this method is generated in a way you would not otherwise write.
+    // This is done to optimize the compiled bytecode for size and performance.
+    int id;
+    missingId: {
+      id = R.id.adminEmail;
+      EditText adminEmail = ViewBindings.findChildViewById(rootView, id);
+      if (adminEmail == null) {
+        break missingId;
+      }
 
-    return new ActivityCreateAdminBinding((ConstraintLayout) rootView);
+      id = R.id.adminName;
+      EditText adminName = ViewBindings.findChildViewById(rootView, id);
+      if (adminName == null) {
+        break missingId;
+      }
+
+      id = R.id.backButton;
+      ImageButton backButton = ViewBindings.findChildViewById(rootView, id);
+      if (backButton == null) {
+        break missingId;
+      }
+
+      id = R.id.createAdminButton;
+      Button createAdminButton = ViewBindings.findChildViewById(rootView, id);
+      if (createAdminButton == null) {
+        break missingId;
+      }
+
+      id = R.id.createAdminText;
+      TextView createAdminText = ViewBindings.findChildViewById(rootView, id);
+      if (createAdminText == null) {
+        break missingId;
+      }
+
+      id = R.id.logoImageView;
+      ImageView logoImageView = ViewBindings.findChildViewById(rootView, id);
+      if (logoImageView == null) {
+        break missingId;
+      }
+
+      return new ActivityCreateAdminBinding((RelativeLayout) rootView, adminEmail, adminName,
+          backButton, createAdminButton, createAdminText, logoImageView);
+    }
+    String missingId = rootView.getResources().getResourceName(id);
+    throw new NullPointerException("Missing required view with ID: ".concat(missingId));
   }
 }
