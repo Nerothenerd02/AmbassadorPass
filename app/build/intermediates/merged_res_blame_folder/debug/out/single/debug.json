@@ -32,12 +32,12 @@
         "source": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-main-76:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-merged_res-74:\\drawable_baseline_upload_24.xml.flat",
-        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-main-76:\\drawable\\baseline_upload_24.xml"
-    },
-    {
         "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-merged_res-74:\\drawable_ic_launcher_foreground.xml.flat",
         "source": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-main-76:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-merged_res-74:\\drawable_baseline_upload_24.xml.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-main-76:\\drawable\\baseline_upload_24.xml"
     },
     {
         "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-merged_res-74:\\drawable_baseline_send_24.xml.flat",
@@ -68,6 +68,10 @@
         "source": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-main-76:\\layout\\list_item.xml"
     },
     {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-merged_res-74:\\layout_activity_party_preview.xml.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-main-76:\\layout\\activity_party_preview.xml"
+    },
+    {
         "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-merged_res-74:\\mipmap-mdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-main-76:\\mipmap-mdpi\\ic_launcher_round.webp"
     },
@@ -76,12 +80,12 @@
         "source": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-main-76:\\drawable\\gemini.png"
     },
     {
-        "merged": "com.example.ambassadorpass.app-merged_res-74:/layout_activity_splash.xml.flat",
-        "source": "com.example.ambassadorpass.app-main-76:/layout/activity_splash.xml"
-    },
-    {
         "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-merged_res-74:\\drawable_ic_back_red.xml.flat",
         "source": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-main-76:\\drawable\\ic_back_red.xml"
+    },
+    {
+        "merged": "com.example.ambassadorpass.app-merged_res-74:/layout_activity_party_preview.xml.flat",
+        "source": "com.example.ambassadorpass.app-main-76:/layout/activity_party_preview.xml"
     },
     {
         "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-merged_res-74:\\layout_activity_main.xml.flat",
@@ -96,8 +100,16 @@
         "source": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-main-76:\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-merged_res-74:\\layout_activity_video_player_manager.xml.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-main-76:\\layout\\activity_video_player_manager.xml"
+    },
+    {
         "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-merged_res-74:\\layout_activity_create_admin.xml.flat",
         "source": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-main-76:\\layout\\activity_create_admin.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-merged_res-74:\\layout_activity_splash.xml.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-main-76:\\layout\\activity_splash.xml"
     },
     {
         "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-merged_res-74:\\layout_activity_ambassadordashboard.xml.flat",

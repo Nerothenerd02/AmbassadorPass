@@ -3730,6 +3730,7 @@ int id photo3 0x7f0a01c4
 int id photo4 0x7f0a01c5
 int id pin 0x7f0a01c6
 int id playerView 0x7f0a01c7
+int id player_view 0x7f0a0281
 int id pooling_container_listener_holder_tag 0x7f0a01c8
 int id position 0x7f0a01c9
 int id postLayout 0x7f0a01ca
@@ -4034,8 +4035,10 @@ int layout activity_create_admin 0x7f0d001f
 int layout activity_create_party 0x7f0d0020
 int layout activity_login_admin 0x7f0d0021
 int layout activity_main 0x7f0d0022
+int layout activity_party_preview 0x7f0d008c
 int layout activity_photo_preview 0x7f0d0023
 int layout activity_splash 0x7f0d008a
+int layout activity_video_player_manager 0x7f0d008b
 int layout browser_actions_context_menu_page 0x7f0d0024
 int layout browser_actions_context_menu_row 0x7f0d0025
 int layout custom_dialog 0x7f0d0026

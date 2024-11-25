@@ -33,8 +33,12 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.AmbassadorPass" >
-
-        <!-- SplashActivity: Initial activity launched when the app starts -->
+        <activity
+            android:name="com.example.ambassadorpass.view.user.PartyPreviewActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.ambassadorpass.view.VideoPlayerManager"
+            android:exported="false" /> <!-- SplashActivity: Initial activity launched when the app starts -->
         <activity
             android:name="com.example.ambassadorpass.view.SplashActivity"
             android:exported="true" >
@@ -65,8 +69,6 @@
         <activity
             android:name="com.example.ambassadorpass.view.admin.AdminDashboard"
             android:exported="false" />
-
-        <!-- MainActivity: Actual main activity navigated to from SplashActivity -->
         <activity
             android:name="com.example.ambassadorpass.view.MainActivity"
             android:exported="false"
