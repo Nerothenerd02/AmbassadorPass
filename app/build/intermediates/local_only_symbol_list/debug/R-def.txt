@@ -80,6 +80,7 @@ layout activity_create_party
 layout activity_login_admin
 layout activity_main
 layout activity_photo_preview
+layout activity_splash
 layout dialog_assign_ambassador
 layout list_item
 mipmap ic_launcher

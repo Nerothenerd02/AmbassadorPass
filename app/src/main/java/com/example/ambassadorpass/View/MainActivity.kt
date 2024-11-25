@@ -11,14 +11,13 @@ import androidx.databinding.DataBindingUtil
 import androidx.media3.common.MediaItem
 import androidx.media3.common.Player
 import androidx.media3.exoplayer.ExoPlayer
-import androidx.media3.common.util.UnstableApi
 import androidx.media3.exoplayer.trackselection.DefaultTrackSelector
 import androidx.media3.common.C
 import com.example.ambassadorpass.R
 import com.example.ambassadorpass.databinding.ActivityMainBinding
+import androidx.annotation.OptIn
 
-
-@UnstableApi // Opt-in to use Unstable APIs from ExoPlayer
+@OptIn(androidx.media3.common.util.UnstableApi::class)
 class MainActivity : AppCompatActivity() {
 
     private lateinit var player: ExoPlayer
@@ -71,10 +70,10 @@ class MainActivity : AppCompatActivity() {
             }
         }
 
-        // Login button - Navigate to MainActivity2
+        // Login button - Navigate to LoginActivityAdmin
         val loginButton: Button = binding.loginButton
         loginButton.setOnClickListener {
-            val intent = Intent(this,  LoginActivityAdmin::class.java)
+            val intent = Intent(this, LoginActivityAdmin::class.java)
             startActivity(intent)
         }
     }

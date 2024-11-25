@@ -40,10 +40,6 @@
         "source": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-main-76:\\drawable\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "com.example.ambassadorpass.app-merged_res-74:/layout_activity_create_admin.xml.flat",
-        "source": "com.example.ambassadorpass.app-main-76:/layout/activity_create_admin.xml"
-    },
-    {
         "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-merged_res-74:\\drawable_baseline_send_24.xml.flat",
         "source": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-main-76:\\drawable\\baseline_send_24.xml"
     },
@@ -78,6 +74,10 @@
     {
         "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-merged_res-74:\\drawable_gemini.png.flat",
         "source": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-main-76:\\drawable\\gemini.png"
+    },
+    {
+        "merged": "com.example.ambassadorpass.app-merged_res-74:/layout_activity_splash.xml.flat",
+        "source": "com.example.ambassadorpass.app-main-76:/layout/activity_splash.xml"
     },
     {
         "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-merged_res-74:\\drawable_ic_back_red.xml.flat",

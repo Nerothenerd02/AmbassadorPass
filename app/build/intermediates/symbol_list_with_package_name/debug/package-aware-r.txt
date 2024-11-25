@@ -4036,6 +4036,7 @@ layout activity_create_party
 layout activity_login_admin
 layout activity_main
 layout activity_photo_preview
+layout activity_splash
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
 layout custom_dialog

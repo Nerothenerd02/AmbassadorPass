@@ -17,6 +17,17 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AmbassadorPass"
         tools:targetApi="31">
+
+        <!-- SplashActivity: Initial activity launched when the app starts -->
+        <activity
+            android:name=".view.SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
         <activity
             android:name=".view.admin.PhotoPreviewActivity"
             android:exported="false" />
@@ -38,16 +49,13 @@
         <activity
             android:name=".view.admin.AdminDashboard"
             android:exported="false" />
+
+
         <activity
             android:name=".view.MainActivity"
-            android:exported="true"
-            android:theme="@style/Theme.AmbassadorPass">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+            android:exported="false"
+            android:theme="@style/Theme.AmbassadorPass" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
     </application>
 
 </manifest>

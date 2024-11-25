@@ -4035,6 +4035,7 @@ int layout activity_create_party 0x7f0d0020
 int layout activity_login_admin 0x7f0d0021
 int layout activity_main 0x7f0d0022
 int layout activity_photo_preview 0x7f0d0023
+int layout activity_splash 0x7f0d008a
 int layout browser_actions_context_menu_page 0x7f0d0024
 int layout browser_actions_context_menu_row 0x7f0d0025
 int layout custom_dialog 0x7f0d0026

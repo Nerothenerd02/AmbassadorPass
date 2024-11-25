@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:2:1-53:12
-INJECTED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:2:1-53:12
-INJECTED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:2:1-53:12
-INJECTED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:2:1-53:12
+ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:2:1-61:12
+INJECTED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:2:1-61:12
+INJECTED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:2:1-61:12
+INJECTED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:2:1-61:12
 MERGED from [androidx.databinding:databinding-adapters:8.1.2] C:\Users\USER\.gradle\caches\transforms-3\bf5a0d5641ffcb0f54d1a600b5dec0d6\transformed\databinding-adapters-8.1.2\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.databinding:databinding-ktx:8.1.2] C:\Users\USER\.gradle\caches\transforms-3\b301c3f70c6daff2bbf889868bf28cd1\transformed\databinding-ktx-8.1.2\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.databinding:databinding-runtime:8.1.2] C:\Users\USER\.gradle\caches\transforms-3\74dd49878d9e175939faf2abf807bdc7\transformed\databinding-runtime-8.1.2\AndroidManifest.xml:2:1-7:12
@@ -11,12 +11,12 @@ MERGED from [androidx.databinding:viewbinding:8.1.2] C:\Users\USER\.gradle\cache
 MERGED from [com.google.firebase:firebase-storage-ktx:21.0.1] C:\Users\USER\.gradle\caches\transforms-3\8820a54d68b45a4cf68fc3fba0306c4c\transformed\firebase-storage-ktx-21.0.1\AndroidManifest.xml:2:1-18:12
 MERGED from [com.google.firebase:firebase-database-ktx:21.0.0] C:\Users\USER\.gradle\caches\transforms-3\3983441b5cbbd9ce8252076f3721805d\transformed\firebase-database-ktx-21.0.0\AndroidManifest.xml:2:1-18:12
 MERGED from [com.google.firebase:firebase-firestore-ktx:25.1.1] C:\Users\USER\.gradle\caches\transforms-3\b282c181f31778782d9976bf66e8e3b9\transformed\firebase-firestore-ktx-25.1.1\AndroidManifest.xml:2:1-18:12
-MERGED from [com.google.firebase:firebase-auth-ktx:23.1.0] C:\Users\USER\.gradle\caches\transforms-3\807ed12a35bd5bbc5a54c678cc6f45c3\transformed\firebase-auth-ktx-23.1.0\AndroidManifest.xml:2:1-17:12
 MERGED from [com.google.firebase:firebase-storage:21.0.1] C:\Users\USER\.gradle\caches\transforms-3\109c92e7bd3d49a7b7bd911e449ef7fe\transformed\firebase-storage-21.0.1\AndroidManifest.xml:15:1-39:12
+MERGED from [com.google.firebase:firebase-appcheck:18.0.0] C:\Users\USER\.gradle\caches\transforms-3\ae57e0de63bbdc70da1b0783e173836c\transformed\firebase-appcheck-18.0.0\AndroidManifest.xml:15:1-34:12
+MERGED from [com.google.firebase:firebase-auth-ktx:23.1.0] C:\Users\USER\.gradle\caches\transforms-3\807ed12a35bd5bbc5a54c678cc6f45c3\transformed\firebase-auth-ktx-23.1.0\AndroidManifest.xml:2:1-17:12
 MERGED from [com.google.firebase:firebase-database:21.0.0] C:\Users\USER\.gradle\caches\transforms-3\b7a9602b7d072ae544fdc8bb9c85dbf0\transformed\firebase-database-21.0.0\AndroidManifest.xml:15:1-38:12
 MERGED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\USER\.gradle\caches\transforms-3\a75fe43b56fd7e09f6796e8bb5d88551\transformed\firebase-firestore-25.1.1\AndroidManifest.xml:2:1-26:12
 MERGED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\USER\.gradle\caches\transforms-3\064181f7d06cb60c502ede83337bf5b8\transformed\firebase-auth-23.1.0\AndroidManifest.xml:17:1-75:12
-MERGED from [com.google.firebase:firebase-appcheck:18.0.0] C:\Users\USER\.gradle\caches\transforms-3\ae57e0de63bbdc70da1b0783e173836c\transformed\firebase-appcheck-18.0.0\AndroidManifest.xml:15:1-34:12
 MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\USER\.gradle\caches\transforms-3\66fa1bbce737079ef2c8221a90f77620\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:2:1-18:12
 MERGED from [androidx.compose.material3:material3:1.0.0] C:\Users\USER\.gradle\caches\transforms-3\c7d196a6e0547044b52403539546d4aa\transformed\material3-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.compose.material:material-ripple:1.4.0] C:\Users\USER\.gradle\caches\transforms-3\e00cadd71537592c9b711d6c1dc735d1\transformed\material-ripple-1.4.0\AndroidManifest.xml:17:1-22:12
@@ -175,26 +175,26 @@ ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app
 	android:name
 		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:8:22-78
 application
-ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:10:5-51:19
-INJECTED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:10:5-51:19
+ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:10:5-59:19
+INJECTED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:10:5-59:19
 MERGED from [com.google.firebase:firebase-storage-ktx:21.0.1] C:\Users\USER\.gradle\caches\transforms-3\8820a54d68b45a4cf68fc3fba0306c4c\transformed\firebase-storage-ktx-21.0.1\AndroidManifest.xml:8:5-16:19
 MERGED from [com.google.firebase:firebase-storage-ktx:21.0.1] C:\Users\USER\.gradle\caches\transforms-3\8820a54d68b45a4cf68fc3fba0306c4c\transformed\firebase-storage-ktx-21.0.1\AndroidManifest.xml:8:5-16:19
 MERGED from [com.google.firebase:firebase-database-ktx:21.0.0] C:\Users\USER\.gradle\caches\transforms-3\3983441b5cbbd9ce8252076f3721805d\transformed\firebase-database-ktx-21.0.0\AndroidManifest.xml:8:5-16:19
 MERGED from [com.google.firebase:firebase-database-ktx:21.0.0] C:\Users\USER\.gradle\caches\transforms-3\3983441b5cbbd9ce8252076f3721805d\transformed\firebase-database-ktx-21.0.0\AndroidManifest.xml:8:5-16:19
 MERGED from [com.google.firebase:firebase-firestore-ktx:25.1.1] C:\Users\USER\.gradle\caches\transforms-3\b282c181f31778782d9976bf66e8e3b9\transformed\firebase-firestore-ktx-25.1.1\AndroidManifest.xml:8:5-16:19
 MERGED from [com.google.firebase:firebase-firestore-ktx:25.1.1] C:\Users\USER\.gradle\caches\transforms-3\b282c181f31778782d9976bf66e8e3b9\transformed\firebase-firestore-ktx-25.1.1\AndroidManifest.xml:8:5-16:19
-MERGED from [com.google.firebase:firebase-auth-ktx:23.1.0] C:\Users\USER\.gradle\caches\transforms-3\807ed12a35bd5bbc5a54c678cc6f45c3\transformed\firebase-auth-ktx-23.1.0\AndroidManifest.xml:7:5-15:19
-MERGED from [com.google.firebase:firebase-auth-ktx:23.1.0] C:\Users\USER\.gradle\caches\transforms-3\807ed12a35bd5bbc5a54c678cc6f45c3\transformed\firebase-auth-ktx-23.1.0\AndroidManifest.xml:7:5-15:19
 MERGED from [com.google.firebase:firebase-storage:21.0.1] C:\Users\USER\.gradle\caches\transforms-3\109c92e7bd3d49a7b7bd911e449ef7fe\transformed\firebase-storage-21.0.1\AndroidManifest.xml:26:5-37:19
 MERGED from [com.google.firebase:firebase-storage:21.0.1] C:\Users\USER\.gradle\caches\transforms-3\109c92e7bd3d49a7b7bd911e449ef7fe\transformed\firebase-storage-21.0.1\AndroidManifest.xml:26:5-37:19
+MERGED from [com.google.firebase:firebase-appcheck:18.0.0] C:\Users\USER\.gradle\caches\transforms-3\ae57e0de63bbdc70da1b0783e173836c\transformed\firebase-appcheck-18.0.0\AndroidManifest.xml:21:5-32:19
+MERGED from [com.google.firebase:firebase-appcheck:18.0.0] C:\Users\USER\.gradle\caches\transforms-3\ae57e0de63bbdc70da1b0783e173836c\transformed\firebase-appcheck-18.0.0\AndroidManifest.xml:21:5-32:19
+MERGED from [com.google.firebase:firebase-auth-ktx:23.1.0] C:\Users\USER\.gradle\caches\transforms-3\807ed12a35bd5bbc5a54c678cc6f45c3\transformed\firebase-auth-ktx-23.1.0\AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.firebase:firebase-auth-ktx:23.1.0] C:\Users\USER\.gradle\caches\transforms-3\807ed12a35bd5bbc5a54c678cc6f45c3\transformed\firebase-auth-ktx-23.1.0\AndroidManifest.xml:7:5-15:19
 MERGED from [com.google.firebase:firebase-database:21.0.0] C:\Users\USER\.gradle\caches\transforms-3\b7a9602b7d072ae544fdc8bb9c85dbf0\transformed\firebase-database-21.0.0\AndroidManifest.xml:25:5-36:19
 MERGED from [com.google.firebase:firebase-database:21.0.0] C:\Users\USER\.gradle\caches\transforms-3\b7a9602b7d072ae544fdc8bb9c85dbf0\transformed\firebase-database-21.0.0\AndroidManifest.xml:25:5-36:19
 MERGED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\USER\.gradle\caches\transforms-3\a75fe43b56fd7e09f6796e8bb5d88551\transformed\firebase-firestore-25.1.1\AndroidManifest.xml:13:5-24:19
 MERGED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\USER\.gradle\caches\transforms-3\a75fe43b56fd7e09f6796e8bb5d88551\transformed\firebase-firestore-25.1.1\AndroidManifest.xml:13:5-24:19
 MERGED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\USER\.gradle\caches\transforms-3\064181f7d06cb60c502ede83337bf5b8\transformed\firebase-auth-23.1.0\AndroidManifest.xml:28:5-73:19
 MERGED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\USER\.gradle\caches\transforms-3\064181f7d06cb60c502ede83337bf5b8\transformed\firebase-auth-23.1.0\AndroidManifest.xml:28:5-73:19
-MERGED from [com.google.firebase:firebase-appcheck:18.0.0] C:\Users\USER\.gradle\caches\transforms-3\ae57e0de63bbdc70da1b0783e173836c\transformed\firebase-appcheck-18.0.0\AndroidManifest.xml:21:5-32:19
-MERGED from [com.google.firebase:firebase-appcheck:18.0.0] C:\Users\USER\.gradle\caches\transforms-3\ae57e0de63bbdc70da1b0783e173836c\transformed\firebase-appcheck-18.0.0\AndroidManifest.xml:21:5-32:19
 MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\USER\.gradle\caches\transforms-3\66fa1bbce737079ef2c8221a90f77620\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:8:5-16:19
 MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\USER\.gradle\caches\transforms-3\66fa1bbce737079ef2c8221a90f77620\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:8:5-16:19
 MERGED from [androidx.compose.ui:ui-test-manifest:1.4.0] C:\Users\USER\.gradle\caches\transforms-3\5c43410a1a6fe20e25f7fe7ff186bc5a\transformed\ui-test-manifest-1.4.0\AndroidManifest.xml:22:5-26:19
@@ -261,66 +261,72 @@ MERGED from [com.google.android.play:core-common:2.0.3] C:\Users\USER\.gradle\ca
 		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:18:9-52
 	android:dataExtractionRules
 		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:12:9-65
-activity#com.example.ambassadorpass.view.admin.PhotoPreviewActivity
-ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:20:9-22:40
+activity#com.example.ambassadorpass.view.SplashActivity
+ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:22:9-29:20
 	android:exported
-		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:22:13-37
+		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:24:13-36
 	android:name
-		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:21:13-60
-activity#com.example.ambassadorpass.view.admin.CreateAdminActivity
-ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:23:9-25:40
-	android:exported
-		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:25:13-37
-	android:name
-		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:24:13-59
-activity#com.example.ambassadorpass.view.admin.AssignAmbassadorsActivity
-ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:26:9-28:40
-	android:exported
-		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:28:13-37
-	android:name
-		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:27:13-65
-activity#com.example.ambassadorpass.view.admin.CreatePartyActivity
-ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:29:9-31:40
-	android:exported
-		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:31:13-37
-	android:name
-		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:30:13-59
-activity#com.example.ambassadorpass.view.LoginActivityAdmin
-ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:32:9-34:40
-	android:exported
-		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:34:13-37
-	android:name
-		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:33:13-52
-activity#com.example.ambassadorpass.view.AmbassadorDashboard
-ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:35:9-37:40
-	android:exported
-		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:37:13-37
-	android:name
-		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:36:13-53
-activity#com.example.ambassadorpass.view.admin.AdminDashboard
-ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:38:9-40:40
-	android:exported
-		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:40:13-37
-	android:name
-		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:39:13-54
-activity#com.example.ambassadorpass.view.MainActivity
-ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:41:9-50:20
-	android:exported
-		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:43:13-36
-	android:theme
-		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:44:13-56
-	android:name
-		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:42:13-46
+		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:23:13-48
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:45:13-49:29
+ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:25:13-28:29
 action#android.intent.action.MAIN
-ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:46:17-69
+ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:26:17-69
 	android:name
-		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:46:25-66
+		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:26:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:48:17-77
+ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:27:17-77
 	android:name
-		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:48:27-74
+		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:27:27-74
+activity#com.example.ambassadorpass.view.admin.PhotoPreviewActivity
+ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:31:9-33:40
+	android:exported
+		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:33:13-37
+	android:name
+		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:32:13-60
+activity#com.example.ambassadorpass.view.admin.CreateAdminActivity
+ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:34:9-36:40
+	android:exported
+		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:36:13-37
+	android:name
+		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:35:13-59
+activity#com.example.ambassadorpass.view.admin.AssignAmbassadorsActivity
+ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:37:9-39:40
+	android:exported
+		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:39:13-37
+	android:name
+		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:38:13-65
+activity#com.example.ambassadorpass.view.admin.CreatePartyActivity
+ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:40:9-42:40
+	android:exported
+		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:42:13-37
+	android:name
+		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:41:13-59
+activity#com.example.ambassadorpass.view.LoginActivityAdmin
+ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:43:9-45:40
+	android:exported
+		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:45:13-37
+	android:name
+		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:44:13-52
+activity#com.example.ambassadorpass.view.AmbassadorDashboard
+ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:46:9-48:40
+	android:exported
+		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:48:13-37
+	android:name
+		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:47:13-53
+activity#com.example.ambassadorpass.view.admin.AdminDashboard
+ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:49:9-51:40
+	android:exported
+		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:51:13-37
+	android:name
+		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:50:13-54
+activity#com.example.ambassadorpass.view.MainActivity
+ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:54:9-57:59
+	android:exported
+		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:56:13-37
+	android:theme
+		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:57:13-56
+	android:name
+		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:55:13-46
 uses-sdk
 INJECTED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml
@@ -339,18 +345,18 @@ MERGED from [com.google.firebase:firebase-database-ktx:21.0.0] C:\Users\USER\.gr
 MERGED from [com.google.firebase:firebase-database-ktx:21.0.0] C:\Users\USER\.gradle\caches\transforms-3\3983441b5cbbd9ce8252076f3721805d\transformed\firebase-database-ktx-21.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-firestore-ktx:25.1.1] C:\Users\USER\.gradle\caches\transforms-3\b282c181f31778782d9976bf66e8e3b9\transformed\firebase-firestore-ktx-25.1.1\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-firestore-ktx:25.1.1] C:\Users\USER\.gradle\caches\transforms-3\b282c181f31778782d9976bf66e8e3b9\transformed\firebase-firestore-ktx-25.1.1\AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-auth-ktx:23.1.0] C:\Users\USER\.gradle\caches\transforms-3\807ed12a35bd5bbc5a54c678cc6f45c3\transformed\firebase-auth-ktx-23.1.0\AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-auth-ktx:23.1.0] C:\Users\USER\.gradle\caches\transforms-3\807ed12a35bd5bbc5a54c678cc6f45c3\transformed\firebase-auth-ktx-23.1.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-storage:21.0.1] C:\Users\USER\.gradle\caches\transforms-3\109c92e7bd3d49a7b7bd911e449ef7fe\transformed\firebase-storage-21.0.1\AndroidManifest.xml:19:5-44
 MERGED from [com.google.firebase:firebase-storage:21.0.1] C:\Users\USER\.gradle\caches\transforms-3\109c92e7bd3d49a7b7bd911e449ef7fe\transformed\firebase-storage-21.0.1\AndroidManifest.xml:19:5-44
+MERGED from [com.google.firebase:firebase-appcheck:18.0.0] C:\Users\USER\.gradle\caches\transforms-3\ae57e0de63bbdc70da1b0783e173836c\transformed\firebase-appcheck-18.0.0\AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-appcheck:18.0.0] C:\Users\USER\.gradle\caches\transforms-3\ae57e0de63bbdc70da1b0783e173836c\transformed\firebase-appcheck-18.0.0\AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-auth-ktx:23.1.0] C:\Users\USER\.gradle\caches\transforms-3\807ed12a35bd5bbc5a54c678cc6f45c3\transformed\firebase-auth-ktx-23.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-ktx:23.1.0] C:\Users\USER\.gradle\caches\transforms-3\807ed12a35bd5bbc5a54c678cc6f45c3\transformed\firebase-auth-ktx-23.1.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-database:21.0.0] C:\Users\USER\.gradle\caches\transforms-3\b7a9602b7d072ae544fdc8bb9c85dbf0\transformed\firebase-database-21.0.0\AndroidManifest.xml:18:5-44
 MERGED from [com.google.firebase:firebase-database:21.0.0] C:\Users\USER\.gradle\caches\transforms-3\b7a9602b7d072ae544fdc8bb9c85dbf0\transformed\firebase-database-21.0.0\AndroidManifest.xml:18:5-44
 MERGED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\USER\.gradle\caches\transforms-3\a75fe43b56fd7e09f6796e8bb5d88551\transformed\firebase-firestore-25.1.1\AndroidManifest.xml:6:5-44
 MERGED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\USER\.gradle\caches\transforms-3\a75fe43b56fd7e09f6796e8bb5d88551\transformed\firebase-firestore-25.1.1\AndroidManifest.xml:6:5-44
 MERGED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\USER\.gradle\caches\transforms-3\064181f7d06cb60c502ede83337bf5b8\transformed\firebase-auth-23.1.0\AndroidManifest.xml:21:5-23:151
 MERGED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\USER\.gradle\caches\transforms-3\064181f7d06cb60c502ede83337bf5b8\transformed\firebase-auth-23.1.0\AndroidManifest.xml:21:5-23:151
-MERGED from [com.google.firebase:firebase-appcheck:18.0.0] C:\Users\USER\.gradle\caches\transforms-3\ae57e0de63bbdc70da1b0783e173836c\transformed\firebase-appcheck-18.0.0\AndroidManifest.xml:18:5-44
-MERGED from [com.google.firebase:firebase-appcheck:18.0.0] C:\Users\USER\.gradle\caches\transforms-3\ae57e0de63bbdc70da1b0783e173836c\transformed\firebase-appcheck-18.0.0\AndroidManifest.xml:18:5-44
 MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\USER\.gradle\caches\transforms-3\66fa1bbce737079ef2c8221a90f77620\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\USER\.gradle\caches\transforms-3\66fa1bbce737079ef2c8221a90f77620\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.compose.material3:material3:1.0.0] C:\Users\USER\.gradle\caches\transforms-3\c7d196a6e0547044b52403539546d4aa\transformed\material3-1.0.0\AndroidManifest.xml:20:5-44
@@ -573,18 +579,18 @@ MERGED from [com.google.firebase:firebase-database-ktx:21.0.0] C:\Users\USER\.gr
 MERGED from [com.google.firebase:firebase-database-ktx:21.0.0] C:\Users\USER\.gradle\caches\transforms-3\3983441b5cbbd9ce8252076f3721805d\transformed\firebase-database-ktx-21.0.0\AndroidManifest.xml:9:9-15:19
 MERGED from [com.google.firebase:firebase-firestore-ktx:25.1.1] C:\Users\USER\.gradle\caches\transforms-3\b282c181f31778782d9976bf66e8e3b9\transformed\firebase-firestore-ktx-25.1.1\AndroidManifest.xml:9:9-15:19
 MERGED from [com.google.firebase:firebase-firestore-ktx:25.1.1] C:\Users\USER\.gradle\caches\transforms-3\b282c181f31778782d9976bf66e8e3b9\transformed\firebase-firestore-ktx-25.1.1\AndroidManifest.xml:9:9-15:19
-MERGED from [com.google.firebase:firebase-auth-ktx:23.1.0] C:\Users\USER\.gradle\caches\transforms-3\807ed12a35bd5bbc5a54c678cc6f45c3\transformed\firebase-auth-ktx-23.1.0\AndroidManifest.xml:8:9-14:19
-MERGED from [com.google.firebase:firebase-auth-ktx:23.1.0] C:\Users\USER\.gradle\caches\transforms-3\807ed12a35bd5bbc5a54c678cc6f45c3\transformed\firebase-auth-ktx-23.1.0\AndroidManifest.xml:8:9-14:19
 MERGED from [com.google.firebase:firebase-storage:21.0.1] C:\Users\USER\.gradle\caches\transforms-3\109c92e7bd3d49a7b7bd911e449ef7fe\transformed\firebase-storage-21.0.1\AndroidManifest.xml:27:9-36:19
 MERGED from [com.google.firebase:firebase-storage:21.0.1] C:\Users\USER\.gradle\caches\transforms-3\109c92e7bd3d49a7b7bd911e449ef7fe\transformed\firebase-storage-21.0.1\AndroidManifest.xml:27:9-36:19
+MERGED from [com.google.firebase:firebase-appcheck:18.0.0] C:\Users\USER\.gradle\caches\transforms-3\ae57e0de63bbdc70da1b0783e173836c\transformed\firebase-appcheck-18.0.0\AndroidManifest.xml:22:9-31:19
+MERGED from [com.google.firebase:firebase-appcheck:18.0.0] C:\Users\USER\.gradle\caches\transforms-3\ae57e0de63bbdc70da1b0783e173836c\transformed\firebase-appcheck-18.0.0\AndroidManifest.xml:22:9-31:19
+MERGED from [com.google.firebase:firebase-auth-ktx:23.1.0] C:\Users\USER\.gradle\caches\transforms-3\807ed12a35bd5bbc5a54c678cc6f45c3\transformed\firebase-auth-ktx-23.1.0\AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.firebase:firebase-auth-ktx:23.1.0] C:\Users\USER\.gradle\caches\transforms-3\807ed12a35bd5bbc5a54c678cc6f45c3\transformed\firebase-auth-ktx-23.1.0\AndroidManifest.xml:8:9-14:19
 MERGED from [com.google.firebase:firebase-database:21.0.0] C:\Users\USER\.gradle\caches\transforms-3\b7a9602b7d072ae544fdc8bb9c85dbf0\transformed\firebase-database-21.0.0\AndroidManifest.xml:26:9-35:19
 MERGED from [com.google.firebase:firebase-database:21.0.0] C:\Users\USER\.gradle\caches\transforms-3\b7a9602b7d072ae544fdc8bb9c85dbf0\transformed\firebase-database-21.0.0\AndroidManifest.xml:26:9-35:19
 MERGED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\USER\.gradle\caches\transforms-3\a75fe43b56fd7e09f6796e8bb5d88551\transformed\firebase-firestore-25.1.1\AndroidManifest.xml:14:9-23:19
 MERGED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\USER\.gradle\caches\transforms-3\a75fe43b56fd7e09f6796e8bb5d88551\transformed\firebase-firestore-25.1.1\AndroidManifest.xml:14:9-23:19
 MERGED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\USER\.gradle\caches\transforms-3\064181f7d06cb60c502ede83337bf5b8\transformed\firebase-auth-23.1.0\AndroidManifest.xml:66:9-72:19
 MERGED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\USER\.gradle\caches\transforms-3\064181f7d06cb60c502ede83337bf5b8\transformed\firebase-auth-23.1.0\AndroidManifest.xml:66:9-72:19
-MERGED from [com.google.firebase:firebase-appcheck:18.0.0] C:\Users\USER\.gradle\caches\transforms-3\ae57e0de63bbdc70da1b0783e173836c\transformed\firebase-appcheck-18.0.0\AndroidManifest.xml:22:9-31:19
-MERGED from [com.google.firebase:firebase-appcheck:18.0.0] C:\Users\USER\.gradle\caches\transforms-3\ae57e0de63bbdc70da1b0783e173836c\transformed\firebase-appcheck-18.0.0\AndroidManifest.xml:22:9-31:19
 MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\USER\.gradle\caches\transforms-3\66fa1bbce737079ef2c8221a90f77620\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:9:9-15:19
 MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\USER\.gradle\caches\transforms-3\66fa1bbce737079ef2c8221a90f77620\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:9:9-15:19
 MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Users\USER\.gradle\caches\transforms-3\867c615b3a62935fc9fc057c23e9fb97\transformed\firebase-common-21.0.0\AndroidManifest.xml:30:9-38:19
@@ -615,12 +621,6 @@ ADDED from [com.google.firebase:firebase-firestore-ktx:25.1.1] C:\Users\USER\.gr
 		ADDED from [com.google.firebase:firebase-firestore-ktx:25.1.1] C:\Users\USER\.gradle\caches\transforms-3\b282c181f31778782d9976bf66e8e3b9\transformed\firebase-firestore-ktx-25.1.1\AndroidManifest.xml:14:17-82
 	android:name
 		ADDED from [com.google.firebase:firebase-firestore-ktx:25.1.1] C:\Users\USER\.gradle\caches\transforms-3\b282c181f31778782d9976bf66e8e3b9\transformed\firebase-firestore-ktx-25.1.1\AndroidManifest.xml:13:17-129
-meta-data#com.google.firebase.components:com.google.firebase.auth.ktx.FirebaseAuthLegacyRegistrar
-ADDED from [com.google.firebase:firebase-auth-ktx:23.1.0] C:\Users\USER\.gradle\caches\transforms-3\807ed12a35bd5bbc5a54c678cc6f45c3\transformed\firebase-auth-ktx-23.1.0\AndroidManifest.xml:11:13-13:85
-	android:value
-		ADDED from [com.google.firebase:firebase-auth-ktx:23.1.0] C:\Users\USER\.gradle\caches\transforms-3\807ed12a35bd5bbc5a54c678cc6f45c3\transformed\firebase-auth-ktx-23.1.0\AndroidManifest.xml:13:17-82
-	android:name
-		ADDED from [com.google.firebase:firebase-auth-ktx:23.1.0] C:\Users\USER\.gradle\caches\transforms-3\807ed12a35bd5bbc5a54c678cc6f45c3\transformed\firebase-auth-ktx-23.1.0\AndroidManifest.xml:12:17-119
 meta-data#com.google.firebase.components:com.google.firebase.storage.FirebaseStorageKtxRegistrar
 ADDED from [com.google.firebase:firebase-storage:21.0.1] C:\Users\USER\.gradle\caches\transforms-3\109c92e7bd3d49a7b7bd911e449ef7fe\transformed\firebase-storage-21.0.1\AndroidManifest.xml:30:13-32:85
 	android:value
@@ -633,6 +633,24 @@ ADDED from [com.google.firebase:firebase-storage:21.0.1] C:\Users\USER\.gradle\c
 		ADDED from [com.google.firebase:firebase-storage:21.0.1] C:\Users\USER\.gradle\caches\transforms-3\109c92e7bd3d49a7b7bd911e449ef7fe\transformed\firebase-storage-21.0.1\AndroidManifest.xml:35:17-82
 	android:name
 		ADDED from [com.google.firebase:firebase-storage:21.0.1] C:\Users\USER\.gradle\caches\transforms-3\109c92e7bd3d49a7b7bd911e449ef7fe\transformed\firebase-storage-21.0.1\AndroidManifest.xml:34:17-107
+meta-data#com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckKtxRegistrar
+ADDED from [com.google.firebase:firebase-appcheck:18.0.0] C:\Users\USER\.gradle\caches\transforms-3\ae57e0de63bbdc70da1b0783e173836c\transformed\firebase-appcheck-18.0.0\AndroidManifest.xml:25:13-27:85
+	android:value
+		ADDED from [com.google.firebase:firebase-appcheck:18.0.0] C:\Users\USER\.gradle\caches\transforms-3\ae57e0de63bbdc70da1b0783e173836c\transformed\firebase-appcheck-18.0.0\AndroidManifest.xml:27:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-appcheck:18.0.0] C:\Users\USER\.gradle\caches\transforms-3\ae57e0de63bbdc70da1b0783e173836c\transformed\firebase-appcheck-18.0.0\AndroidManifest.xml:26:17-120
+meta-data#com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckRegistrar
+ADDED from [com.google.firebase:firebase-appcheck:18.0.0] C:\Users\USER\.gradle\caches\transforms-3\ae57e0de63bbdc70da1b0783e173836c\transformed\firebase-appcheck-18.0.0\AndroidManifest.xml:28:13-30:85
+	android:value
+		ADDED from [com.google.firebase:firebase-appcheck:18.0.0] C:\Users\USER\.gradle\caches\transforms-3\ae57e0de63bbdc70da1b0783e173836c\transformed\firebase-appcheck-18.0.0\AndroidManifest.xml:30:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-appcheck:18.0.0] C:\Users\USER\.gradle\caches\transforms-3\ae57e0de63bbdc70da1b0783e173836c\transformed\firebase-appcheck-18.0.0\AndroidManifest.xml:29:17-117
+meta-data#com.google.firebase.components:com.google.firebase.auth.ktx.FirebaseAuthLegacyRegistrar
+ADDED from [com.google.firebase:firebase-auth-ktx:23.1.0] C:\Users\USER\.gradle\caches\transforms-3\807ed12a35bd5bbc5a54c678cc6f45c3\transformed\firebase-auth-ktx-23.1.0\AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth-ktx:23.1.0] C:\Users\USER\.gradle\caches\transforms-3\807ed12a35bd5bbc5a54c678cc6f45c3\transformed\firebase-auth-ktx-23.1.0\AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth-ktx:23.1.0] C:\Users\USER\.gradle\caches\transforms-3\807ed12a35bd5bbc5a54c678cc6f45c3\transformed\firebase-auth-ktx-23.1.0\AndroidManifest.xml:12:17-119
 meta-data#com.google.firebase.components:com.google.firebase.database.FirebaseDatabaseKtxRegistrar
 ADDED from [com.google.firebase:firebase-database:21.0.0] C:\Users\USER\.gradle\caches\transforms-3\b7a9602b7d072ae544fdc8bb9c85dbf0\transformed\firebase-database-21.0.0\AndroidManifest.xml:29:13-31:85
 	android:value
@@ -711,18 +729,6 @@ ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\USER\.gradle\cach
 		ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\USER\.gradle\caches\transforms-3\064181f7d06cb60c502ede83337bf5b8\transformed\firebase-auth-23.1.0\AndroidManifest.xml:71:17-82
 	android:name
 		ADDED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\USER\.gradle\caches\transforms-3\064181f7d06cb60c502ede83337bf5b8\transformed\firebase-auth-23.1.0\AndroidManifest.xml:70:17-109
-meta-data#com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckKtxRegistrar
-ADDED from [com.google.firebase:firebase-appcheck:18.0.0] C:\Users\USER\.gradle\caches\transforms-3\ae57e0de63bbdc70da1b0783e173836c\transformed\firebase-appcheck-18.0.0\AndroidManifest.xml:25:13-27:85
-	android:value
-		ADDED from [com.google.firebase:firebase-appcheck:18.0.0] C:\Users\USER\.gradle\caches\transforms-3\ae57e0de63bbdc70da1b0783e173836c\transformed\firebase-appcheck-18.0.0\AndroidManifest.xml:27:17-82
-	android:name
-		ADDED from [com.google.firebase:firebase-appcheck:18.0.0] C:\Users\USER\.gradle\caches\transforms-3\ae57e0de63bbdc70da1b0783e173836c\transformed\firebase-appcheck-18.0.0\AndroidManifest.xml:26:17-120
-meta-data#com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckRegistrar
-ADDED from [com.google.firebase:firebase-appcheck:18.0.0] C:\Users\USER\.gradle\caches\transforms-3\ae57e0de63bbdc70da1b0783e173836c\transformed\firebase-appcheck-18.0.0\AndroidManifest.xml:28:13-30:85
-	android:value
-		ADDED from [com.google.firebase:firebase-appcheck:18.0.0] C:\Users\USER\.gradle\caches\transforms-3\ae57e0de63bbdc70da1b0783e173836c\transformed\firebase-appcheck-18.0.0\AndroidManifest.xml:30:17-82
-	android:name
-		ADDED from [com.google.firebase:firebase-appcheck:18.0.0] C:\Users\USER\.gradle\caches\transforms-3\ae57e0de63bbdc70da1b0783e173836c\transformed\firebase-appcheck-18.0.0\AndroidManifest.xml:29:17-117
 meta-data#com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar
 ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\USER\.gradle\caches\transforms-3\66fa1bbce737079ef2c8221a90f77620\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:12:13-14:85
 	android:value
