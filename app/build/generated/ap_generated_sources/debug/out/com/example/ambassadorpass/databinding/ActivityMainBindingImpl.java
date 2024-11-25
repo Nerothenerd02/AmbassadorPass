@@ -20,6 +20,7 @@ public class ActivityMainBindingImpl extends ActivityMainBinding  {
         sViewsWithIds.put(R.id.keycodeEditText, 4);
         sViewsWithIds.put(R.id.validateKeycodeButton, 5);
         sViewsWithIds.put(R.id.loginButton, 6);
+        sViewsWithIds.put(R.id.progressIndicator, 7);
     }
     // views
     @NonNull
@@ -30,7 +31,7 @@ public class ActivityMainBindingImpl extends ActivityMainBinding  {
     // Inverse Binding Event Handlers
 
     public ActivityMainBindingImpl(@Nullable androidx.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
-        this(bindingComponent, root, mapBindings(bindingComponent, root, 7, sIncludes, sViewsWithIds));
+        this(bindingComponent, root, mapBindings(bindingComponent, root, 8, sIncludes, sViewsWithIds));
     }
     private ActivityMainBindingImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 0
@@ -39,6 +40,7 @@ public class ActivityMainBindingImpl extends ActivityMainBinding  {
             , (android.widget.TextView) bindings[3]
             , (android.widget.ImageView) bindings[2]
             , (androidx.media3.ui.PlayerView) bindings[1]
+            , (android.widget.ProgressBar) bindings[7]
             , (android.widget.Button) bindings[5]
             );
         this.mboundView0 = (android.widget.FrameLayout) bindings[0];

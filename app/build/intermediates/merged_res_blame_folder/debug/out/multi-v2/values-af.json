@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.ambassadorpass.app-mergeDebugResources-72:/values-af/values-af.xml",
+            "outputFile": "com.example.ambassadorpass.app-mergeDebugResources-73:/values-af/values-af.xml",
             "map": [
                 {
                     "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-3\\25ce82e237ea04235420a468219ffd92\\transformed\\credentials-1.2.0-rc01\\res\\values-af\\values-af.xml",

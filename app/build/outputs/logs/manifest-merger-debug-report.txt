@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:2:1-62:12
-INJECTED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:2:1-62:12
-INJECTED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:2:1-62:12
-INJECTED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:2:1-62:12
+ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:1:1-53:12
+INJECTED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:1:1-53:12
+INJECTED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:1:1-53:12
+INJECTED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:1:1-53:12
 MERGED from [androidx.databinding:databinding-adapters:8.1.2] C:\Users\USER\.gradle\caches\transforms-3\bf5a0d5641ffcb0f54d1a600b5dec0d6\transformed\databinding-adapters-8.1.2\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.databinding:databinding-ktx:8.1.2] C:\Users\USER\.gradle\caches\transforms-3\b301c3f70c6daff2bbf889868bf28cd1\transformed\databinding-ktx-8.1.2\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.databinding:databinding-runtime:8.1.2] C:\Users\USER\.gradle\caches\transforms-3\74dd49878d9e175939faf2abf807bdc7\transformed\databinding-runtime-8.1.2\AndroidManifest.xml:2:1-7:12
@@ -39,7 +39,18 @@ MERGED from [com.google.android.material:material:1.9.0] C:\Users\USER\.gradle\c
 MERGED from [androidx.constraintlayout:constraintlayout:2.2.0] C:\Users\USER\.gradle\caches\transforms-3\bc7b3772b48db7c71eebaaec1a1097cf\transformed\constraintlayout-2.2.0\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\USER\.gradle\caches\transforms-3\7ad011b879fc2d4d31c07efbdf7b554f\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\USER\.gradle\caches\transforms-3\4294631ee46b1f2df7ad1146ae84c771\transformed\appcompat-1.6.1\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\USER\.gradle\caches\transforms-3\a88e96d30bf7616c7d44254d98fa42ff\transformed\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.bumptech.glide:glide:4.15.1] C:\Users\USER\.gradle\caches\transforms-3\aedf4cd4b7dc58e3e45458fc2a5e6e17\transformed\glide-4.15.1\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.media3:media3-exoplayer-dash:1.4.1] C:\Users\USER\.gradle\caches\transforms-3\a81af90cb016b16cb0ae02e2d5c9d08e\transformed\media3-exoplayer-dash-1.4.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media3:media3-exoplayer:1.4.1] C:\Users\USER\.gradle\caches\transforms-3\2b77fca0c2512979e3843e278b71d242\transformed\media3-exoplayer-1.4.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media3:media3-extractor:1.4.1] C:\Users\USER\.gradle\caches\transforms-3\0d84e7c622ef8fcea192021ebf52dec1\transformed\media3-extractor-1.4.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media3:media3-container:1.4.1] C:\Users\USER\.gradle\caches\transforms-3\7226a0e8215eb2b7413cce9bd9a2e6a1\transformed\media3-container-1.4.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media3:media3-datasource:1.4.1] C:\Users\USER\.gradle\caches\transforms-3\16ffc866b0e4a2416a5040b0cee68b81\transformed\media3-datasource-1.4.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media3:media3-decoder:1.4.1] C:\Users\USER\.gradle\caches\transforms-3\fed7d8b73c27b6bb222d4e0d763f938c\transformed\media3-decoder-1.4.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media3:media3-database:1.4.1] C:\Users\USER\.gradle\caches\transforms-3\41922df4ace14649901478e330647ce1\transformed\media3-database-1.4.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media3:media3-common:1.4.1] C:\Users\USER\.gradle\caches\transforms-3\0063b3f00a23b61137ae3dccaf33691a\transformed\media3-common-1.4.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media3:media3-ui:1.4.1] C:\Users\USER\.gradle\caches\transforms-3\887338489a433ab9def759806294b59e\transformed\media3-ui-1.4.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.3.1] C:\Users\USER\.gradle\caches\transforms-3\064faf68bc1a563f5613d81e5973bc46\transformed\recyclerview-1.3.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta02] C:\Users\USER\.gradle\caches\transforms-3\a77b68fc95f51852c3ddb13e3cf08259\transformed\viewpager2-1.1.0-beta02\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Users\USER\.gradle\caches\transforms-3\781e80ba824baa27bc5b1d117edc1fad\transformed\firebase-appcheck-interop-17.1.0\AndroidManifest.xml:15:1-23:12
 MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\USER\.gradle\caches\transforms-3\a44f655867b412a745c3d543b5a0a455\transformed\firebase-database-collection-18.0.1\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.credentials:credentials:1.2.0-rc01] C:\Users\USER\.gradle\caches\transforms-3\25ce82e237ea04235420a468219ffd92\transformed\credentials-1.2.0-rc01\AndroidManifest.xml:2:1-7:12
@@ -53,17 +64,7 @@ MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\USER\.gr
 MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Users\USER\.gradle\caches\transforms-3\867c615b3a62935fc9fc057c23e9fb97\transformed\firebase-common-21.0.0\AndroidManifest.xml:15:1-41:12
 MERGED from [com.google.android.recaptcha:recaptcha:18.5.1] C:\Users\USER\.gradle\caches\transforms-3\e288d9a9c5f12e4663fee82476314ac8\transformed\recaptcha-18.5.1\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.android.play:integrity:1.3.0] C:\Users\USER\.gradle\caches\transforms-3\1d24c6df7988527b7b85a5cff7895cbb\transformed\integrity-1.3.0\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.media3:media3-ui:1.4.1] C:\Users\USER\.gradle\caches\transforms-3\887338489a433ab9def759806294b59e\transformed\media3-ui-1.4.1\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.media3:media3-extractor:1.4.1] C:\Users\USER\.gradle\caches\transforms-3\0d84e7c622ef8fcea192021ebf52dec1\transformed\media3-extractor-1.4.1\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.media3:media3-container:1.4.1] C:\Users\USER\.gradle\caches\transforms-3\7226a0e8215eb2b7413cce9bd9a2e6a1\transformed\media3-container-1.4.1\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.media3:media3-datasource:1.4.1] C:\Users\USER\.gradle\caches\transforms-3\16ffc866b0e4a2416a5040b0cee68b81\transformed\media3-datasource-1.4.1\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.media3:media3-decoder:1.4.1] C:\Users\USER\.gradle\caches\transforms-3\fed7d8b73c27b6bb222d4e0d763f938c\transformed\media3-decoder-1.4.1\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.media3:media3-database:1.4.1] C:\Users\USER\.gradle\caches\transforms-3\41922df4ace14649901478e330647ce1\transformed\media3-database-1.4.1\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.media3:media3-common:1.4.1] C:\Users\USER\.gradle\caches\transforms-3\0063b3f00a23b61137ae3dccaf33691a\transformed\media3-common-1.4.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.media3:media3-exoplayer-dash:1.4.1] C:\Users\USER\.gradle\caches\transforms-3\a81af90cb016b16cb0ae02e2d5c9d08e\transformed\media3-exoplayer-dash-1.4.1\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.media3:media3-exoplayer:1.4.1] C:\Users\USER\.gradle\caches\transforms-3\2b77fca0c2512979e3843e278b71d242\transformed\media3-exoplayer-1.4.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.media:media:1.7.0] C:\Users\USER\.gradle\caches\transforms-3\d37461785cbcbc3683035d068313c198\transformed\media-1.7.0\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.recyclerview:recyclerview:1.3.0] C:\Users\USER\.gradle\caches\transforms-3\a4ccbfd9c405593a6dca67864bb28603\transformed\recyclerview-1.3.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\USER\.gradle\caches\transforms-3\ca7a98a1122f3b571fdf6d30d0c41293\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\USER\.gradle\caches\transforms-3\181c73acab2480f073f93f08b6662fce\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\USER\.gradle\caches\transforms-3\1ca16d53e11311660078d2ceb1754e6f\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -109,13 +110,14 @@ MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\USER\.gradle\c
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\USER\.gradle\caches\transforms-3\7a09d0435c543bcbc301ae39bbbf5b23\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.exifinterface:exifinterface:1.3.6] C:\Users\USER\.gradle\caches\transforms-3\b9525c66297693d06e08747b7014e0a2\transformed\exifinterface-1.3.6\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\USER\.gradle\caches\transforms-3\529da0e3c03c5a9498789ee8fdcfbb44\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.15.1] C:\Users\USER\.gradle\caches\transforms-3\7cd65c2f5b03e1300b15dc7f8580df4f\transformed\gifdecoder-4.15.1\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\USER\.gradle\caches\transforms-3\594d1c2b782641eb77403dc9f6d71e03\transformed\profileinstaller-1.4.0\AndroidManifest.xml:17:1-55:12
-MERGED from [com.google.firebase:firebase-components:18.0.0] C:\Users\USER\.gradle\caches\transforms-3\d68275cae43506beaac2ba84c0b52d5c\transformed\firebase-components-18.0.0\AndroidManifest.xml:15:1-20:12
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\USER\.gradle\caches\transforms-3\7c67452c014d7e6b1d372374f179c9a0\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
 MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\USER\.gradle\caches\transforms-3\5ba55b3096af08ad43643bc535864b35\transformed\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-components:18.0.0] C:\Users\USER\.gradle\caches\transforms-3\d68275cae43506beaac2ba84c0b52d5c\transformed\firebase-components-18.0.0\AndroidManifest.xml:15:1-20:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\USER\.gradle\caches\transforms-3\cff09736f558d149713230e7b574cd80\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\USER\.gradle\caches\transforms-3\1eb051e921c2ddc73077420af9c4ddce\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\USER\.gradle\caches\transforms-3\ca326dd67428848b0dd126357386d817\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\USER\.gradle\caches\transforms-3\cff09736f558d149713230e7b574cd80\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\USER\.gradle\caches\transforms-3\9aca427999617d36575fa215f903f3c2\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\USER\.gradle\caches\transforms-3\4fb9d3c8eae6f2cbd790c15cecd789c8\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\USER\.gradle\caches\transforms-3\a4600fffa80832db7cf1abfe84ce6803\transformed\annotation-experimental-1.4.0\AndroidManifest.xml:2:1-7:12
@@ -127,13 +129,13 @@ MERGED from [com.google.android.play:core-common:2.0.3] C:\Users\USER\.gradle\ca
 	android:versionName
 		INJECTED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml
 	xmlns:tools
-		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:3:5-51
+		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:2:5-51
 	android:versionCode
 		INJECTED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:1:11-69
 uses-permission#android.permission.INTERNET
-ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:5:5-67
+ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:4:5-67
 MERGED from [com.google.firebase:firebase-storage:21.0.1] C:\Users\USER\.gradle\caches\transforms-3\109c92e7bd3d49a7b7bd911e449ef7fe\transformed\firebase-storage-21.0.1\AndroidManifest.xml:24:5-67
 MERGED from [com.google.firebase:firebase-storage:21.0.1] C:\Users\USER\.gradle\caches\transforms-3\109c92e7bd3d49a7b7bd911e449ef7fe\transformed\firebase-storage-21.0.1\AndroidManifest.xml:24:5-67
 MERGED from [com.google.firebase:firebase-database:21.0.0] C:\Users\USER\.gradle\caches\transforms-3\b7a9602b7d072ae544fdc8bb9c85dbf0\transformed\firebase-database-21.0.0\AndroidManifest.xml:23:5-67
@@ -145,9 +147,9 @@ MERGED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\USER\.gradle\cac
 MERGED from [com.google.android.recaptcha:recaptcha:18.5.1] C:\Users\USER\.gradle\caches\transforms-3\e288d9a9c5f12e4663fee82476314ac8\transformed\recaptcha-18.5.1\AndroidManifest.xml:7:5-67
 MERGED from [com.google.android.recaptcha:recaptcha:18.5.1] C:\Users\USER\.gradle\caches\transforms-3\e288d9a9c5f12e4663fee82476314ac8\transformed\recaptcha-18.5.1\AndroidManifest.xml:7:5-67
 	android:name
-		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:5:22-64
+		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:4:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:6:5-79
+ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:5:5-79
 MERGED from [com.google.firebase:firebase-storage:21.0.1] C:\Users\USER\.gradle\caches\transforms-3\109c92e7bd3d49a7b7bd911e449ef7fe\transformed\firebase-storage-21.0.1\AndroidManifest.xml:23:5-79
 MERGED from [com.google.firebase:firebase-storage:21.0.1] C:\Users\USER\.gradle\caches\transforms-3\109c92e7bd3d49a7b7bd911e449ef7fe\transformed\firebase-storage-21.0.1\AndroidManifest.xml:23:5-79
 MERGED from [com.google.firebase:firebase-database:21.0.0] C:\Users\USER\.gradle\caches\transforms-3\b7a9602b7d072ae544fdc8bb9c85dbf0\transformed\firebase-database-21.0.0\AndroidManifest.xml:22:5-79
@@ -156,27 +158,27 @@ MERGED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\USER\.gradl
 MERGED from [com.google.firebase:firebase-firestore:25.1.1] C:\Users\USER\.gradle\caches\transforms-3\a75fe43b56fd7e09f6796e8bb5d88551\transformed\firebase-firestore-25.1.1\AndroidManifest.xml:10:5-79
 MERGED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\USER\.gradle\caches\transforms-3\064181f7d06cb60c502ede83337bf5b8\transformed\firebase-auth-23.1.0\AndroidManifest.xml:26:5-79
 MERGED from [com.google.firebase:firebase-auth:23.1.0] C:\Users\USER\.gradle\caches\transforms-3\064181f7d06cb60c502ede83337bf5b8\transformed\firebase-auth-23.1.0\AndroidManifest.xml:26:5-79
-MERGED from [com.google.android.recaptcha:recaptcha:18.5.1] C:\Users\USER\.gradle\caches\transforms-3\e288d9a9c5f12e4663fee82476314ac8\transformed\recaptcha-18.5.1\AndroidManifest.xml:8:5-79
-MERGED from [com.google.android.recaptcha:recaptcha:18.5.1] C:\Users\USER\.gradle\caches\transforms-3\e288d9a9c5f12e4663fee82476314ac8\transformed\recaptcha-18.5.1\AndroidManifest.xml:8:5-79
-MERGED from [androidx.media3:media3-common:1.4.1] C:\Users\USER\.gradle\caches\transforms-3\0063b3f00a23b61137ae3dccaf33691a\transformed\media3-common-1.4.1\AndroidManifest.xml:22:5-79
-MERGED from [androidx.media3:media3-common:1.4.1] C:\Users\USER\.gradle\caches\transforms-3\0063b3f00a23b61137ae3dccaf33691a\transformed\media3-common-1.4.1\AndroidManifest.xml:22:5-79
 MERGED from [androidx.media3:media3-exoplayer:1.4.1] C:\Users\USER\.gradle\caches\transforms-3\2b77fca0c2512979e3843e278b71d242\transformed\media3-exoplayer-1.4.1\AndroidManifest.xml:22:5-79
 MERGED from [androidx.media3:media3-exoplayer:1.4.1] C:\Users\USER\.gradle\caches\transforms-3\2b77fca0c2512979e3843e278b71d242\transformed\media3-exoplayer-1.4.1\AndroidManifest.xml:22:5-79
+MERGED from [androidx.media3:media3-common:1.4.1] C:\Users\USER\.gradle\caches\transforms-3\0063b3f00a23b61137ae3dccaf33691a\transformed\media3-common-1.4.1\AndroidManifest.xml:22:5-79
+MERGED from [androidx.media3:media3-common:1.4.1] C:\Users\USER\.gradle\caches\transforms-3\0063b3f00a23b61137ae3dccaf33691a\transformed\media3-common-1.4.1\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.recaptcha:recaptcha:18.5.1] C:\Users\USER\.gradle\caches\transforms-3\e288d9a9c5f12e4663fee82476314ac8\transformed\recaptcha-18.5.1\AndroidManifest.xml:8:5-79
+MERGED from [com.google.android.recaptcha:recaptcha:18.5.1] C:\Users\USER\.gradle\caches\transforms-3\e288d9a9c5f12e4663fee82476314ac8\transformed\recaptcha-18.5.1\AndroidManifest.xml:8:5-79
 MERGED from [io.grpc:grpc-android:1.62.2] C:\Users\USER\.gradle\caches\transforms-3\6ce538f3f1f9dc1912264ec961fdba1d\transformed\grpc-android-1.62.2\AndroidManifest.xml:7:5-79
 MERGED from [io.grpc:grpc-android:1.62.2] C:\Users\USER\.gradle\caches\transforms-3\6ce538f3f1f9dc1912264ec961fdba1d\transformed\grpc-android-1.62.2\AndroidManifest.xml:7:5-79
 	android:name
-		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:6:22-76
+		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:5:22-76
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:7:5-80
+ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:6:5-80
 	android:name
-		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:7:22-77
+		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:6:22-77
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:8:5-81
+ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:7:5-81
 	android:name
-		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:8:22-78
+		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:7:22-78
 application
-ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:10:5-60:19
-INJECTED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:10:5-60:19
+ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:9:5-52:19
+INJECTED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:9:5-52:19
 MERGED from [com.google.firebase:firebase-storage-ktx:21.0.1] C:\Users\USER\.gradle\caches\transforms-3\8820a54d68b45a4cf68fc3fba0306c4c\transformed\firebase-storage-ktx-21.0.1\AndroidManifest.xml:8:5-16:19
 MERGED from [com.google.firebase:firebase-storage-ktx:21.0.1] C:\Users\USER\.gradle\caches\transforms-3\8820a54d68b45a4cf68fc3fba0306c4c\transformed\firebase-storage-ktx-21.0.1\AndroidManifest.xml:8:5-16:19
 MERGED from [com.google.firebase:firebase-database-ktx:21.0.0] C:\Users\USER\.gradle\caches\transforms-3\3983441b5cbbd9ce8252076f3721805d\transformed\firebase-database-ktx-21.0.0\AndroidManifest.xml:8:5-16:19
@@ -205,6 +207,8 @@ MERGED from [com.google.android.material:material:1.9.0] C:\Users\USER\.gradle\c
 MERGED from [com.google.android.material:material:1.9.0] C:\Users\USER\.gradle\caches\transforms-3\56e364ef791c3b619aefeb4ac1221aaa\transformed\material-1.9.0\AndroidManifest.xml:24:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.2.0] C:\Users\USER\.gradle\caches\transforms-3\bc7b3772b48db7c71eebaaec1a1097cf\transformed\constraintlayout-2.2.0\AndroidManifest.xml:7:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.2.0] C:\Users\USER\.gradle\caches\transforms-3\bc7b3772b48db7c71eebaaec1a1097cf\transformed\constraintlayout-2.2.0\AndroidManifest.xml:7:5-20
+MERGED from [com.github.bumptech.glide:glide:4.15.1] C:\Users\USER\.gradle\caches\transforms-3\aedf4cd4b7dc58e3e45458fc2a5e6e17\transformed\glide-4.15.1\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:glide:4.15.1] C:\Users\USER\.gradle\caches\transforms-3\aedf4cd4b7dc58e3e45458fc2a5e6e17\transformed\glide-4.15.1\AndroidManifest.xml:9:5-20
 MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Users\USER\.gradle\caches\transforms-3\781e80ba824baa27bc5b1d117edc1fad\transformed\firebase-appcheck-interop-17.1.0\AndroidManifest.xml:21:5-20
 MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Users\USER\.gradle\caches\transforms-3\781e80ba824baa27bc5b1d117edc1fad\transformed\firebase-appcheck-interop-17.1.0\AndroidManifest.xml:21:5-20
 MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\USER\.gradle\caches\transforms-3\4c8c002a91916e6901da641e3fbc2387\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:23:5-42:19
@@ -233,6 +237,8 @@ MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\USER
 MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\USER\.gradle\caches\transforms-3\722c9fc0aae217e1b49231d5d5dda930\transformed\play-services-basement-18.4.0\AndroidManifest.xml:5:5-7:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\USER\.gradle\caches\transforms-3\7a09d0435c543bcbc301ae39bbbf5b23\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\USER\.gradle\caches\transforms-3\7a09d0435c543bcbc301ae39bbbf5b23\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.15.1] C:\Users\USER\.gradle\caches\transforms-3\7cd65c2f5b03e1300b15dc7f8580df4f\transformed\gifdecoder-4.15.1\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.15.1] C:\Users\USER\.gradle\caches\transforms-3\7cd65c2f5b03e1300b15dc7f8580df4f\transformed\gifdecoder-4.15.1\AndroidManifest.xml:9:5-20
 MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\USER\.gradle\caches\transforms-3\594d1c2b782641eb77403dc9f6d71e03\transformed\profileinstaller-1.4.0\AndroidManifest.xml:23:5-53:19
 MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\USER\.gradle\caches\transforms-3\594d1c2b782641eb77403dc9f6d71e03\transformed\profileinstaller-1.4.0\AndroidManifest.xml:23:5-53:19
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\USER\.gradle\caches\transforms-3\7c67452c014d7e6b1d372374f179c9a0\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
@@ -244,101 +250,107 @@ MERGED from [com.google.android.play:core-common:2.0.3] C:\Users\USER\.gradle\ca
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.13.0] C:\Users\USER\.gradle\caches\transforms-3\ec65e07a4fedc69b288bcf004aa4d40b\transformed\core-1.13.0\AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:17:9-35
+		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:16:9-35
 	android:label
-		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:15:9-41
+		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:14:9-41
 	android:fullBackupContent
-		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:13:9-54
+		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:12:9-54
 	android:roundIcon
-		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:16:9-54
+		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:15:9-54
 	tools:targetApi
-		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:19:9-29
+		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:18:9-29
 	android:icon
-		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:14:9-43
+		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:13:9-43
 	android:allowBackup
-		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:11:9-35
+		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:10:9-35
 	android:theme
-		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:18:9-52
+		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:17:9-52
 	android:dataExtractionRules
-		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:12:9-65
-activity#com.example.ambassadorpass.view.user.PartyPreviewActivity
-ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:20:9-22:40
-	android:exported
-		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:22:13-37
-	android:name
-		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:21:13-59
-activity#com.example.ambassadorpass.view.VideoPlayerManager
-ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:23:9-25:40
-	android:exported
-		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:25:13-37
-	android:name
-		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:24:13-52
+		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:11:9-65
 activity#com.example.ambassadorpass.view.SplashActivity
-ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:26:9-34:20
+ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:21:9-28:20
 	android:exported
-		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:28:13-36
+		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:23:13-36
 	android:name
-		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:27:13-48
+		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:22:13-48
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:29:13-33:29
+ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:24:13-27:29
 action#android.intent.action.MAIN
-ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:30:17-69
+ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:25:17-69
 	android:name
-		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:30:25-66
+		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:25:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:32:17-77
+ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:26:17-77
 	android:name
-		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:32:27-74
-activity#com.example.ambassadorpass.view.admin.PhotoPreviewActivity
-ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:35:9-37:40
+		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:26:27-74
+activity#com.example.ambassadorpass.view.IntroductionActivity
+ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:31:9-33:40
 	android:exported
-		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:37:13-37
+		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:33:13-37
 	android:name
-		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:36:13-60
-activity#com.example.ambassadorpass.view.admin.CreateAdminActivity
-ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:38:9-40:40
-	android:exported
-		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:40:13-37
-	android:name
-		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:39:13-59
-activity#com.example.ambassadorpass.view.admin.AssignAmbassadorsActivity
-ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:41:9-43:40
-	android:exported
-		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:43:13-37
-	android:name
-		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:42:13-65
-activity#com.example.ambassadorpass.view.admin.CreatePartyActivity
-ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:44:9-46:40
-	android:exported
-		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:46:13-37
-	android:name
-		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:45:13-59
-activity#com.example.ambassadorpass.view.LoginActivityAdmin
-ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:47:9-49:40
-	android:exported
-		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:49:13-37
-	android:name
-		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:48:13-52
-activity#com.example.ambassadorpass.view.AmbassadorDashboard
-ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:50:9-52:40
-	android:exported
-		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:52:13-37
-	android:name
-		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:51:13-53
-activity#com.example.ambassadorpass.view.admin.AdminDashboard
-ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:53:9-55:40
-	android:exported
-		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:55:13-37
-	android:name
-		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:54:13-54
+		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:32:13-54
 activity#com.example.ambassadorpass.view.MainActivity
-ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:56:9-59:59
+ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:36:9-39:59
 	android:exported
-		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:58:13-37
+		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:38:13-37
 	android:theme
-		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:59:13-56
+		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:39:13-56
 	android:name
-		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:57:13-46
+		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:37:13-46
+activity#com.example.ambassadorpass.view.user.PartyPreviewActivity
+ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:42:9-93
+	android:exported
+		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:42:66-90
+	android:name
+		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:42:19-65
+activity#com.example.ambassadorpass.view.admin.PhotoPreviewActivity
+ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:43:9-94
+	android:exported
+		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:43:67-91
+	android:name
+		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:43:19-66
+activity#com.example.ambassadorpass.view.admin.CreateAdminActivity
+ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:44:9-93
+	android:exported
+		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:44:66-90
+	android:name
+		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:44:19-65
+activity#com.example.ambassadorpass.view.admin.AssignAmbassadorsActivity
+ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:45:9-99
+	android:exported
+		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:45:72-96
+	android:name
+		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:45:19-71
+activity#com.example.ambassadorpass.view.admin.CreatePartyActivity
+ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:46:9-93
+	android:exported
+		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:46:66-90
+	android:name
+		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:46:19-65
+activity#com.example.ambassadorpass.view.LoginActivityAdmin
+ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:47:9-86
+	android:exported
+		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:47:59-83
+	android:name
+		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:47:19-58
+activity#com.example.ambassadorpass.view.AmbassadorDashboard
+ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:48:9-87
+	android:exported
+		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:48:60-84
+	android:name
+		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:48:19-59
+activity#com.example.ambassadorpass.view.admin.AdminDashboard
+ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:49:9-88
+	android:exported
+		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:49:61-85
+	android:name
+		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:49:19-60
+activity#com.example.ambassadorpass.view.user.PageOneActivity
+ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:50:9-88
+	android:exported
+		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:50:61-85
+	android:name
+		ADDED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:50:19-60
 uses-sdk
 INJECTED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml
@@ -413,8 +425,30 @@ MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\USER\.gradle
 MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\USER\.gradle\caches\transforms-3\7ad011b879fc2d4d31c07efbdf7b554f\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\USER\.gradle\caches\transforms-3\4294631ee46b1f2df7ad1146ae84c771\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\USER\.gradle\caches\transforms-3\4294631ee46b1f2df7ad1146ae84c771\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\USER\.gradle\caches\transforms-3\a88e96d30bf7616c7d44254d98fa42ff\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\USER\.gradle\caches\transforms-3\a88e96d30bf7616c7d44254d98fa42ff\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.bumptech.glide:glide:4.15.1] C:\Users\USER\.gradle\caches\transforms-3\aedf4cd4b7dc58e3e45458fc2a5e6e17\transformed\glide-4.15.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:glide:4.15.1] C:\Users\USER\.gradle\caches\transforms-3\aedf4cd4b7dc58e3e45458fc2a5e6e17\transformed\glide-4.15.1\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.media3:media3-exoplayer-dash:1.4.1] C:\Users\USER\.gradle\caches\transforms-3\a81af90cb016b16cb0ae02e2d5c9d08e\transformed\media3-exoplayer-dash-1.4.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-exoplayer-dash:1.4.1] C:\Users\USER\.gradle\caches\transforms-3\a81af90cb016b16cb0ae02e2d5c9d08e\transformed\media3-exoplayer-dash-1.4.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-exoplayer:1.4.1] C:\Users\USER\.gradle\caches\transforms-3\2b77fca0c2512979e3843e278b71d242\transformed\media3-exoplayer-1.4.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-exoplayer:1.4.1] C:\Users\USER\.gradle\caches\transforms-3\2b77fca0c2512979e3843e278b71d242\transformed\media3-exoplayer-1.4.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-extractor:1.4.1] C:\Users\USER\.gradle\caches\transforms-3\0d84e7c622ef8fcea192021ebf52dec1\transformed\media3-extractor-1.4.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-extractor:1.4.1] C:\Users\USER\.gradle\caches\transforms-3\0d84e7c622ef8fcea192021ebf52dec1\transformed\media3-extractor-1.4.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-container:1.4.1] C:\Users\USER\.gradle\caches\transforms-3\7226a0e8215eb2b7413cce9bd9a2e6a1\transformed\media3-container-1.4.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-container:1.4.1] C:\Users\USER\.gradle\caches\transforms-3\7226a0e8215eb2b7413cce9bd9a2e6a1\transformed\media3-container-1.4.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-datasource:1.4.1] C:\Users\USER\.gradle\caches\transforms-3\16ffc866b0e4a2416a5040b0cee68b81\transformed\media3-datasource-1.4.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-datasource:1.4.1] C:\Users\USER\.gradle\caches\transforms-3\16ffc866b0e4a2416a5040b0cee68b81\transformed\media3-datasource-1.4.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-decoder:1.4.1] C:\Users\USER\.gradle\caches\transforms-3\fed7d8b73c27b6bb222d4e0d763f938c\transformed\media3-decoder-1.4.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-decoder:1.4.1] C:\Users\USER\.gradle\caches\transforms-3\fed7d8b73c27b6bb222d4e0d763f938c\transformed\media3-decoder-1.4.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-database:1.4.1] C:\Users\USER\.gradle\caches\transforms-3\41922df4ace14649901478e330647ce1\transformed\media3-database-1.4.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-database:1.4.1] C:\Users\USER\.gradle\caches\transforms-3\41922df4ace14649901478e330647ce1\transformed\media3-database-1.4.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-common:1.4.1] C:\Users\USER\.gradle\caches\transforms-3\0063b3f00a23b61137ae3dccaf33691a\transformed\media3-common-1.4.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-common:1.4.1] C:\Users\USER\.gradle\caches\transforms-3\0063b3f00a23b61137ae3dccaf33691a\transformed\media3-common-1.4.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-ui:1.4.1] C:\Users\USER\.gradle\caches\transforms-3\887338489a433ab9def759806294b59e\transformed\media3-ui-1.4.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-ui:1.4.1] C:\Users\USER\.gradle\caches\transforms-3\887338489a433ab9def759806294b59e\transformed\media3-ui-1.4.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.3.1] C:\Users\USER\.gradle\caches\transforms-3\064faf68bc1a563f5613d81e5973bc46\transformed\recyclerview-1.3.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.3.1] C:\Users\USER\.gradle\caches\transforms-3\064faf68bc1a563f5613d81e5973bc46\transformed\recyclerview-1.3.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta02] C:\Users\USER\.gradle\caches\transforms-3\a77b68fc95f51852c3ddb13e3cf08259\transformed\viewpager2-1.1.0-beta02\AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta02] C:\Users\USER\.gradle\caches\transforms-3\a77b68fc95f51852c3ddb13e3cf08259\transformed\viewpager2-1.1.0-beta02\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Users\USER\.gradle\caches\transforms-3\781e80ba824baa27bc5b1d117edc1fad\transformed\firebase-appcheck-interop-17.1.0\AndroidManifest.xml:18:5-44
 MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Users\USER\.gradle\caches\transforms-3\781e80ba824baa27bc5b1d117edc1fad\transformed\firebase-appcheck-interop-17.1.0\AndroidManifest.xml:18:5-44
 MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\USER\.gradle\caches\transforms-3\a44f655867b412a745c3d543b5a0a455\transformed\firebase-database-collection-18.0.1\AndroidManifest.xml:5:5-7:41
@@ -441,28 +475,8 @@ MERGED from [com.google.android.recaptcha:recaptcha:18.5.1] C:\Users\USER\.gradl
 MERGED from [com.google.android.recaptcha:recaptcha:18.5.1] C:\Users\USER\.gradle\caches\transforms-3\e288d9a9c5f12e4663fee82476314ac8\transformed\recaptcha-18.5.1\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.play:integrity:1.3.0] C:\Users\USER\.gradle\caches\transforms-3\1d24c6df7988527b7b85a5cff7895cbb\transformed\integrity-1.3.0\AndroidManifest.xml:4:5-44
 MERGED from [com.google.android.play:integrity:1.3.0] C:\Users\USER\.gradle\caches\transforms-3\1d24c6df7988527b7b85a5cff7895cbb\transformed\integrity-1.3.0\AndroidManifest.xml:4:5-44
-MERGED from [androidx.media3:media3-ui:1.4.1] C:\Users\USER\.gradle\caches\transforms-3\887338489a433ab9def759806294b59e\transformed\media3-ui-1.4.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.media3:media3-ui:1.4.1] C:\Users\USER\.gradle\caches\transforms-3\887338489a433ab9def759806294b59e\transformed\media3-ui-1.4.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.media3:media3-extractor:1.4.1] C:\Users\USER\.gradle\caches\transforms-3\0d84e7c622ef8fcea192021ebf52dec1\transformed\media3-extractor-1.4.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.media3:media3-extractor:1.4.1] C:\Users\USER\.gradle\caches\transforms-3\0d84e7c622ef8fcea192021ebf52dec1\transformed\media3-extractor-1.4.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.media3:media3-container:1.4.1] C:\Users\USER\.gradle\caches\transforms-3\7226a0e8215eb2b7413cce9bd9a2e6a1\transformed\media3-container-1.4.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.media3:media3-container:1.4.1] C:\Users\USER\.gradle\caches\transforms-3\7226a0e8215eb2b7413cce9bd9a2e6a1\transformed\media3-container-1.4.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.media3:media3-datasource:1.4.1] C:\Users\USER\.gradle\caches\transforms-3\16ffc866b0e4a2416a5040b0cee68b81\transformed\media3-datasource-1.4.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.media3:media3-datasource:1.4.1] C:\Users\USER\.gradle\caches\transforms-3\16ffc866b0e4a2416a5040b0cee68b81\transformed\media3-datasource-1.4.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.media3:media3-decoder:1.4.1] C:\Users\USER\.gradle\caches\transforms-3\fed7d8b73c27b6bb222d4e0d763f938c\transformed\media3-decoder-1.4.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.media3:media3-decoder:1.4.1] C:\Users\USER\.gradle\caches\transforms-3\fed7d8b73c27b6bb222d4e0d763f938c\transformed\media3-decoder-1.4.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.media3:media3-database:1.4.1] C:\Users\USER\.gradle\caches\transforms-3\41922df4ace14649901478e330647ce1\transformed\media3-database-1.4.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.media3:media3-database:1.4.1] C:\Users\USER\.gradle\caches\transforms-3\41922df4ace14649901478e330647ce1\transformed\media3-database-1.4.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.media3:media3-common:1.4.1] C:\Users\USER\.gradle\caches\transforms-3\0063b3f00a23b61137ae3dccaf33691a\transformed\media3-common-1.4.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.media3:media3-common:1.4.1] C:\Users\USER\.gradle\caches\transforms-3\0063b3f00a23b61137ae3dccaf33691a\transformed\media3-common-1.4.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.media3:media3-exoplayer-dash:1.4.1] C:\Users\USER\.gradle\caches\transforms-3\a81af90cb016b16cb0ae02e2d5c9d08e\transformed\media3-exoplayer-dash-1.4.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.media3:media3-exoplayer-dash:1.4.1] C:\Users\USER\.gradle\caches\transforms-3\a81af90cb016b16cb0ae02e2d5c9d08e\transformed\media3-exoplayer-dash-1.4.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.media3:media3-exoplayer:1.4.1] C:\Users\USER\.gradle\caches\transforms-3\2b77fca0c2512979e3843e278b71d242\transformed\media3-exoplayer-1.4.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.media3:media3-exoplayer:1.4.1] C:\Users\USER\.gradle\caches\transforms-3\2b77fca0c2512979e3843e278b71d242\transformed\media3-exoplayer-1.4.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.media:media:1.7.0] C:\Users\USER\.gradle\caches\transforms-3\d37461785cbcbc3683035d068313c198\transformed\media-1.7.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.media:media:1.7.0] C:\Users\USER\.gradle\caches\transforms-3\d37461785cbcbc3683035d068313c198\transformed\media-1.7.0\AndroidManifest.xml:5:5-44
-MERGED from [androidx.recyclerview:recyclerview:1.3.0] C:\Users\USER\.gradle\caches\transforms-3\a4ccbfd9c405593a6dca67864bb28603\transformed\recyclerview-1.3.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.recyclerview:recyclerview:1.3.0] C:\Users\USER\.gradle\caches\transforms-3\a4ccbfd9c405593a6dca67864bb28603\transformed\recyclerview-1.3.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\USER\.gradle\caches\transforms-3\ca7a98a1122f3b571fdf6d30d0c41293\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\USER\.gradle\caches\transforms-3\ca7a98a1122f3b571fdf6d30d0c41293\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\USER\.gradle\caches\transforms-3\181c73acab2480f073f93f08b6662fce\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
@@ -553,20 +567,22 @@ MERGED from [androidx.exifinterface:exifinterface:1.3.6] C:\Users\USER\.gradle\c
 MERGED from [androidx.exifinterface:exifinterface:1.3.6] C:\Users\USER\.gradle\caches\transforms-3\b9525c66297693d06e08747b7014e0a2\transformed\exifinterface-1.3.6\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\USER\.gradle\caches\transforms-3\529da0e3c03c5a9498789ee8fdcfbb44\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\USER\.gradle\caches\transforms-3\529da0e3c03c5a9498789ee8fdcfbb44\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.15.1] C:\Users\USER\.gradle\caches\transforms-3\7cd65c2f5b03e1300b15dc7f8580df4f\transformed\gifdecoder-4.15.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.15.1] C:\Users\USER\.gradle\caches\transforms-3\7cd65c2f5b03e1300b15dc7f8580df4f\transformed\gifdecoder-4.15.1\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\USER\.gradle\caches\transforms-3\594d1c2b782641eb77403dc9f6d71e03\transformed\profileinstaller-1.4.0\AndroidManifest.xml:21:5-44
 MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\USER\.gradle\caches\transforms-3\594d1c2b782641eb77403dc9f6d71e03\transformed\profileinstaller-1.4.0\AndroidManifest.xml:21:5-44
-MERGED from [com.google.firebase:firebase-components:18.0.0] C:\Users\USER\.gradle\caches\transforms-3\d68275cae43506beaac2ba84c0b52d5c\transformed\firebase-components-18.0.0\AndroidManifest.xml:18:5-44
-MERGED from [com.google.firebase:firebase-components:18.0.0] C:\Users\USER\.gradle\caches\transforms-3\d68275cae43506beaac2ba84c0b52d5c\transformed\firebase-components-18.0.0\AndroidManifest.xml:18:5-44
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\USER\.gradle\caches\transforms-3\7c67452c014d7e6b1d372374f179c9a0\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\USER\.gradle\caches\transforms-3\7c67452c014d7e6b1d372374f179c9a0\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
 MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\USER\.gradle\caches\transforms-3\5ba55b3096af08ad43643bc535864b35\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\USER\.gradle\caches\transforms-3\5ba55b3096af08ad43643bc535864b35\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-components:18.0.0] C:\Users\USER\.gradle\caches\transforms-3\d68275cae43506beaac2ba84c0b52d5c\transformed\firebase-components-18.0.0\AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-components:18.0.0] C:\Users\USER\.gradle\caches\transforms-3\d68275cae43506beaac2ba84c0b52d5c\transformed\firebase-components-18.0.0\AndroidManifest.xml:18:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\USER\.gradle\caches\transforms-3\cff09736f558d149713230e7b574cd80\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\USER\.gradle\caches\transforms-3\cff09736f558d149713230e7b574cd80\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\USER\.gradle\caches\transforms-3\1eb051e921c2ddc73077420af9c4ddce\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\USER\.gradle\caches\transforms-3\1eb051e921c2ddc73077420af9c4ddce\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\USER\.gradle\caches\transforms-3\ca326dd67428848b0dd126357386d817\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\USER\.gradle\caches\transforms-3\ca326dd67428848b0dd126357386d817\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\USER\.gradle\caches\transforms-3\cff09736f558d149713230e7b574cd80\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\USER\.gradle\caches\transforms-3\cff09736f558d149713230e7b574cd80\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\USER\.gradle\caches\transforms-3\9aca427999617d36575fa215f903f3c2\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\USER\.gradle\caches\transforms-3\9aca427999617d36575fa215f903f3c2\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] C:\Users\USER\.gradle\caches\transforms-3\4fb9d3c8eae6f2cbd790c15cecd789c8\transformed\print-1.0.0\AndroidManifest.xml:20:5-44

@@ -12,6 +12,7 @@
     <string name="google_app_id" translatable="false">1:564311636348:android:f15c49da35d1a903414cf9</string>
     <string name="google_crash_reporting_api_key" translatable="false">AIzaSyA50pkNHqIEHJKvW5vQG-ahH-kCnyF94t0</string>
     <string name="google_storage_bucket" translatable="false">ambassador-cca32.firebasestorage.app</string>
+    <string name="image_description">Image preview</string>
     <string name="project_id" translatable="false">ambassador-cca32</string>
     <style name="Theme.AmbassadorPass" parent="Theme.MaterialComponents.NoActionBar">
         

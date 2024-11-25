@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.ambassadorpass.app-mergeDebugResources-72:/values-pt-rPT/values-pt-rPT.xml",
+            "outputFile": "com.example.ambassadorpass.app-mergeDebugResources-73:/values-pt-rPT/values-pt-rPT.xml",
             "map": [
                 {
                     "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-3\\c7d196a6e0547044b52403539546d4aa\\transformed\\material3-1.0.0\\res\\values-pt-rPT\\values-pt-rPT.xml",

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.ambassadorpass.app-mergeDebugResources-72:/values-fr-rCA/values-fr-rCA.xml",
+            "outputFile": "com.example.ambassadorpass.app-mergeDebugResources-73:/values-fr-rCA/values-fr-rCA.xml",
             "map": [
                 {
                     "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-3\\2b77fca0c2512979e3843e278b71d242\\transformed\\media3-exoplayer-1.4.1\\res\\values-fr-rCA\\values-fr-rCA.xml",

@@ -7,6 +7,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -34,17 +35,21 @@ public abstract class ActivityMainBinding extends ViewDataBinding {
   public final PlayerView playerView;
 
   @NonNull
+  public final ProgressBar progressIndicator;
+
+  @NonNull
   public final Button validateKeycodeButton;
 
   protected ActivityMainBinding(Object _bindingComponent, View _root, int _localFieldCount,
       EditText keycodeEditText, Button loginButton, TextView loginText, ImageView logoImageView,
-      PlayerView playerView, Button validateKeycodeButton) {
+      PlayerView playerView, ProgressBar progressIndicator, Button validateKeycodeButton) {
     super(_bindingComponent, _root, _localFieldCount);
     this.keycodeEditText = keycodeEditText;
     this.loginButton = loginButton;
     this.loginText = loginText;
     this.logoImageView = logoImageView;
     this.playerView = playerView;
+    this.progressIndicator = progressIndicator;
     this.validateKeycodeButton = validateKeycodeButton;
   }
 

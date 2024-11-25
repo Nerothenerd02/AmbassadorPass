@@ -2,6 +2,7 @@ package com.example.ambassadorpass.view
 
 import android.content.Intent
 import android.os.Bundle
+import android.view.View
 import android.widget.Toast
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
@@ -14,6 +15,7 @@ import com.example.ambassadorpass.repository.KeycodeRepository
 import com.example.ambassadorpass.viewmodel.KeycodeViewModel
 import com.example.ambassadorpass.viewmodel.KeycodeViewModelFactory
 import com.example.ambassadorpass.view.user.PartyPreviewActivity
+import android.util.Log
 
 @OptIn(UnstableApi::class)
 class MainActivity : AppCompatActivity() {
@@ -45,8 +47,10 @@ class MainActivity : AppCompatActivity() {
         binding.validateKeycodeButton.setOnClickListener {
             val keycode = binding.keycodeEditText.text.toString().trim()
             if (keycode.isNotEmpty()) {
+                showLoading(true) // Show the progress bar
                 viewModel.validateKeycode(keycode) { isValid ->
                     runOnUiThread {
+                        showLoading(false) // Hide the progress bar
                         if (isValid) {
                             navigateToPartyPreview(keycode)
                         } else {
@@ -67,8 +71,9 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun navigateToPartyPreview(keycode: String) {
+        Log.d("MainActivity", "Navigating to PartyPreview with keycode: $keycode")
         val intent = Intent(this, PartyPreviewActivity::class.java).apply {
-            putExtra("KEYCODE", keycode)
+            putExtra("PARTY_LINK", keycode)
         }
         startActivity(intent)
     }
@@ -80,6 +85,12 @@ class MainActivity : AppCompatActivity() {
 
     private fun showToast(message: String) {
         Toast.makeText(this, message, Toast.LENGTH_SHORT).show()
+    }
+
+    private fun showLoading(isLoading: Boolean) {
+        binding.progressIndicator.visibility = if (isLoading) View.VISIBLE else View.GONE
+        binding.validateKeycodeButton.isEnabled = !isLoading
+        binding.loginButton.isEnabled = !isLoading
     }
 
     // Lifecycle management for video player

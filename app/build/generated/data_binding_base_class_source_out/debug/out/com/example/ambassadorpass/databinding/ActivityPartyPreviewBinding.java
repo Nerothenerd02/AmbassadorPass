@@ -4,8 +4,10 @@ package com.example.ambassadorpass.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ImageView;
+import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -24,13 +26,31 @@ public final class ActivityPartyPreviewBinding implements ViewBinding {
   public final ImageButton backButton;
 
   @NonNull
-  public final ImageView logoImageView;
+  public final ImageButton nextButton;
+
+  @NonNull
+  public final ImageButton previousButton;
+
+  @NonNull
+  public final ProgressBar progressBar;
+
+  @NonNull
+  public final Button skipButton;
+
+  @NonNull
+  public final ImageView slideshowImageView;
 
   private ActivityPartyPreviewBinding(@NonNull RelativeLayout rootView,
-      @NonNull ImageButton backButton, @NonNull ImageView logoImageView) {
+      @NonNull ImageButton backButton, @NonNull ImageButton nextButton,
+      @NonNull ImageButton previousButton, @NonNull ProgressBar progressBar,
+      @NonNull Button skipButton, @NonNull ImageView slideshowImageView) {
     this.rootView = rootView;
     this.backButton = backButton;
-    this.logoImageView = logoImageView;
+    this.nextButton = nextButton;
+    this.previousButton = previousButton;
+    this.progressBar = progressBar;
+    this.skipButton = skipButton;
+    this.slideshowImageView = slideshowImageView;
   }
 
   @Override
@@ -66,13 +86,38 @@ public final class ActivityPartyPreviewBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.logoImageView;
-      ImageView logoImageView = ViewBindings.findChildViewById(rootView, id);
-      if (logoImageView == null) {
+      id = R.id.nextButton;
+      ImageButton nextButton = ViewBindings.findChildViewById(rootView, id);
+      if (nextButton == null) {
         break missingId;
       }
 
-      return new ActivityPartyPreviewBinding((RelativeLayout) rootView, backButton, logoImageView);
+      id = R.id.previousButton;
+      ImageButton previousButton = ViewBindings.findChildViewById(rootView, id);
+      if (previousButton == null) {
+        break missingId;
+      }
+
+      id = R.id.progressBar;
+      ProgressBar progressBar = ViewBindings.findChildViewById(rootView, id);
+      if (progressBar == null) {
+        break missingId;
+      }
+
+      id = R.id.skipButton;
+      Button skipButton = ViewBindings.findChildViewById(rootView, id);
+      if (skipButton == null) {
+        break missingId;
+      }
+
+      id = R.id.slideshowImageView;
+      ImageView slideshowImageView = ViewBindings.findChildViewById(rootView, id);
+      if (slideshowImageView == null) {
+        break missingId;
+      }
+
+      return new ActivityPartyPreviewBinding((RelativeLayout) rootView, backButton, nextButton,
+          previousButton, progressBar, skipButton, slideshowImageView);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

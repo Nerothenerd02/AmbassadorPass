@@ -34,12 +34,6 @@
         android:testOnly="true"
         android:theme="@style/Theme.AmbassadorPass" >
         <activity
-            android:name="com.example.ambassadorpass.view.user.PartyPreviewActivity"
-            android:exported="false" />
-        <activity
-            android:name="com.example.ambassadorpass.view.VideoPlayerManager"
-            android:exported="false" /> <!-- SplashActivity: Initial activity launched when the app starts -->
-        <activity
             android:name="com.example.ambassadorpass.view.SplashActivity"
             android:exported="true" >
             <intent-filter>
@@ -48,6 +42,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.example.ambassadorpass.view.IntroductionActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.ambassadorpass.view.MainActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AmbassadorPass" />
+        <activity
+            android:name="com.example.ambassadorpass.view.user.PartyPreviewActivity"
+            android:exported="false" />
         <activity
             android:name="com.example.ambassadorpass.view.admin.PhotoPreviewActivity"
             android:exported="false" />
@@ -70,9 +74,8 @@
             android:name="com.example.ambassadorpass.view.admin.AdminDashboard"
             android:exported="false" />
         <activity
-            android:name="com.example.ambassadorpass.view.MainActivity"
-            android:exported="false"
-            android:theme="@style/Theme.AmbassadorPass" />
+            android:name="com.example.ambassadorpass.view.user.PageOneActivity"
+            android:exported="false" />
 
         <service
             android:name="com.google.firebase.components.ComponentDiscoveryService"

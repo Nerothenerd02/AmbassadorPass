@@ -3050,6 +3050,8 @@ drawable baseline_email_24
 drawable baseline_lock_24
 drawable baseline_person_24
 drawable baseline_send_24
+drawable baseline_skip_next_24
+drawable baseline_skip_previous_24
 drawable baseline_upload_24
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
@@ -3059,6 +3061,7 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable circular_background
 drawable common_full_open_on_phone
 drawable common_google_signin_btn_icon_dark
 drawable common_google_signin_btn_icon_dark_focused
@@ -3451,6 +3454,7 @@ id decor_content_parent
 id default_activity_button
 id deltaRelative
 id dependency_ordering
+id descriptionText
 id design_bottom_sheet
 id design_menu_item_action_area
 id design_menu_item_action_area_stub
@@ -3560,8 +3564,10 @@ id forever
 id fragment_container_view_tag
 id frost
 id fullscreen_header
+id getStartedButton
 id ghost_view
 id ghost_view_holder
+id glide_custom_view_target_tag
 id gone
 id graph
 id graph_wrap
@@ -3584,11 +3590,13 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageView
 id immediateStop
 id included
 id indeterminate
 id info
 id inspection_slot_table_set
+id introductionText
 id invisible
 id inward
 id is_pooling_container_tag
@@ -3687,6 +3695,7 @@ id navigation_header_container
 id never
 id neverCompleteToEnd
 id neverCompleteToStart
+id nextButton
 id noScroll
 id noState
 id none
@@ -3736,7 +3745,9 @@ id pooling_container_listener_holder_tag
 id position
 id postLayout
 id pressed
+id previousButton
 id progressBar
+id progressIndicator
 id progress_circular
 id progress_circular1
 id progress_circular2
@@ -3800,9 +3811,11 @@ id showCustom
 id showHome
 id showTitle
 id sin
+id skipButton
 id skipCollapsed
 id skipped
 id slide
+id slideshowImageView
 id snackbar_action
 id snackbar_text
 id snap
@@ -4034,8 +4047,10 @@ layout activity_ambassadordashboard
 layout activity_assign_ambassadors
 layout activity_create_admin
 layout activity_create_party
+layout activity_introduction
 layout activity_login_admin
 layout activity_main
+layout activity_page_one
 layout activity_party_preview
 layout activity_photo_preview
 layout activity_splash
@@ -4071,6 +4086,7 @@ layout exo_styled_sub_settings_list_item
 layout exo_track_selection_dialog
 layout ime_base_split_test_activity
 layout ime_secondary_split_test_activity
+layout item_image
 layout list_item
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
@@ -4143,6 +4159,8 @@ layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
 mipmap ic_launcher
+mipmap ic_launcher_adaptive_back
+mipmap ic_launcher_adaptive_fore
 mipmap ic_launcher_round
 plurals exo_controls_fastforward_by_amount_description
 plurals exo_controls_rewind_by_amount_description
@@ -4293,6 +4311,7 @@ string google_crash_reporting_api_key
 string google_storage_bucket
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
+string image_description
 string in_progress
 string indeterminate
 string item_view_role_description

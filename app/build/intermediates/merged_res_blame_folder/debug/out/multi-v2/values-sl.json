@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.ambassadorpass.app-mergeDebugResources-72:/values-sl/values-sl.xml",
+            "outputFile": "com.example.ambassadorpass.app-mergeDebugResources-73:/values-sl/values-sl.xml",
             "map": [
                 {
                     "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-3\\722c9fc0aae217e1b49231d5d5dda930\\transformed\\play-services-basement-18.4.0\\res\\values-sl\\values.xml",
