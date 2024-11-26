@@ -4,9 +4,12 @@ package com.example.ambassadorpass.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.FrameLayout;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
@@ -26,11 +29,28 @@ public final class ActivityPageOneBinding implements ViewBinding {
   @NonNull
   public final ImageView logoImageView;
 
+  @NonNull
+  public final TextView partyname;
+
+  @NonNull
+  public final Button proceedButton;
+
+  @NonNull
+  public final TextView typewriter;
+
+  @NonNull
+  public final FrameLayout typewriterContainer;
+
   private ActivityPageOneBinding(@NonNull RelativeLayout rootView, @NonNull ImageButton backButton,
-      @NonNull ImageView logoImageView) {
+      @NonNull ImageView logoImageView, @NonNull TextView partyname, @NonNull Button proceedButton,
+      @NonNull TextView typewriter, @NonNull FrameLayout typewriterContainer) {
     this.rootView = rootView;
     this.backButton = backButton;
     this.logoImageView = logoImageView;
+    this.partyname = partyname;
+    this.proceedButton = proceedButton;
+    this.typewriter = typewriter;
+    this.typewriterContainer = typewriterContainer;
   }
 
   @Override
@@ -72,7 +92,32 @@ public final class ActivityPageOneBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityPageOneBinding((RelativeLayout) rootView, backButton, logoImageView);
+      id = R.id.partyname;
+      TextView partyname = ViewBindings.findChildViewById(rootView, id);
+      if (partyname == null) {
+        break missingId;
+      }
+
+      id = R.id.proceedButton;
+      Button proceedButton = ViewBindings.findChildViewById(rootView, id);
+      if (proceedButton == null) {
+        break missingId;
+      }
+
+      id = R.id.typewriter;
+      TextView typewriter = ViewBindings.findChildViewById(rootView, id);
+      if (typewriter == null) {
+        break missingId;
+      }
+
+      id = R.id.typewriterContainer;
+      FrameLayout typewriterContainer = ViewBindings.findChildViewById(rootView, id);
+      if (typewriterContainer == null) {
+        break missingId;
+      }
+
+      return new ActivityPageOneBinding((RelativeLayout) rootView, backButton, logoImageView,
+          partyname, proceedButton, typewriter, typewriterContainer);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

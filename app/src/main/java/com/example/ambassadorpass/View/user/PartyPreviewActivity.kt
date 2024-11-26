@@ -125,10 +125,18 @@ class PartyPreviewActivity : AppCompatActivity() {
     }
 
     private fun navigateToIntroduction() {
-        val intent = Intent(this, PageOneActivity::class.java)
+        // Stop the slideshow
+        handler.removeCallbacksAndMessages(null)
+
+        val partyLink = intent.getStringExtra("PARTY_LINK") ?: ""
+        val intent = Intent(this, PageOneActivity::class.java).apply {
+            putExtra("PARTY_LINK", partyLink)
+        }
         startActivity(intent)
         finish()
     }
+
+
 
     private fun showLoading(isLoading: Boolean) {
         progressBar.visibility = if (isLoading) View.VISIBLE else View.GONE

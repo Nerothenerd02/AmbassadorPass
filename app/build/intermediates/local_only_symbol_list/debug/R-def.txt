@@ -65,6 +65,7 @@ id partyLocationEditText
 id partyLocationLayout
 id partyNameEditText
 id partyNameLayout
+id partyname
 id password
 id photo1
 id photo2
@@ -73,6 +74,7 @@ id photo4
 id playerView
 id player_view
 id previousButton
+id proceedButton
 id progressBar
 id progressIndicator
 id progress_circular1
@@ -83,6 +85,8 @@ id selectPhotosButton
 id sendButton
 id skipButton
 id slideshowImageView
+id typewriter
+id typewriterContainer
 id username
 id validateKeycodeButton
 layout activity_admindashboard

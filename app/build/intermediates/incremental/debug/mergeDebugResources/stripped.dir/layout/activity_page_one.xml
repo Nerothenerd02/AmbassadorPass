@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background"
-    tools:context=".View.PageOneActivity">
+    android:background="@android:color/black"
+    tools:context=".view.user.PageOneActivity">
 
     <ImageButton
         android:id="@+id/backButton"
@@ -27,5 +27,54 @@
         android:layout_below="@id/backButton"
         android:layout_centerHorizontal="true" />
 
+    <TextView
+        android:id="@+id/partyname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logoImageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="Party Name"
+        android:textColor="@android:color/white"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:gravity="center" />
+
+    <!-- Invisible box (FrameLayout) to enclose the typewriter TextView -->
+    <FrameLayout
+        android:id="@+id/typewriterContainer"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@id/partyname"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:clipChildren="true"
+        android:clipToPadding="true">
+
+        <!-- Typewriter TextView -->
+        <TextView
+            android:id="@+id/typewriter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Wanna Party?"
+            android:textColor="#880808"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:gravity="center" />
+    </FrameLayout>
+
+    <!-- Proceed Button directly below the typewriter container -->
+    <Button
+        android:id="@+id/proceedButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/typewriterContainer"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#880808"
+        android:text="Proceed"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
 
 </RelativeLayout>
