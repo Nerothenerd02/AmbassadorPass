@@ -1,8 +1,10 @@
 package com.example.ambassadorpass.view.user
 
+import android.content.Intent
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Button
 import android.widget.ImageButton
 import android.widget.TextView
 import android.widget.Toast
@@ -30,7 +32,6 @@ class PageOneActivity : AppCompatActivity() {
         // Get the partyLink passed from the previous page
         val partyLink = intent.getStringExtra("PARTY_LINK") ?: ""
         Log.d("PageOneActivity", "Received partyLink: $partyLink")
-
 
         // Initialize the party name TextView
         val partyNameTextView = findViewById<TextView>(R.id.partyname)
@@ -66,5 +67,18 @@ class PageOneActivity : AppCompatActivity() {
                 }
             }
         }
+
+        // Initialize the "Proceed" button
+        val proceedButton: Button = findViewById(R.id.proceedButton)
+        proceedButton.setOnClickListener {
+            navigateToPageTwo(partyLink)
+        }
+    }
+
+    private fun navigateToPageTwo(partyLink: String) {
+        val intent = Intent(this, PageTwoActivity::class.java).apply {
+            putExtra("PARTY_LINK", partyLink)
+        }
+        startActivity(intent)
     }
 }

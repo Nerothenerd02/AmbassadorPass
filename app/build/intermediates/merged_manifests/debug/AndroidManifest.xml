@@ -34,6 +34,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.AmbassadorPass" >
         <activity
+            android:name="com.example.ambassadorpass.view.user.PageTwoActivity"
+            android:exported="false" />
+        <activity
             android:name="com.example.ambassadorpass.view.SplashActivity"
             android:exported="true" >
             <intent-filter>

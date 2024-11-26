@@ -28,12 +28,15 @@ id Ticketprice
 id TicketpriceEditText
 id adminEmail
 id adminName
+id ageEditText
+id ageLayout
 id ambassadorEmail
 id ambassadorMarkupEditText
 id ambassadorMarkupLayout
 id ambassadorName
 id assignAmbassadorButton
 id assignAmbassadorsButton
+id attendeeRegistrationTitle
 id availableTicketsEditText
 id availableTicketsLayout
 id backButton
@@ -44,7 +47,13 @@ id createPartyButton
 id createPartyTitle
 id dashboardTitle
 id descriptionText
+id emailEditText
+id emailLayout
+id genderEditText
+id genderLayout
 id getStartedButton
+id identificationEditText
+id identificationLayout
 id imageView
 id introductionText
 id keycodeEditText
@@ -55,6 +64,8 @@ id listview
 id loginButton
 id loginText
 id logoImageView
+id nameEditText
+id nameLayout
 id nextButton
 id partyDate
 id partyDateEditText
@@ -67,6 +78,8 @@ id partyNameEditText
 id partyNameLayout
 id partyname
 id password
+id phoneEditText
+id phoneLayout
 id photo1
 id photo2
 id photo3
@@ -85,6 +98,7 @@ id selectPhotosButton
 id sendButton
 id skipButton
 id slideshowImageView
+id submitButton
 id typewriter
 id typewriterContainer
 id username
@@ -98,6 +112,7 @@ layout activity_introduction
 layout activity_login_admin
 layout activity_main
 layout activity_page_one
+layout activity_page_two
 layout activity_party_preview
 layout activity_photo_preview
 layout activity_splash

@@ -3353,6 +3353,8 @@ id adjust_height
 id adjust_width
 id adminEmail
 id adminName
+id ageEditText
+id ageLayout
 id alertTitle
 id aligned
 id all
@@ -3372,6 +3374,7 @@ id asConfigured
 id assignAmbassadorButton
 id assignAmbassadorsButton
 id async
+id attendeeRegistrationTitle
 id auto
 id autoComplete
 id autoCompleteToEnd
@@ -3485,6 +3488,8 @@ id edge
 id edit_query
 id edit_text_id
 id elastic
+id emailEditText
+id emailLayout
 id embed
 id end
 id endToStart
@@ -3564,6 +3569,8 @@ id forever
 id fragment_container_view_tag
 id frost
 id fullscreen_header
+id genderEditText
+id genderLayout
 id getStartedButton
 id ghost_view
 id ghost_view_holder
@@ -3586,6 +3593,8 @@ id horizontal_only
 id icon
 id icon_group
 id icon_only
+id identificationEditText
+id identificationLayout
 id ifRoom
 id ignore
 id ignoreRequest
@@ -3685,6 +3694,8 @@ id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
+id nameEditText
+id nameLayout
 id navigation_bar_item_active_indicator_view
 id navigation_bar_item_icon_container
 id navigation_bar_item_icon_view
@@ -3735,6 +3746,8 @@ id path
 id pathRelative
 id peekHeight
 id percent
+id phoneEditText
+id phoneLayout
 id photo1
 id photo2
 id photo3
@@ -3846,6 +3859,7 @@ id status_bar_latest_event_content
 id stop
 id stretch
 id submenuarrow
+id submitButton
 id submit_area
 id supportScrollUp
 id surface_view
@@ -4055,6 +4069,7 @@ layout activity_introduction
 layout activity_login_admin
 layout activity_main
 layout activity_page_one
+layout activity_page_two
 layout activity_party_preview
 layout activity_photo_preview
 layout activity_splash
