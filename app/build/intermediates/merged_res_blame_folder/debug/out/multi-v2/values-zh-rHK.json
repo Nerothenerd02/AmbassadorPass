@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.ambassadorpass.app-mergeDebugResources-73:/values-zh-rHK/values-zh-rHK.xml",
+            "outputFile": "com.example.ambassadorpass.app-mergeDebugResources-74:/values-zh-rHK/values-zh-rHK.xml",
             "map": [
                 {
                     "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-3\\2b77fca0c2512979e3843e278b71d242\\transformed\\media3-exoplayer-1.4.1\\res\\values-zh-rHK\\values-zh-rHK.xml",
@@ -158,6 +158,23 @@
                         "startOffsets": "5974",
                         "endColumns": "107",
                         "endOffsets": "6077"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-3\\c088eed55b7648ab2d246275c69cc5ff\\transformed\\zxing-android-embedded-4.3.0\\res\\values-zh-rHK\\values-zh-rHK.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,104,151,244",
+                        "endColumns": "48,46,92,69",
+                        "endOffsets": "99,146,239,309"
+                    },
+                    "to": {
+                        "startLines": "215,216,217,218",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "15636,15685,15732,15825",
+                        "endColumns": "48,46,92,69",
+                        "endOffsets": "15680,15727,15820,15890"
                     }
                 },
                 {

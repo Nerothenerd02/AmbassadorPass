@@ -53,25 +53,26 @@ com.example.ambassadorpass.app-browser-1.4.0-51 C:\Users\USER\.gradle\caches\tra
 com.example.ambassadorpass.app-lifecycle-viewmodel-ktx-2.8.7-52 C:\Users\USER\.gradle\caches\transforms-3\bc6194ccbb9144a0b6219694ba747232\transformed\lifecycle-viewmodel-ktx-2.8.7\res
 com.example.ambassadorpass.app-constraintlayout-2.2.0-53 C:\Users\USER\.gradle\caches\transforms-3\bc7b3772b48db7c71eebaaec1a1097cf\transformed\constraintlayout-2.2.0\res
 com.example.ambassadorpass.app-databinding-adapters-8.1.2-54 C:\Users\USER\.gradle\caches\transforms-3\bf5a0d5641ffcb0f54d1a600b5dec0d6\transformed\databinding-adapters-8.1.2\res
-com.example.ambassadorpass.app-core-ktx-1.13.0-55 C:\Users\USER\.gradle\caches\transforms-3\c6fe707f6676f562ce3045a4968ec96f\transformed\core-ktx-1.13.0\res
-com.example.ambassadorpass.app-material3-1.0.0-56 C:\Users\USER\.gradle\caches\transforms-3\c7d196a6e0547044b52403539546d4aa\transformed\material3-1.0.0\res
-com.example.ambassadorpass.app-core-runtime-2.2.0-57 C:\Users\USER\.gradle\caches\transforms-3\ca326dd67428848b0dd126357386d817\transformed\core-runtime-2.2.0\res
-com.example.ambassadorpass.app-drawerlayout-1.1.1-58 C:\Users\USER\.gradle\caches\transforms-3\ca7a98a1122f3b571fdf6d30d0c41293\transformed\drawerlayout-1.1.1\res
-com.example.ambassadorpass.app-media-1.7.0-59 C:\Users\USER\.gradle\caches\transforms-3\d37461785cbcbc3683035d068313c198\transformed\media-1.7.0\res
-com.example.ambassadorpass.app-activity-1.9.3-60 C:\Users\USER\.gradle\caches\transforms-3\d5b5032179a31e722ffcb3e6d82540db\transformed\activity-1.9.3\res
-com.example.ambassadorpass.app-material-1.4.0-61 C:\Users\USER\.gradle\caches\transforms-3\dbbbf776b6b455a2aa9cadc8165ab9b6\transformed\material-1.4.0\res
-com.example.ambassadorpass.app-material-ripple-1.4.0-62 C:\Users\USER\.gradle\caches\transforms-3\e00cadd71537592c9b711d6c1dc735d1\transformed\material-ripple-1.4.0\res
-com.example.ambassadorpass.app-lifecycle-livedata-2.8.7-63 C:\Users\USER\.gradle\caches\transforms-3\e218d60d9a1454d135a085f9cc021a31\transformed\lifecycle-livedata-2.8.7\res
-com.example.ambassadorpass.app-lifecycle-process-2.8.7-64 C:\Users\USER\.gradle\caches\transforms-3\e2781f9e6f3c7bcbc20b6c55cbdc3626\transformed\lifecycle-process-2.8.7\res
-com.example.ambassadorpass.app-activity-compose-1.9.3-65 C:\Users\USER\.gradle\caches\transforms-3\e42866974784f3e4bdd5f2998b7fd1cb\transformed\activity-compose-1.9.3\res
-com.example.ambassadorpass.app-lifecycle-livedata-core-ktx-2.8.7-66 C:\Users\USER\.gradle\caches\transforms-3\e4c0f994ebb0100d8b16ef2bc1f541e8\transformed\lifecycle-livedata-core-ktx-2.8.7\res
-com.example.ambassadorpass.app-core-1.13.0-67 C:\Users\USER\.gradle\caches\transforms-3\ec65e07a4fedc69b288bcf004aa4d40b\transformed\core-1.13.0\res
-com.example.ambassadorpass.app-ui-tooling-preview-1.4.0-68 C:\Users\USER\.gradle\caches\transforms-3\f782bd5212205a28ec3b705a1cf646d4\transformed\ui-tooling-preview-1.4.0\res
-com.example.ambassadorpass.app-ui-geometry-1.4.0-69 C:\Users\USER\.gradle\caches\transforms-3\fec2467847e34e838974ea7bbdf55ada\transformed\ui-geometry-1.4.0\res
-com.example.ambassadorpass.app-google-services-70 D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\build\generated\res\google-services\debug
-com.example.ambassadorpass.app-resValues-71 D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\build\generated\res\resValues\debug
-com.example.ambassadorpass.app-packageDebugResources-72 D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
-com.example.ambassadorpass.app-packageDebugResources-73 D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
-com.example.ambassadorpass.app-merged_res-74 D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\build\intermediates\merged_res\debug
-com.example.ambassadorpass.app-debug-75 D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\debug\res
-com.example.ambassadorpass.app-main-76 D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\res
+com.example.ambassadorpass.app-zxing-android-embedded-4.3.0-55 C:\Users\USER\.gradle\caches\transforms-3\c088eed55b7648ab2d246275c69cc5ff\transformed\zxing-android-embedded-4.3.0\res
+com.example.ambassadorpass.app-core-ktx-1.13.0-56 C:\Users\USER\.gradle\caches\transforms-3\c6fe707f6676f562ce3045a4968ec96f\transformed\core-ktx-1.13.0\res
+com.example.ambassadorpass.app-material3-1.0.0-57 C:\Users\USER\.gradle\caches\transforms-3\c7d196a6e0547044b52403539546d4aa\transformed\material3-1.0.0\res
+com.example.ambassadorpass.app-core-runtime-2.2.0-58 C:\Users\USER\.gradle\caches\transforms-3\ca326dd67428848b0dd126357386d817\transformed\core-runtime-2.2.0\res
+com.example.ambassadorpass.app-drawerlayout-1.1.1-59 C:\Users\USER\.gradle\caches\transforms-3\ca7a98a1122f3b571fdf6d30d0c41293\transformed\drawerlayout-1.1.1\res
+com.example.ambassadorpass.app-media-1.7.0-60 C:\Users\USER\.gradle\caches\transforms-3\d37461785cbcbc3683035d068313c198\transformed\media-1.7.0\res
+com.example.ambassadorpass.app-activity-1.9.3-61 C:\Users\USER\.gradle\caches\transforms-3\d5b5032179a31e722ffcb3e6d82540db\transformed\activity-1.9.3\res
+com.example.ambassadorpass.app-material-1.4.0-62 C:\Users\USER\.gradle\caches\transforms-3\dbbbf776b6b455a2aa9cadc8165ab9b6\transformed\material-1.4.0\res
+com.example.ambassadorpass.app-material-ripple-1.4.0-63 C:\Users\USER\.gradle\caches\transforms-3\e00cadd71537592c9b711d6c1dc735d1\transformed\material-ripple-1.4.0\res
+com.example.ambassadorpass.app-lifecycle-livedata-2.8.7-64 C:\Users\USER\.gradle\caches\transforms-3\e218d60d9a1454d135a085f9cc021a31\transformed\lifecycle-livedata-2.8.7\res
+com.example.ambassadorpass.app-lifecycle-process-2.8.7-65 C:\Users\USER\.gradle\caches\transforms-3\e2781f9e6f3c7bcbc20b6c55cbdc3626\transformed\lifecycle-process-2.8.7\res
+com.example.ambassadorpass.app-activity-compose-1.9.3-66 C:\Users\USER\.gradle\caches\transforms-3\e42866974784f3e4bdd5f2998b7fd1cb\transformed\activity-compose-1.9.3\res
+com.example.ambassadorpass.app-lifecycle-livedata-core-ktx-2.8.7-67 C:\Users\USER\.gradle\caches\transforms-3\e4c0f994ebb0100d8b16ef2bc1f541e8\transformed\lifecycle-livedata-core-ktx-2.8.7\res
+com.example.ambassadorpass.app-core-1.13.0-68 C:\Users\USER\.gradle\caches\transforms-3\ec65e07a4fedc69b288bcf004aa4d40b\transformed\core-1.13.0\res
+com.example.ambassadorpass.app-ui-tooling-preview-1.4.0-69 C:\Users\USER\.gradle\caches\transforms-3\f782bd5212205a28ec3b705a1cf646d4\transformed\ui-tooling-preview-1.4.0\res
+com.example.ambassadorpass.app-ui-geometry-1.4.0-70 C:\Users\USER\.gradle\caches\transforms-3\fec2467847e34e838974ea7bbdf55ada\transformed\ui-geometry-1.4.0\res
+com.example.ambassadorpass.app-google-services-71 D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\build\generated\res\google-services\debug
+com.example.ambassadorpass.app-resValues-72 D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\build\generated\res\resValues\debug
+com.example.ambassadorpass.app-packageDebugResources-73 D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.example.ambassadorpass.app-packageDebugResources-74 D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.example.ambassadorpass.app-merged_res-75 D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\build\intermediates\merged_res\debug
+com.example.ambassadorpass.app-debug-76 D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\debug\res
+com.example.ambassadorpass.app-main-77 D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\res

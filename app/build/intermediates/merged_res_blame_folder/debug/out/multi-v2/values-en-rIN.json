@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.ambassadorpass.app-mergeDebugResources-73:/values-en-rIN/values-en-rIN.xml",
+            "outputFile": "com.example.ambassadorpass.app-mergeDebugResources-74:/values-en-rIN/values-en-rIN.xml",
             "map": [
                 {
                     "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-3\\ec65e07a4fedc69b288bcf004aa4d40b\\transformed\\core-1.13.0\\res\\values-en-rIN\\values-en-rIN.xml",

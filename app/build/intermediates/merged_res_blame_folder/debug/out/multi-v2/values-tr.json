@@ -1,8 +1,25 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.ambassadorpass.app-mergeDebugResources-73:/values-tr/values-tr.xml",
+            "outputFile": "com.example.ambassadorpass.app-mergeDebugResources-74:/values-tr/values-tr.xml",
             "map": [
+                {
+                    "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-3\\c088eed55b7648ab2d246275c69cc5ff\\transformed\\zxing-android-embedded-4.3.0\\res\\values-tr\\values-tr.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,116,166,313",
+                        "endColumns": "60,49,146,119",
+                        "endOffsets": "111,161,308,428"
+                    },
+                    "to": {
+                        "startLines": "215,216,217,218",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "17624,17685,17735,17882",
+                        "endColumns": "60,49,146,119",
+                        "endOffsets": "17680,17730,17877,17997"
+                    }
+                },
                 {
                     "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-3\\4294631ee46b1f2df7ad1146ae84c771\\transformed\\appcompat-1.6.1\\res\\values-tr\\values-tr.xml",
                     "from": {

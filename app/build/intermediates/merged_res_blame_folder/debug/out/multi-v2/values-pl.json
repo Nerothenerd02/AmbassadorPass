@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.ambassadorpass.app-mergeDebugResources-73:/values-pl/values-pl.xml",
+            "outputFile": "com.example.ambassadorpass.app-mergeDebugResources-74:/values-pl/values-pl.xml",
             "map": [
                 {
                     "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-3\\2b77fca0c2512979e3843e278b71d242\\transformed\\media3-exoplayer-1.4.1\\res\\values-pl\\values-pl.xml",
@@ -86,6 +86,23 @@
                         "startOffsets": "5964,6068,6236,6358,6468,6619,6744,6855,7094,7265,7374,7549,7677,7836,7997,8066,8132",
                         "endColumns": "103,167,121,109,150,124,110,98,170,108,174,127,158,160,68,65,83",
                         "endOffsets": "6063,6231,6353,6463,6614,6739,6850,6949,7260,7369,7544,7672,7831,7992,8061,8127,8211"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-3\\c088eed55b7648ab2d246275c69cc5ff\\transformed\\zxing-android-embedded-4.3.0\\res\\values-pl\\values-pl.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,114,161,325",
+                        "endColumns": "58,46,163,109",
+                        "endOffsets": "109,156,320,430"
+                    },
+                    "to": {
+                        "startLines": "221,222,223,224",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "18258,18317,18364,18528",
+                        "endColumns": "58,46,163,109",
+                        "endOffsets": "18312,18359,18523,18633"
                     }
                 },
                 {

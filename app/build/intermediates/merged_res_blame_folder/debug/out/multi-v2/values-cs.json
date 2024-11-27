@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.ambassadorpass.app-mergeDebugResources-73:/values-cs/values-cs.xml",
+            "outputFile": "com.example.ambassadorpass.app-mergeDebugResources-74:/values-cs/values-cs.xml",
             "map": [
                 {
                     "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-3\\ade1d76647d2e0446047afa70b788fa6\\transformed\\play-services-base-18.1.0\\res\\values-cs\\values.xml",
@@ -88,6 +88,23 @@
                         "startOffsets": "10723,10799,10861,10924,10993,11070,11140,11222,11302",
                         "endColumns": "75,61,62,68,76,69,81,79,79",
                         "endOffsets": "10794,10856,10919,10988,11065,11135,11217,11297,11377"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-3\\c088eed55b7648ab2d246275c69cc5ff\\transformed\\zxing-android-embedded-4.3.0\\res\\values-cs\\values-cs.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,114,161,311",
+                        "endColumns": "58,46,149,83",
+                        "endOffsets": "109,156,306,390"
+                    },
+                    "to": {
+                        "startLines": "221,222,223,224",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "18115,18174,18221,18371",
+                        "endColumns": "58,46,149,83",
+                        "endOffsets": "18169,18216,18366,18450"
                     }
                 },
                 {

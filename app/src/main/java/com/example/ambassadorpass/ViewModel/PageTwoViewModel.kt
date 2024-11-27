@@ -10,6 +10,15 @@ class PageTwoViewModel(private val repository: PartyRegistrationRepository) : Vi
     val submissionSuccess = MutableLiveData<Boolean>()
     val errorMessage = MutableLiveData<String>()
 
+    // Store attendee details
+    var attendeeName: String = ""
+    var attendeeGender: String = ""
+    var attendeeAge: String = ""
+    var attendeeEmail: String = ""
+    var attendeePhone: String = ""
+    var attendeeIdentification: String = ""
+    var partyLink: String = ""
+
     fun submitAttendee(
         name: String,
         gender: String,
@@ -20,14 +29,18 @@ class PageTwoViewModel(private val repository: PartyRegistrationRepository) : Vi
         partyLink: String
     ) {
         isSubmitting.value = true
+
+        // Save details to be passed to next activity
+        attendeeName = name
+        attendeeGender = gender
+        attendeeAge = age
+        attendeeEmail = email
+        attendeePhone = phone
+        attendeeIdentification = identification
+        this.partyLink = partyLink
+
         repository.addAttendee(
-            name = name,
-            gender = gender,
-            age = age,
-            email = email,
-            phone = phone,
-            identification = identification,
-            partyLink = partyLink
+            name, gender, age, email, phone, identification, partyLink
         ) { success, error ->
             isSubmitting.value = false
             if (success) {
@@ -38,3 +51,5 @@ class PageTwoViewModel(private val repository: PartyRegistrationRepository) : Vi
         }
     }
 }
+
+

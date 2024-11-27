@@ -78,6 +78,7 @@ id partyNameEditText
 id partyNameLayout
 id partyname
 id password
+id payButton
 id phoneEditText
 id phoneLayout
 id photo1
@@ -87,6 +88,8 @@ id photo4
 id playerView
 id player_view
 id previousButton
+id pricename
+id pricestate
 id proceedButton
 id progressBar
 id progressIndicator
@@ -112,6 +115,7 @@ layout activity_introduction
 layout activity_login_admin
 layout activity_main
 layout activity_page_one
+layout activity_page_three
 layout activity_page_two
 layout activity_party_preview
 layout activity_photo_preview

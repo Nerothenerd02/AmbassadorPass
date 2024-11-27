@@ -1,5 +1,6 @@
 package com.example.ambassadorpass.view.user
 
+import android.content.Intent
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -36,7 +37,7 @@ class PageTwoActivity : AppCompatActivity() {
         val emailEditText = findViewById<TextInputEditText>(R.id.emailEditText)
         val identificationEditText = findViewById<TextInputEditText>(R.id.identificationEditText)
         val phoneEditText = findViewById<TextInputEditText>(R.id.phoneEditText)
-        val submitButton: Button = findViewById(R.id.submitButton) // Initialize the submitButton here
+        val submitButton: Button = findViewById(R.id.submitButton)
 
         // Set the click listener for the submit button
         submitButton.setOnClickListener {
@@ -60,7 +61,6 @@ class PageTwoActivity : AppCompatActivity() {
 
     private fun observeViewModel() {
         viewModel.isSubmitting.observe(this) { isSubmitting ->
-            // Show loading indicator if necessary
             if (isSubmitting) {
                 Toast.makeText(this, "Submitting...", Toast.LENGTH_SHORT).show()
             }
@@ -68,7 +68,17 @@ class PageTwoActivity : AppCompatActivity() {
 
         viewModel.submissionSuccess.observe(this) { success ->
             if (success) {
-                Toast.makeText(this, "Registration successful!", Toast.LENGTH_SHORT).show()
+                // Navigate to PageThreeActivity with attendee details
+                val intent = Intent(this, PageThreeActivity::class.java).apply {
+                    putExtra("name", viewModel.attendeeName)
+                    putExtra("gender", viewModel.attendeeGender)
+                    putExtra("age", viewModel.attendeeAge)
+                    putExtra("email", viewModel.attendeeEmail)
+                    putExtra("phone", viewModel.attendeePhone)
+                    putExtra("identification", viewModel.attendeeIdentification)
+                    putExtra("partyLink", viewModel.partyLink)
+                }
+                startActivity(intent)
                 finish()
             }
         }

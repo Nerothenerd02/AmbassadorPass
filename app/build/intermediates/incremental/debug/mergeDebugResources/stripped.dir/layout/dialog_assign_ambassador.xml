@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="16dp">
+
+        <!-- Ambassador Name Field -->
+        <EditText
+            android:id="@+id/ambassadorName"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:padding="8dp"
+            android:hint="Ambassador Name"
+            android:drawableLeft="@drawable/baseline_person_24"
+            android:textColor="@android:color/black"
+            android:drawablePadding="8dp"
+            android:background="@drawable/custom_edittext"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Ambassador Email Field -->
+        <EditText
+            android:id="@+id/ambassadorEmail"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:padding="8dp"
+            android:inputType="textEmailAddress"
+            android:hint="Ambassador Email"
+            android:drawableLeft="@drawable/baseline_email_24"
+            android:textColor="@android:color/black"
+            android:drawablePadding="8dp"
+            android:background="@drawable/custom_edittext"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Send Button -->
+        <Button
+            android:id="@+id/sendButton"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Send"
+            android:textSize="16sp"
+            android:backgroundTint="#880808"
+            android:textColor="@android:color/white"
+            app:cornerRadius="15dp" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

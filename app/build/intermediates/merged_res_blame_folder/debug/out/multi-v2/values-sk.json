@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.ambassadorpass.app-mergeDebugResources-73:/values-sk/values-sk.xml",
+            "outputFile": "com.example.ambassadorpass.app-mergeDebugResources-74:/values-sk/values-sk.xml",
             "map": [
                 {
                     "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-3\\887338489a433ab9def759806294b59e\\transformed\\media3-ui-1.4.1\\res\\values-sk\\values-sk.xml",
@@ -88,6 +88,23 @@
                         "startOffsets": "5695,5790,8324,8419,8602,13140,13219,17164,17254,17335,17404,17552,17635,17805,17978,18056,18124",
                         "endColumns": "94,83,94,102,91,78,93,89,80,68,68,82,86,71,77,67,113",
                         "endOffsets": "5785,5869,8414,8517,8689,13214,13308,17249,17330,17399,17468,17630,17717,17872,18051,18119,18233"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-3\\c088eed55b7648ab2d246275c69cc5ff\\transformed\\zxing-android-embedded-4.3.0\\res\\values-sk\\values-sk.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,114,161,315",
+                        "endColumns": "58,46,153,120",
+                        "endOffsets": "109,156,310,431"
+                    },
+                    "to": {
+                        "startLines": "221,222,223,224",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "18238,18297,18344,18498",
+                        "endColumns": "58,46,153,120",
+                        "endOffsets": "18292,18339,18493,18614"
                     }
                 },
                 {

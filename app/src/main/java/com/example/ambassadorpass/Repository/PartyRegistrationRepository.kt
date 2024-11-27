@@ -142,4 +142,111 @@ class PartyRegistrationRepository {
                 Log.e("PartyRegistrationRepo", "Error fetching party details", exception)
                 callback(false, "Error fetching party details: ${exception.message}")
             }
-    }}
+    }
+        // Fetch ticket price by partyLink
+        fun fetchTicketPriceByPartyLink(
+            partyLink: String,
+            callback: (ticketPrice: Double?) -> Unit
+        ) {
+            if (partyLink.isBlank()) {
+                Log.e("PartyRegistrationRepo", "PartyLink is empty or blank")
+                callback(null)
+                return
+            }
+
+            firestore.collection("parties")
+                .whereArrayContains("partyLinks", partyLink) // Query using partyLink
+                .get()
+                .addOnSuccessListener { querySnapshot ->
+                    if (!querySnapshot.isEmpty) {
+                        val partyDocument = querySnapshot.documents.first()
+                        val ticketPrice = partyDocument.getDouble("ticketPrice")
+                        callback(ticketPrice) // Return the ticket price
+                    } else {
+                        Log.e("PartyRegistrationRepo", "No party found with the given partyLink")
+                        callback(null)
+                    }
+                }
+                .addOnFailureListener { exception ->
+                    Log.e("PartyRegistrationRepo", "Error fetching ticket price: ${exception.message}", exception)
+                    callback(null)
+                }
+        }
+    // Update tickets in the parties collection
+    fun updateTicketCounts(partyLink: String, callback: (Boolean, String?) -> Unit) {
+        firestore.collection("parties")
+            .whereArrayContains("partyLinks", partyLink)
+            .get()
+            .addOnSuccessListener { querySnapshot ->
+                if (!querySnapshot.isEmpty) {
+                    val document = querySnapshot.documents.first()
+                    val partyRef = document.reference
+
+                    firestore.runTransaction { transaction ->
+                        val partySnapshot = transaction.get(partyRef)
+                        val ticketsAvailable = partySnapshot.getLong("ticketsAvailable") ?: 0
+                        val ticketsSold = partySnapshot.getLong("ticketsSold") ?: 0
+
+                        if (ticketsAvailable > 0) {
+                            transaction.update(partyRef, "ticketsAvailable", ticketsAvailable - 1)
+                            transaction.update(partyRef, "ticketsSold", ticketsSold + 1)
+                        } else {
+                            throw Exception("No tickets available.")
+                        }
+                    }.addOnSuccessListener {
+                        callback(true, null)
+                    }.addOnFailureListener { exception ->
+                        callback(false, exception.message)
+                    }
+                } else {
+                    callback(false, "No matching party found.")
+                }
+            }
+            .addOnFailureListener { exception ->
+                callback(false, exception.message)
+            }
+    }
+
+    // Update attendee's payment status and generate QR code
+    fun updateAttendeePaymentStatus(
+        partyLink: String,
+        identification: String,
+        qrCodeData: String,
+        callback: (Boolean, String?) -> Unit
+    ) {
+        firestore.collection("attendees")
+            .whereEqualTo("partyLink", partyLink)
+            .whereEqualTo("identification", identification)
+            .get()
+            .addOnSuccessListener { querySnapshot ->
+                if (!querySnapshot.isEmpty) {
+                    val attendeeRef = querySnapshot.documents.first().reference
+
+                    attendeeRef.update(
+                        mapOf(
+                            "paymentStatus" to "paid",
+                            "qrCode" to qrCodeData
+                        )
+                    ).addOnSuccessListener {
+                        callback(true, null)
+                    }.addOnFailureListener { exception ->
+                        callback(false, exception.message)
+                    }
+                } else {
+                    callback(false, "Attendee not found.")
+                }
+            }
+            .addOnFailureListener { exception ->
+                callback(false, exception.message)
+            }
+    }
+
+
+
+}
+
+
+
+
+
+

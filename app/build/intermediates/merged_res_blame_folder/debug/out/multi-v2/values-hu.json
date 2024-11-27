@@ -1,8 +1,25 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.ambassadorpass.app-mergeDebugResources-73:/values-hu/values-hu.xml",
+            "outputFile": "com.example.ambassadorpass.app-mergeDebugResources-74:/values-hu/values-hu.xml",
             "map": [
+                {
+                    "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-3\\c088eed55b7648ab2d246275c69cc5ff\\transformed\\zxing-android-embedded-4.3.0\\res\\values-hu\\values-hu.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,114,161,287",
+                        "endColumns": "58,46,125,115",
+                        "endOffsets": "109,156,282,398"
+                    },
+                    "to": {
+                        "startLines": "215,216,217,218",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "18099,18158,18205,18331",
+                        "endColumns": "58,46,125,115",
+                        "endOffsets": "18153,18200,18326,18442"
+                    }
+                },
                 {
                     "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-3\\ade1d76647d2e0446047afa70b788fa6\\transformed\\play-services-base-18.1.0\\res\\values-hu\\values.xml",
                     "from": {
