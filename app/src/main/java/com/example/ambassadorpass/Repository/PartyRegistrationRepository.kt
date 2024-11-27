@@ -240,6 +240,74 @@ class PartyRegistrationRepository {
                 callback(false, exception.message)
             }
     }
+    fun fetchAttendeeDetails(
+        partyLink: String,
+        identification: String,
+        callback: (Map<String, Any?>?, String?) -> Unit
+    ) {
+        // Search for the party by partyLink
+        firestore.collection("parties")
+            .whereArrayContains("partyLinks", partyLink) // Query partyLink as an array field
+            .get()
+            .addOnSuccessListener { partyQuerySnapshot ->
+                if (!partyQuerySnapshot.isEmpty) {
+                    val partyDocument = partyQuerySnapshot.documents.first()
+                    val partyName = partyDocument.getString("partyName") ?: "Unknown Party"
+
+                    // Search for the attendee in the attendees collection
+                    firestore.collection("attendees")
+                        .whereEqualTo("partyLink", partyLink)
+                        .whereEqualTo("identification", identification)
+                        .get()
+                        .addOnSuccessListener { attendeeQuerySnapshot ->
+                            if (!attendeeQuerySnapshot.isEmpty) {
+                                val attendeeData = attendeeQuerySnapshot.documents.first().data?.toMutableMap()
+                                attendeeData?.put("partyName", partyName) // Include the partyName
+                                callback(attendeeData, null)
+                            } else {
+                                callback(null, "No attendee found with the provided details.")
+                            }
+                        }
+                        .addOnFailureListener { exception ->
+                            callback(null, exception.message)
+                        }
+                } else {
+                    callback(null, "No party found with the provided party link.")
+                }
+            }
+            .addOnFailureListener { exception ->
+                callback(null, exception.message)
+            }
+    }
+    fun fetchPartyDetailsForPageFive(
+        partyLink: String,
+        callback: (Map<String, Any?>?, String?) -> Unit
+    ) {
+        firestore.collection("parties")
+            .whereArrayContains("partyLinks", partyLink)
+            .get()
+            .addOnSuccessListener { querySnapshot ->
+                if (!querySnapshot.isEmpty) {
+                    val partyDocument = querySnapshot.documents.first()
+                    val partyLocation = partyDocument.getString("partyLocation") ?: "Location not available"
+
+                    // Handle partyDate as Timestamp
+                    val partyDate = partyDocument.getTimestamp("partyDate")?.toDate()?.toString() ?: "Date not available"
+
+                    // Build the result map
+                    val result = mapOf(
+                        "partyLocation" to partyLocation,
+                        "partyDate" to partyDate
+                    )
+                    callback(result, null)
+                } else {
+                    callback(null, "No party found for the provided party link.")
+                }
+            }
+            .addOnFailureListener { exception ->
+                callback(null, exception.message)
+            }
+    }
 
 
 

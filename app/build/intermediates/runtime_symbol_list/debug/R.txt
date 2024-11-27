@@ -3368,6 +3368,8 @@ int id action_text 0x7f0a0047
 int id actions 0x7f0a0048
 int id activity_chooser_view_content 0x7f0a0049
 int id add 0x7f0a004a
+int id additionalInfoContainer 0x7f0a02b7
+int id additionalInfoTextView 0x7f0a02b8
 int id adjust_height 0x7f0a004b
 int id adjust_width 0x7f0a004c
 int id adminEmail 0x7f0a004d
@@ -3445,6 +3447,7 @@ int id closest 0x7f0a0094
 int id collapseActionView 0x7f0a0095
 int id compose_view_saveable_id_tag 0x7f0a0096
 int id compress 0x7f0a0097
+int id confirmButton 0x7f0a02b9
 int id confirm_button 0x7f0a0098
 int id constraint 0x7f0a0099
 int id consume_window_insets_tag 0x7f0a009a
@@ -3482,6 +3485,7 @@ int id design_menu_item_action_area 0x7f0a00b9
 int id design_menu_item_action_area_stub 0x7f0a00ba
 int id design_menu_item_text 0x7f0a00bb
 int id design_navigation_view 0x7f0a00bc
+int id detailsContainer 0x7f0a02ba
 int id dialog_button 0x7f0a00bd
 int id dimensions 0x7f0a00be
 int id direct 0x7f0a00bf
@@ -3509,6 +3513,7 @@ int id edit_text_id 0x7f0a00d4
 int id elastic 0x7f0a00d5
 int id emailEditText 0x7f0a00d6
 int id emailLayout 0x7f0a00d7
+int id emailTextView 0x7f0a02ae
 int id embed 0x7f0a00d8
 int id end 0x7f0a00d9
 int id endToStart 0x7f0a00da
@@ -3614,6 +3619,7 @@ int id icon_group 0x7f0a013d
 int id icon_only 0x7f0a013e
 int id identificationEditText 0x7f0a013f
 int id identificationLayout 0x7f0a0140
+int id identificationTextView 0x7f0a02af
 int id ifRoom 0x7f0a0141
 int id ignore 0x7f0a0142
 int id ignoreRequest 0x7f0a0143
@@ -3715,6 +3721,7 @@ int id mtrl_view_tag_bottom_padding 0x7f0a01a2
 int id multiply 0x7f0a01a3
 int id nameEditText 0x7f0a01a4
 int id nameLayout 0x7f0a01a5
+int id nameTextView 0x7f0a02b0
 int id navigation_bar_item_active_indicator_view 0x7f0a01a6
 int id navigation_bar_item_icon_container 0x7f0a01a7
 int id navigation_bar_item_icon_view 0x7f0a01a8
@@ -3754,11 +3761,13 @@ int id partyDateEditText 0x7f0a01c9
 int id partyDateLayout 0x7f0a01ca
 int id partyDescriptionEditText 0x7f0a01cb
 int id partyDescriptionLayout 0x7f0a01cc
+int id partyDetailsTextView 0x7f0a02bb
 int id partyLocationEditText 0x7f0a01cd
 int id partyLocationLayout 0x7f0a01ce
 int id partyNameEditText 0x7f0a01cf
 int id partyNameLayout 0x7f0a01d0
 int id partyname 0x7f0a01d1
+int id partynameTextView 0x7f0a02b1
 int id password 0x7f0a01d2
 int id password_toggle 0x7f0a01d3
 int id path 0x7f0a01d4
@@ -3768,6 +3777,7 @@ int id peekHeight 0x7f0a01d7
 int id percent 0x7f0a01d8
 int id phoneEditText 0x7f0a01d9
 int id phoneLayout 0x7f0a01da
+int id phoneTextView 0x7f0a02b2
 int id photo1 0x7f0a01db
 int id photo2 0x7f0a01dc
 int id photo3 0x7f0a01dd
@@ -3791,6 +3801,7 @@ int id progress_circular2 0x7f0a01ee
 int id progress_circular3 0x7f0a01ef
 int id progress_circular4 0x7f0a01f0
 int id progress_horizontal 0x7f0a01f1
+int id qrCodeImageView 0x7f0a02b3
 int id radio 0x7f0a01f2
 int id ratio 0x7f0a01f3
 int id rectangles 0x7f0a01f4
@@ -3919,7 +3930,9 @@ int id textinput_suffix_text 0x7f0a026e
 int id texture_view 0x7f0a026f
 int id time 0x7f0a0270
 int id title 0x7f0a0271
+int id titleContainer 0x7f0a02b4
 int id titleDividerNoCustom 0x7f0a0272
+int id titleTextView 0x7f0a02b5
 int id title_template 0x7f0a0273
 int id toggle 0x7f0a0274
 int id top 0x7f0a0275
@@ -3940,6 +3953,8 @@ int id uniform 0x7f0a0283
 int id unlabeled 0x7f0a0284
 int id up 0x7f0a0285
 int id useLogo 0x7f0a0286
+int id userDetailsContainer 0x7f0a02b6
+int id userDetailsTextView 0x7f0a02bc
 int id username 0x7f0a0287
 int id validateKeycodeButton 0x7f0a0288
 int id vertical 0x7f0a0289
@@ -4103,6 +4118,8 @@ int layout activity_create_party 0x7f0d0020
 int layout activity_introduction 0x7f0d0021
 int layout activity_login_admin 0x7f0d0022
 int layout activity_main 0x7f0d0023
+int layout activity_page_five 0x7f0d0095
+int layout activity_page_four 0x7f0d0094
 int layout activity_page_one 0x7f0d0024
 int layout activity_page_three 0x7f0d0025
 int layout activity_page_two 0x7f0d0026

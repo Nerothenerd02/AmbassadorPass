@@ -1,5 +1,6 @@
 package com.example.ambassadorpass.view.user
 
+import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import android.widget.Button
@@ -43,7 +44,7 @@ class PageThreeActivity : AppCompatActivity() {
         }
 
         // Observe ViewModel LiveData
-        observeViewModel(priceNameTextView)
+        observeViewModel(priceNameTextView, partyLink, identification)
 
         // Fetch ticket price via ViewModel
         viewModel.fetchTicketPrice(partyLink)
@@ -73,7 +74,7 @@ class PageThreeActivity : AppCompatActivity() {
         }
     }
 
-    private fun observeViewModel(priceNameTextView: TextView) {
+    private fun observeViewModel(priceNameTextView: TextView, partyLink: String, identification: String) {
         // Observe ticket price
         viewModel.ticketPrice.observe(this) { ticketPrice ->
             priceNameTextView.text = if (ticketPrice != null) {
@@ -95,7 +96,22 @@ class PageThreeActivity : AppCompatActivity() {
         viewModel.operationStatus.observe(this) { status ->
             Toast.makeText(this, status, Toast.LENGTH_SHORT).show()
             Log.d("PageThreeActivity", status)
+
+            // Navigate to PageFourActivity on successful payment
+            if (status.contains("Success")) {
+                navigateToPageFour(partyLink, identification)
+            }
         }
+    }
+
+    private fun navigateToPageFour(partyLink: String, identification: String) {
+        Log.d("PageThreeActivity", "Navigating to PageFourActivity.")
+        val intent = Intent(this, PageFourActivity::class.java).apply {
+            putExtra("partyLink", partyLink)
+            putExtra("identification", identification)
+        }
+        startActivity(intent)
+        finish() // Close the current activity
     }
 
     private fun generateQRCodeData(partyLink: String, identification: String): String {

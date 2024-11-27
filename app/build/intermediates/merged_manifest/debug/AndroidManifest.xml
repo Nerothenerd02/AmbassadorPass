@@ -54,6 +54,12 @@
         android:testOnly="true"
         android:theme="@style/Theme.AmbassadorPass" >
         <activity
+            android:name="com.example.ambassadorpass.view.user.PageFiveActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.ambassadorpass.view.user.PageFourActivity"
+            android:exported="false" />
+        <activity
             android:name="com.example.ambassadorpass.view.user.PageThreeActivity"
             android:exported="false" />
         <activity

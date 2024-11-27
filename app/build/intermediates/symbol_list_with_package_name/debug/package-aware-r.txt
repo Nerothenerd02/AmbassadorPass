@@ -3369,6 +3369,8 @@ id action_text
 id actions
 id activity_chooser_view_content
 id add
+id additionalInfoContainer
+id additionalInfoTextView
 id adjust_height
 id adjust_width
 id adminEmail
@@ -3446,6 +3448,7 @@ id closest
 id collapseActionView
 id compose_view_saveable_id_tag
 id compress
+id confirmButton
 id confirm_button
 id constraint
 id consume_window_insets_tag
@@ -3483,6 +3486,7 @@ id design_menu_item_action_area
 id design_menu_item_action_area_stub
 id design_menu_item_text
 id design_navigation_view
+id detailsContainer
 id dialog_button
 id dimensions
 id direct
@@ -3510,6 +3514,7 @@ id edit_text_id
 id elastic
 id emailEditText
 id emailLayout
+id emailTextView
 id embed
 id end
 id endToStart
@@ -3615,6 +3620,7 @@ id icon_group
 id icon_only
 id identificationEditText
 id identificationLayout
+id identificationTextView
 id ifRoom
 id ignore
 id ignoreRequest
@@ -3716,6 +3722,7 @@ id mtrl_view_tag_bottom_padding
 id multiply
 id nameEditText
 id nameLayout
+id nameTextView
 id navigation_bar_item_active_indicator_view
 id navigation_bar_item_icon_container
 id navigation_bar_item_icon_view
@@ -3755,11 +3762,13 @@ id partyDateEditText
 id partyDateLayout
 id partyDescriptionEditText
 id partyDescriptionLayout
+id partyDetailsTextView
 id partyLocationEditText
 id partyLocationLayout
 id partyNameEditText
 id partyNameLayout
 id partyname
+id partynameTextView
 id password
 id password_toggle
 id path
@@ -3769,6 +3778,7 @@ id peekHeight
 id percent
 id phoneEditText
 id phoneLayout
+id phoneTextView
 id photo1
 id photo2
 id photo3
@@ -3792,6 +3802,7 @@ id progress_circular2
 id progress_circular3
 id progress_circular4
 id progress_horizontal
+id qrCodeImageView
 id radio
 id ratio
 id rectangles
@@ -3920,7 +3931,9 @@ id textinput_suffix_text
 id texture_view
 id time
 id title
+id titleContainer
 id titleDividerNoCustom
+id titleTextView
 id title_template
 id toggle
 id top
@@ -3941,6 +3954,8 @@ id uniform
 id unlabeled
 id up
 id useLogo
+id userDetailsContainer
+id userDetailsTextView
 id username
 id validateKeycodeButton
 id vertical
@@ -4104,6 +4119,8 @@ layout activity_create_party
 layout activity_introduction
 layout activity_login_admin
 layout activity_main
+layout activity_page_five
+layout activity_page_four
 layout activity_page_one
 layout activity_page_three
 layout activity_page_two
