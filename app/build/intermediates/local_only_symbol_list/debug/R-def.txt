@@ -43,6 +43,7 @@ id availableTicketsEditText
 id availableTicketsLayout
 id backButton
 id confirmButton
+id confirmPasswordInput
 id createAdmin
 id createAdminButton
 id createAdminText
@@ -73,6 +74,7 @@ id logoImageView
 id nameEditText
 id nameLayout
 id nameTextView
+id newPasswordText
 id nextButton
 id partyDate
 id partyDateEditText
@@ -87,6 +89,7 @@ id partyNameLayout
 id partyname
 id partynameTextView
 id password
+id passwordInput
 id payButton
 id phoneEditText
 id phoneLayout
@@ -129,6 +132,7 @@ layout activity_create_party
 layout activity_introduction
 layout activity_login_admin
 layout activity_main
+layout activity_new_password
 layout activity_page_five
 layout activity_page_four
 layout activity_page_one

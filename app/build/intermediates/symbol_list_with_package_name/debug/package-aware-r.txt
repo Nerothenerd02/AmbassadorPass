@@ -3449,6 +3449,7 @@ id collapseActionView
 id compose_view_saveable_id_tag
 id compress
 id confirmButton
+id confirmPasswordInput
 id confirm_button
 id constraint
 id consume_window_insets_tag
@@ -3733,6 +3734,7 @@ id navigation_header_container
 id never
 id neverCompleteToEnd
 id neverCompleteToStart
+id newPasswordText
 id nextButton
 id noScroll
 id noState
@@ -3770,6 +3772,7 @@ id partyNameLayout
 id partyname
 id partynameTextView
 id password
+id passwordInput
 id password_toggle
 id path
 id pathRelative
@@ -4119,6 +4122,7 @@ layout activity_create_party
 layout activity_introduction
 layout activity_login_admin
 layout activity_main
+layout activity_new_password
 layout activity_page_five
 layout activity_page_four
 layout activity_page_one

@@ -3448,6 +3448,7 @@ int id collapseActionView 0x7f0a0095
 int id compose_view_saveable_id_tag 0x7f0a0096
 int id compress 0x7f0a0097
 int id confirmButton 0x7f0a02b9
+int id confirmPasswordInput 0x7f0a02bd
 int id confirm_button 0x7f0a0098
 int id constraint 0x7f0a0099
 int id consume_window_insets_tag 0x7f0a009a
@@ -3732,6 +3733,7 @@ int id navigation_header_container 0x7f0a01ac
 int id never 0x7f0a01ad
 int id neverCompleteToEnd 0x7f0a01ae
 int id neverCompleteToStart 0x7f0a01af
+int id newPasswordText 0x7f0a02be
 int id nextButton 0x7f0a01b0
 int id noScroll 0x7f0a01b1
 int id noState 0x7f0a01b2
@@ -3769,6 +3771,7 @@ int id partyNameLayout 0x7f0a01d0
 int id partyname 0x7f0a01d1
 int id partynameTextView 0x7f0a02b1
 int id password 0x7f0a01d2
+int id passwordInput 0x7f0a02bf
 int id password_toggle 0x7f0a01d3
 int id path 0x7f0a01d4
 int id pathRelative 0x7f0a01d5
@@ -4118,6 +4121,7 @@ int layout activity_create_party 0x7f0d0020
 int layout activity_introduction 0x7f0d0021
 int layout activity_login_admin 0x7f0d0022
 int layout activity_main 0x7f0d0023
+int layout activity_new_password 0x7f0d0096
 int layout activity_page_five 0x7f0d0095
 int layout activity_page_four 0x7f0d0094
 int layout activity_page_one 0x7f0d0024

@@ -37,6 +37,7 @@ class UserRepository {
                 val user = document.toObject(User::class.java)
                 user?.apply {
                     tier = document.getString("tier")?.lowercase() ?: "unknown"
+                    isFirstTimeUser = document.getBoolean("isFirstTimeUser") ?: true // Default to true if not set
                 }
                 Log.d("UserRepository", "User data retrieved successfully: $user")
                 user
@@ -49,6 +50,64 @@ class UserRepository {
             null
         }
     }
+    suspend fun updateFirstTimeUserStatus(email: String): Boolean {
+        return try {
+            val querySnapshot = firestore.collection("ambassadors")
+                .whereEqualTo("email", email)
+                .get()
+                .await()
+
+            if (!querySnapshot.isEmpty) {
+                val document = querySnapshot.documents.first()
+                firestore.collection("ambassadors")
+                    .document(document.id)
+                    .update("isFirstTimeUser", false)
+                    .await()
+                Log.d("UserRepository", "Updated isFirstTimeUser to false for email: $email")
+                true
+            } else {
+                Log.d("UserRepository", "No document found for email: $email")
+                false
+            }
+        } catch (e: Exception) {
+            Log.e("UserRepository", "Error updating isFirstTimeUser status: ${e.message}", e)
+            false
+        }
+    }
+    suspend fun updatePassword(newPassword: String): Boolean {
+        return try {
+            val currentUser = FirebaseAuth.getInstance().currentUser
+            currentUser?.updatePassword(newPassword)?.await()
+            Log.d("UserRepository", "Password updated successfully")
+            true
+        } catch (e: Exception) {
+            Log.e("UserRepository", "Error updating password: ${e.message}", e)
+            false
+        }
+    }
+    suspend fun getCurrentUserTier(): String {
+        return try {
+            val currentUser = FirebaseAuth.getInstance().currentUser
+            val email = currentUser?.email ?: return "unknown"
+
+            val querySnapshot = firestore.collection("ambassadors")
+                .whereEqualTo("email", email)
+                .get()
+                .await()
+
+            if (!querySnapshot.isEmpty) {
+                val document = querySnapshot.documents.first()
+                document.getString("tier")?.lowercase() ?: "unknown"
+            } else {
+                "unknown"
+            }
+        } catch (e: Exception) {
+            Log.e("UserRepository", "Error getting user tier: ${e.message}", e)
+            "unknown"
+        }
+    }
+
+
 
 }
 

@@ -39,6 +39,7 @@ class LoginActivityAdmin : AppCompatActivity() {
         loginButton = findViewById(R.id.loginButton)
         val backButton: ImageButton = findViewById(R.id.backButton)
 
+        // Ensure security provider is up-to-date
         ProviderInstaller.installIfNeededAsync(this, object : ProviderInstaller.ProviderInstallListener {
             override fun onProviderInstalled() {
                 // Provider is up-to-date, no action needed
@@ -73,6 +74,26 @@ class LoginActivityAdmin : AppCompatActivity() {
                         // Fetch user data by email
                         loginViewModel.getUserByEmail(email).observe(this, Observer { user ->
                             if (user != null) {
+                                val isFirstTimeUser = user.isFirstTimeUser // Default to true if the field is missing
+                                Log.d("LoginActivityAdmin", "User isFirstTimeUser: $isFirstTimeUser")
+
+                                if (isFirstTimeUser) {
+                                    Log.d("LoginActivityAdmin", "Navigating to NewPassword for first-time user")
+
+                                    // Update Firestore to set isFirstTimeUser to false
+                                    loginViewModel.updateFirstTimeUserStatus(email).observe(this, Observer { updateSuccess ->
+                                        if (updateSuccess) {
+                                            Log.d("LoginActivityAdmin", "isFirstTimeUser updated successfully for $email")
+                                        } else {
+                                            Log.e("LoginActivityAdmin", "Failed to update isFirstTimeUser for $email")
+                                        }
+                                    })
+
+                                    startActivity(Intent(this, NewPassword::class.java))
+                                    finish()
+                                    return@Observer
+                                }
+
                                 val tier = user.tier
                                 Log.d("LoginActivityAdmin", "User tier: $tier")
 

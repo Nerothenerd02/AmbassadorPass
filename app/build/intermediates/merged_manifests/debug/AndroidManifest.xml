@@ -54,6 +54,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.AmbassadorPass" >
         <activity
+            android:name="com.example.ambassadorpass.view.NewPassword"
+            android:exported="false" />
+        <activity
             android:name="com.example.ambassadorpass.view.user.PageFiveActivity"
             android:exported="false" />
         <activity

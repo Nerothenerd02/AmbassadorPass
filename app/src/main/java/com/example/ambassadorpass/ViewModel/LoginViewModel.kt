@@ -20,4 +20,12 @@ class LoginViewModel(private val userRepository: UserRepository) : ViewModel() {
         val user = userRepository.getUserByEmail(email)
         emit(user)
     }
+
+    fun updateFirstTimeUserStatus(email: String): LiveData<Boolean> = liveData(Dispatchers.IO) {
+        val result = userRepository.updateFirstTimeUserStatus(email)
+        emit(result)
+    }
+
+
+
 }
