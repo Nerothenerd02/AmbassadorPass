@@ -3513,6 +3513,7 @@ int id edit_query 0x7f0a00d3
 int id edit_text_id 0x7f0a00d4
 int id elastic 0x7f0a00d5
 int id emailEditText 0x7f0a00d6
+int id emailInput 0x7f0a02c0
 int id emailLayout 0x7f0a00d7
 int id emailTextView 0x7f0a02ae
 int id embed 0x7f0a00d8
@@ -3591,6 +3592,8 @@ int id fixed_width 0x7f0a0120
 int id flip 0x7f0a0121
 int id floating 0x7f0a0122
 int id forever 0x7f0a0123
+int id forgotPasswordButton 0x7f0a02c1
+int id forgotPasswordText 0x7f0a02c2
 int id fragment_container_view_tag 0x7f0a0124
 int id frost 0x7f0a0125
 int id fullscreen_header 0x7f0a0126
@@ -3656,6 +3659,7 @@ int id listName 0x7f0a0160
 int id list_item 0x7f0a0161
 int id listview 0x7f0a0162
 int id loginButton 0x7f0a0163
+int id loginCardView 0x7f0a02c3
 int id loginText 0x7f0a0164
 int id logoImageView 0x7f0a0165
 int id m3_side_sheet 0x7f0a0166
@@ -4118,6 +4122,7 @@ int layout activity_ambassadordashboard 0x7f0d001d
 int layout activity_assign_ambassadors 0x7f0d001e
 int layout activity_create_admin 0x7f0d001f
 int layout activity_create_party 0x7f0d0020
+int layout activity_forgot_password 0x7f0d0097
 int layout activity_introduction 0x7f0d0021
 int layout activity_login_admin 0x7f0d0022
 int layout activity_main 0x7f0d0023

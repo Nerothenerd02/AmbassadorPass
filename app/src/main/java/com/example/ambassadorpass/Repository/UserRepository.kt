@@ -106,6 +106,17 @@ class UserRepository {
             "unknown"
         }
     }
+    suspend fun sendPasswordResetEmail(email: String): Boolean {
+        return try {
+            FirebaseAuth.getInstance().sendPasswordResetEmail(email).await()
+            Log.d("UserRepository", "Password reset email sent successfully to $email")
+            true
+        } catch (e: Exception) {
+            Log.e("UserRepository", "Error sending password reset email: ${e.message}")
+            false
+        }
+    }
+
 
 
 

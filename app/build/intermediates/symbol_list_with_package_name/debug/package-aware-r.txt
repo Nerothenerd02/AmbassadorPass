@@ -3514,6 +3514,7 @@ id edit_query
 id edit_text_id
 id elastic
 id emailEditText
+id emailInput
 id emailLayout
 id emailTextView
 id embed
@@ -3592,6 +3593,8 @@ id fixed_width
 id flip
 id floating
 id forever
+id forgotPasswordButton
+id forgotPasswordText
 id fragment_container_view_tag
 id frost
 id fullscreen_header
@@ -3657,6 +3660,7 @@ id listName
 id list_item
 id listview
 id loginButton
+id loginCardView
 id loginText
 id logoImageView
 id m3_side_sheet
@@ -4119,6 +4123,7 @@ layout activity_ambassadordashboard
 layout activity_assign_ambassadors
 layout activity_create_admin
 layout activity_create_party
+layout activity_forgot_password
 layout activity_introduction
 layout activity_login_admin
 layout activity_main

@@ -12,6 +12,7 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.cardview.widget.CardView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.ambassadorpass.R;
@@ -27,7 +28,13 @@ public final class ActivityLoginAdminBinding implements ViewBinding {
   public final ImageButton backButton;
 
   @NonNull
+  public final Button forgotPasswordButton;
+
+  @NonNull
   public final Button loginButton;
+
+  @NonNull
+  public final CardView loginCardView;
 
   @NonNull
   public final TextView loginText;
@@ -42,11 +49,14 @@ public final class ActivityLoginAdminBinding implements ViewBinding {
   public final EditText username;
 
   private ActivityLoginAdminBinding(@NonNull RelativeLayout rootView,
-      @NonNull ImageButton backButton, @NonNull Button loginButton, @NonNull TextView loginText,
+      @NonNull ImageButton backButton, @NonNull Button forgotPasswordButton,
+      @NonNull Button loginButton, @NonNull CardView loginCardView, @NonNull TextView loginText,
       @NonNull ImageView logoImageView, @NonNull EditText password, @NonNull EditText username) {
     this.rootView = rootView;
     this.backButton = backButton;
+    this.forgotPasswordButton = forgotPasswordButton;
     this.loginButton = loginButton;
+    this.loginCardView = loginCardView;
     this.loginText = loginText;
     this.logoImageView = logoImageView;
     this.password = password;
@@ -86,9 +96,21 @@ public final class ActivityLoginAdminBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.forgotPasswordButton;
+      Button forgotPasswordButton = ViewBindings.findChildViewById(rootView, id);
+      if (forgotPasswordButton == null) {
+        break missingId;
+      }
+
       id = R.id.loginButton;
       Button loginButton = ViewBindings.findChildViewById(rootView, id);
       if (loginButton == null) {
+        break missingId;
+      }
+
+      id = R.id.loginCardView;
+      CardView loginCardView = ViewBindings.findChildViewById(rootView, id);
+      if (loginCardView == null) {
         break missingId;
       }
 
@@ -116,8 +138,9 @@ public final class ActivityLoginAdminBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityLoginAdminBinding((RelativeLayout) rootView, backButton, loginButton,
-          loginText, logoImageView, password, username);
+      return new ActivityLoginAdminBinding((RelativeLayout) rootView, backButton,
+          forgotPasswordButton, loginButton, loginCardView, loginText, logoImageView, password,
+          username);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

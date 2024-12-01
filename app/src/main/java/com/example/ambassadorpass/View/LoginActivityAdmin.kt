@@ -24,6 +24,7 @@ class LoginActivityAdmin : AppCompatActivity() {
     private lateinit var usernameField: EditText
     private lateinit var passwordField: EditText
     private lateinit var loginButton: Button
+    private lateinit var forgotPasswordButton: Button
 
     private val loginViewModel: LoginViewModel by viewModels {
         LoginViewModelFactory(UserRepository())
@@ -37,6 +38,7 @@ class LoginActivityAdmin : AppCompatActivity() {
         usernameField = findViewById(R.id.username)
         passwordField = findViewById(R.id.password)
         loginButton = findViewById(R.id.loginButton)
+        forgotPasswordButton = findViewById(R.id.forgotPasswordButton)
         val backButton: ImageButton = findViewById(R.id.backButton)
 
         // Ensure security provider is up-to-date
@@ -53,6 +55,12 @@ class LoginActivityAdmin : AppCompatActivity() {
 
         // Back button functionality
         backButton.setOnClickListener { finish() }
+
+        // Navigate to ForgotPassword activity
+        forgotPasswordButton.setOnClickListener {
+            val intent = Intent(this, ForgotPassword::class.java)
+            startActivity(intent)
+        }
 
         // Login button functionality
         loginButton.setOnClickListener {

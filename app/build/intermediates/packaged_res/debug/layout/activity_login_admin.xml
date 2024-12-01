@@ -27,11 +27,11 @@
         android:layout_height="80dp"
         android:src="@drawable/gemini"
         android:layout_below="@id/backButton"
-        android:layout_centerHorizontal="true"
-         />
+        android:layout_centerHorizontal="true" />
 
     <!-- CardView for the login section with match_parent width and side margins -->
     <androidx.cardview.widget.CardView
+        android:id="@+id/loginCardView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
@@ -101,4 +101,18 @@
                 app:cornerRadius="15dp" />
         </LinearLayout>
     </androidx.cardview.widget.CardView>
+
+    <!-- Forgot Password Button -->
+    <Button
+        android:id="@+id/forgotPasswordButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/loginCardView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Forgot Password?"
+        android:backgroundTint="#880808"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textSize="16sp" />
 </RelativeLayout>

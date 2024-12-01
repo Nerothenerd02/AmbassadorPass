@@ -18,6 +18,9 @@
         android:theme="@style/Theme.AmbassadorPass"
         tools:targetApi="31">
         <activity
+            android:name=".view.ForgotPassword"
+            android:exported="false" />
+        <activity
             android:name=".view.NewPassword"
             android:exported="false" />
         <activity

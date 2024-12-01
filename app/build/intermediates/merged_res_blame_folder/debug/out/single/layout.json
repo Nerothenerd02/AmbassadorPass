@@ -32,12 +32,12 @@
         "source": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-main-78:\\layout\\activity_assign_ambassadors.xml"
     },
     {
-        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-mergeDebugResources-75:\\layout\\dialog_assign_ambassador.xml",
-        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-main-78:\\layout\\dialog_assign_ambassador.xml"
+        "merged": "com.example.ambassadorpass.app-mergeDebugResources-75:/layout/activity_forgot_password.xml",
+        "source": "com.example.ambassadorpass.app-main-78:/layout/activity_forgot_password.xml"
     },
     {
-        "merged": "com.example.ambassadorpass.app-mergeDebugResources-75:/layout/activity_new_password.xml",
-        "source": "com.example.ambassadorpass.app-main-78:/layout/activity_new_password.xml"
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-mergeDebugResources-75:\\layout\\dialog_assign_ambassador.xml",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-main-78:\\layout\\dialog_assign_ambassador.xml"
     },
     {
         "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-mergeDebugResources-75:\\layout\\activity_login_admin.xml",
@@ -58,6 +58,10 @@
     {
         "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-mergeDebugResources-75:\\layout\\activity_create_admin.xml",
         "source": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-main-78:\\layout\\activity_create_admin.xml"
+    },
+    {
+        "merged": "com.example.ambassadorpass.app-mergeDebugResources-75:/layout/activity_login_admin.xml",
+        "source": "com.example.ambassadorpass.app-main-78:/layout/activity_login_admin.xml"
     },
     {
         "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-mergeDebugResources-75:\\layout\\activity_admindashboard.xml",

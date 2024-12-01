@@ -53,8 +53,11 @@ id dashboardTitle
 id descriptionText
 id detailsContainer
 id emailEditText
+id emailInput
 id emailLayout
 id emailTextView
+id forgotPasswordButton
+id forgotPasswordText
 id genderEditText
 id genderLayout
 id getStartedButton
@@ -69,6 +72,7 @@ id listImage
 id listName
 id listview
 id loginButton
+id loginCardView
 id loginText
 id logoImageView
 id nameEditText
@@ -129,6 +133,7 @@ layout activity_ambassadordashboard
 layout activity_assign_ambassadors
 layout activity_create_admin
 layout activity_create_party
+layout activity_forgot_password
 layout activity_introduction
 layout activity_login_admin
 layout activity_main
