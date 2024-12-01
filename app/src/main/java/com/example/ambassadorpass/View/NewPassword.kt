@@ -12,6 +12,7 @@ import com.example.ambassadorpass.view.admin.AdminDashboard
 import com.example.ambassadorpass.viewmodel.NewPasswordViewModel
 import com.example.ambassadorpass.viewmodel.NewPasswordViewModelFactory
 import com.example.ambassadorpass.repository.UserRepository
+import com.example.ambassadorpass.view.ambassador.AmbassadorDashboard
 
 class NewPassword : AppCompatActivity() {
 

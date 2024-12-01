@@ -15,6 +15,7 @@ import com.example.ambassadorpass.repository.UserRepository
 import com.example.ambassadorpass.viewmodel.LoginViewModel
 import com.example.ambassadorpass.viewmodel.LoginViewModelFactory
 import com.example.ambassadorpass.view.admin.AdminDashboard
+import com.example.ambassadorpass.view.ambassador.AmbassadorDashboard
 import com.google.firebase.auth.FirebaseAuth
 import com.google.android.gms.common.GoogleApiAvailability
 import com.google.android.gms.security.ProviderInstaller

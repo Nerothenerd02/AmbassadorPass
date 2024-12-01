@@ -1,7 +1,6 @@
 package com.example.ambassadorpass.Repository
 
 import android.content.Context
-import android.util.Base64
 import android.util.Log
 import com.example.ambassadorpass.Model.Party
 import com.example.ambassadorpass.service.EmailService
@@ -10,7 +9,7 @@ import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.firestore.FirebaseFirestore
 import com.google.firebase.firestore.ktx.firestore
 import com.google.firebase.ktx.Firebase
-import java.security.SecureRandom
+import java.util.UUID
 
 class AssignAmbassadorRepository(private val context: Context) {
 
@@ -20,37 +19,9 @@ class AssignAmbassadorRepository(private val context: Context) {
     private val emailService = EmailService(context)
 
     // Function to fetch parties from Firestore
-    fun fetchParties(callback: (List<Party>) -> Unit) {
-        firestore.collection("parties").get()
-            .addOnSuccessListener { querySnapshot ->
-                val parties = querySnapshot.documents.mapNotNull { doc ->
-                    try {
-                        val data = doc.data ?: return@mapNotNull null
-                        Party(
-                            partyName = data["partyName"] as? String ?: "",
-                            partyId = doc.id,
-                            partyDate = data["partyDate"] as? Timestamp,
-                            partyDescription = data["partyDescription"] as? String ?: "",
-                            partyLocation = data["partyLocation"] as? String ?: "",
-                            ticketPrice = (data["ticketPrice"] as? Number)?.toInt() ?: 0,
-                            ticketsAvailable = (data["ticketsAvailable"] as? Number)?.toInt() ?: 0,
-                            ticketsSold = (data["ticketsSold"] as? Number)?.toInt() ?: 0
-                        )
-                    } catch (e: Exception) {
-                        Log.e("FirestoreError", "Failed to parse party: ${doc.id}", e)
-                        null
-                    }
-                }
-                Log.d("FirestoreSuccess", "Fetched ${parties.size} parties")
-                callback(parties)
-            }
-            .addOnFailureListener { exception ->
-                Log.e("FirestoreError", "Failed to fetch parties", exception)
-                callback(emptyList())
-            }
-    }
+    // ... existing code ...
 
-    // Function to create or update ambassador account, generate password and passcode, and update Firestore
+    // Function to create or update ambassador account
     fun createAmbassadorAccount(
         email: String,
         name: String,
@@ -60,6 +31,9 @@ class AssignAmbassadorRepository(private val context: Context) {
         Log.d("CreateAmbassador", "Starting ambassador creation for email: $email")
         val password = generatePassword()
         val partyLink = generatePartyLink(partyId)
+
+        // Generate a unique ambassadorID
+        val ambassadorID = generateAmbassadorID()
 
         // Check if the ambassador already exists in Firebase Authentication
         auth.fetchSignInMethodsForEmail(email)
@@ -73,7 +47,17 @@ class AssignAmbassadorRepository(private val context: Context) {
                                 if (createTask.isSuccessful) {
                                     val uid = createTask.result?.user?.uid
                                     Log.d("CreateAmbassador", "User created with UID: $uid")
-                                    updateFirestoreWithAmbassadorDetails(uid, name, email, partyId, partyLink, password, callback, isFirstTimeUser = true)
+                                    updateFirestoreWithAmbassadorDetails(
+                                        uid,
+                                        name,
+                                        email,
+                                        partyId,
+                                        partyLink,
+                                        password,
+                                        ambassadorID,
+                                        callback,
+                                        isFirstTimeUser = true
+                                    )
                                 } else {
                                     Log.e("CreateUserError", "Error creating user: ${createTask.exception?.message}")
                                     callback(false)
@@ -90,7 +74,17 @@ class AssignAmbassadorRepository(private val context: Context) {
                                     val uid = document.getString("uid")
                                     if (uid != null) {
                                         Log.d("CreateAmbassador", "User already exists, proceeding to Firestore update with UID: $uid")
-                                        updateFirestoreWithAmbassadorDetails(uid, name, email, partyId, partyLink, password, callback, isFirstTimeUser = false)
+                                        updateFirestoreWithAmbassadorDetails(
+                                            uid,
+                                            name,
+                                            email,
+                                            partyId,
+                                            partyLink,
+                                            password,
+                                            ambassadorID,
+                                            callback,
+                                            isFirstTimeUser = false
+                                        )
                                     } else {
                                         Log.e("FetchUserError", "UID is null for email: $email")
                                         callback(false)
@@ -110,6 +104,7 @@ class AssignAmbassadorRepository(private val context: Context) {
                     callback(false)
                 }
             }
+        // Remove the redundant call to updateFirestoreWithAmbassadorDetails here
     }
 
     private fun updateFirestoreWithAmbassadorDetails(
@@ -119,6 +114,7 @@ class AssignAmbassadorRepository(private val context: Context) {
         partyId: String,
         partyLink: String,
         password: String,
+        ambassadorID: String,
         callback: (Boolean) -> Unit,
         isFirstTimeUser: Boolean
     ) {
@@ -131,6 +127,7 @@ class AssignAmbassadorRepository(private val context: Context) {
         db.collection("ambassadors").document(uid).get().addOnSuccessListener { ambassadorSnapshot ->
             val existingPartyIds = ambassadorSnapshot.get("partyIds") as? MutableList<String> ?: mutableListOf()
             val existingPartyLinks = ambassadorSnapshot.get("partyLinks") as? MutableList<String> ?: mutableListOf()
+            val existingAmbassadorID = ambassadorSnapshot.getString("ambassadorID") ?: ambassadorID
 
             // Check if this party is already associated with the ambassador
             if (existingPartyIds.contains(partyId)) {
@@ -148,6 +145,7 @@ class AssignAmbassadorRepository(private val context: Context) {
                 "email" to email,
                 "tier" to "silver",
                 "uid" to uid,
+                "ambassadorID" to existingAmbassadorID,
                 "partyIds" to existingPartyIds,
                 "partyLinks" to existingPartyLinks
             )
@@ -204,6 +202,18 @@ class AssignAmbassadorRepository(private val context: Context) {
         Log.d("GeneratePassword", "Generated password: $password")
         return password
     }
+    fun fetchParties(callback: (List<Party>) -> Unit) {
+        firestore.collection("parties")
+            .get()
+            .addOnSuccessListener { querySnapshot ->
+                val parties = querySnapshot.documents.mapNotNull { it.toObject(Party::class.java) }
+                callback(parties)
+            }
+            .addOnFailureListener { exception ->
+                Log.e("FetchPartiesError", "Failed to fetch parties: ${exception.message}")
+                callback(emptyList()) // Return an empty list on failure
+            }
+    }
 
     // Helper function to generate party link
     private fun generatePartyLink(partyId: String): String {
@@ -213,5 +223,10 @@ class AssignAmbassadorRepository(private val context: Context) {
         val partyLink = "party-$partyId-$randomString"
         Log.d("GeneratePartyLink", "Generated party link: $partyLink")
         return partyLink
+    }
+
+    // Helper function to generate a unique ambassadorID
+    private fun generateAmbassadorID(): String {
+        return UUID.randomUUID().toString()
     }
 }

@@ -5,10 +5,11 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageButton;
-import android.widget.ImageView;
+import android.widget.ListView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.cardview.widget.CardView;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
@@ -22,21 +23,30 @@ public final class ActivityAmbassadordashboardBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
+  public final TextView ambassadorDashboardTitle;
+
+  @NonNull
+  public final CardView ambassadorInfoContainer;
+
+  @NonNull
+  public final TextView ambassadorNamesTextView;
+
+  @NonNull
   public final ImageButton backButton;
 
   @NonNull
-  public final TextView dashboardTitle;
-
-  @NonNull
-  public final ImageView logoImageView;
+  public final ListView listview;
 
   private ActivityAmbassadordashboardBinding(@NonNull ConstraintLayout rootView,
-      @NonNull ImageButton backButton, @NonNull TextView dashboardTitle,
-      @NonNull ImageView logoImageView) {
+      @NonNull TextView ambassadorDashboardTitle, @NonNull CardView ambassadorInfoContainer,
+      @NonNull TextView ambassadorNamesTextView, @NonNull ImageButton backButton,
+      @NonNull ListView listview) {
     this.rootView = rootView;
+    this.ambassadorDashboardTitle = ambassadorDashboardTitle;
+    this.ambassadorInfoContainer = ambassadorInfoContainer;
+    this.ambassadorNamesTextView = ambassadorNamesTextView;
     this.backButton = backButton;
-    this.dashboardTitle = dashboardTitle;
-    this.logoImageView = logoImageView;
+    this.listview = listview;
   }
 
   @Override
@@ -66,26 +76,39 @@ public final class ActivityAmbassadordashboardBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.ambassadorDashboardTitle;
+      TextView ambassadorDashboardTitle = ViewBindings.findChildViewById(rootView, id);
+      if (ambassadorDashboardTitle == null) {
+        break missingId;
+      }
+
+      id = R.id.ambassadorInfoContainer;
+      CardView ambassadorInfoContainer = ViewBindings.findChildViewById(rootView, id);
+      if (ambassadorInfoContainer == null) {
+        break missingId;
+      }
+
+      id = R.id.ambassadorNamesTextView;
+      TextView ambassadorNamesTextView = ViewBindings.findChildViewById(rootView, id);
+      if (ambassadorNamesTextView == null) {
+        break missingId;
+      }
+
       id = R.id.backButton;
       ImageButton backButton = ViewBindings.findChildViewById(rootView, id);
       if (backButton == null) {
         break missingId;
       }
 
-      id = R.id.dashboardTitle;
-      TextView dashboardTitle = ViewBindings.findChildViewById(rootView, id);
-      if (dashboardTitle == null) {
+      id = R.id.listview;
+      ListView listview = ViewBindings.findChildViewById(rootView, id);
+      if (listview == null) {
         break missingId;
       }
 
-      id = R.id.logoImageView;
-      ImageView logoImageView = ViewBindings.findChildViewById(rootView, id);
-      if (logoImageView == null) {
-        break missingId;
-      }
-
-      return new ActivityAmbassadordashboardBinding((ConstraintLayout) rootView, backButton,
-          dashboardTitle, logoImageView);
+      return new ActivityAmbassadordashboardBinding((ConstraintLayout) rootView,
+          ambassadorDashboardTitle, ambassadorInfoContainer, ambassadorNamesTextView, backButton,
+          listview);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

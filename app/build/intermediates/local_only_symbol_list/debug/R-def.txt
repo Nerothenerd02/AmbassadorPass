@@ -7,6 +7,7 @@ color colorText
 color translucent_white
 drawable background
 drawable baseline_add_24
+drawable baseline_dehaze_24
 drawable baseline_diamond_24
 drawable baseline_email_24
 drawable baseline_lock_24
@@ -32,10 +33,13 @@ id adminEmail
 id adminName
 id ageEditText
 id ageLayout
+id ambassadorDashboardTitle
 id ambassadorEmail
+id ambassadorInfoContainer
 id ambassadorMarkupEditText
 id ambassadorMarkupLayout
 id ambassadorName
+id ambassadorNamesTextView
 id assignAmbassadorButton
 id assignAmbassadorsButton
 id attendeeRegistrationTitle
@@ -56,6 +60,8 @@ id emailEditText
 id emailInput
 id emailLayout
 id emailTextView
+id extraInfoContainer
+id extraInfoText
 id forgotPasswordButton
 id forgotPasswordText
 id genderEditText
@@ -80,14 +86,19 @@ id nameLayout
 id nameTextView
 id newPasswordText
 id nextButton
+id partyActionButton
+id partyCard
 id partyDate
 id partyDateEditText
 id partyDateLayout
 id partyDescriptionEditText
 id partyDescriptionLayout
 id partyDetailsTextView
+id partyId
+id partyImage
 id partyLocationEditText
 id partyLocationLayout
+id partyName
 id partyNameEditText
 id partyNameLayout
 id partyname
@@ -124,6 +135,7 @@ id titleContainer
 id titleTextView
 id typewriter
 id typewriterContainer
+id updateAmbassadorIDsButton
 id userDetailsContainer
 id userDetailsTextView
 id username
@@ -150,6 +162,7 @@ layout activity_video_player_manager
 layout dialog_assign_ambassador
 layout item_image
 layout list_item
+layout list_item_ambassador
 mipmap ic_launcher
 mipmap ic_launcher_adaptive_back
 mipmap ic_launcher_adaptive_fore

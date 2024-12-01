@@ -3065,6 +3065,7 @@ drawable avd_hide_password
 drawable avd_show_password
 drawable background
 drawable baseline_add_24
+drawable baseline_dehaze_24
 drawable baseline_diamond_24
 drawable baseline_email_24
 drawable baseline_lock_24
@@ -3382,10 +3383,13 @@ id aligned
 id all
 id allStates
 id always
+id ambassadorDashboardTitle
 id ambassadorEmail
+id ambassadorInfoContainer
 id ambassadorMarkupEditText
 id ambassadorMarkupLayout
 id ambassadorName
+id ambassadorNamesTextView
 id androidx_compose_ui_view_composition_context
 id animateToEnd
 id animateToStart
@@ -3576,6 +3580,8 @@ id exo_track_selection_view
 id exo_vr
 id expand_activities_button
 id expanded_menu
+id extraInfoContainer
+id extraInfoText
 id fade
 id fill
 id fill_horizontal
@@ -3763,14 +3769,19 @@ id parent
 id parentPanel
 id parentRelative
 id parent_matrix
+id partyActionButton
+id partyCard
 id partyDate
 id partyDateEditText
 id partyDateLayout
 id partyDescriptionEditText
 id partyDescriptionLayout
 id partyDetailsTextView
+id partyId
+id partyImage
 id partyLocationEditText
 id partyLocationLayout
+id partyName
 id partyNameEditText
 id partyNameLayout
 id partyname
@@ -3960,6 +3971,7 @@ id unchecked
 id uniform
 id unlabeled
 id up
+id updateAmbassadorIDsButton
 id useLogo
 id userDetailsContainer
 id userDetailsTextView
@@ -4170,6 +4182,7 @@ layout ime_base_split_test_activity
 layout ime_secondary_split_test_activity
 layout item_image
 layout list_item
+layout list_item_ambassador
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title

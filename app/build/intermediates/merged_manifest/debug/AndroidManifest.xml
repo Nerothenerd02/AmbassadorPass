@@ -106,7 +106,7 @@
             android:name="com.example.ambassadorpass.view.LoginActivityAdmin"
             android:exported="false" />
         <activity
-            android:name="com.example.ambassadorpass.view.AmbassadorDashboard"
+            android:name="com.example.ambassadorpass.view.ambassador.AmbassadorDashboard"
             android:exported="false" />
         <activity
             android:name="com.example.ambassadorpass.view.admin.AdminDashboard"

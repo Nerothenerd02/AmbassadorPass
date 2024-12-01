@@ -6,6 +6,8 @@ import android.widget.Button
 import android.widget.ImageButton
 import androidx.appcompat.app.AppCompatActivity
 import com.example.ambassadorpass.R
+import com.example.ambassadorpass.repository.AmbassadorIDUpdater
+import android.widget.Toast
 
 class AdminDashboard : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -37,6 +39,17 @@ class AdminDashboard : AppCompatActivity() {
         createAdminButton.setOnClickListener {
             val intent = Intent(this, CreateAdminActivity::class.java)
             startActivity(intent)
+        }
+
+        // Update Ambassador IDs Button Functionality
+        val updateAmbassadorIDsButton: Button = findViewById(R.id.updateAmbassadorIDsButton)
+        updateAmbassadorIDsButton.setOnClickListener {
+            // Call AmbassadorIDUpdater to update missing ambassador IDs
+            val updater = AmbassadorIDUpdater()
+            updater.assignMissingAmbassadorIDs()
+
+            // Notify the user
+            Toast.makeText(this, "Updating missing Ambassador IDs...", Toast.LENGTH_SHORT).show()
         }
     }
 }

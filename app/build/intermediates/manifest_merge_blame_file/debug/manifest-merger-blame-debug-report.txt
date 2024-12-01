@@ -203,8 +203,8 @@
 107-->D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:71:13-37
 108        <activity
 108-->D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:72:9-74:40
-109            android:name="com.example.ambassadorpass.view.AmbassadorDashboard"
-109-->D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:73:13-53
+109            android:name="com.example.ambassadorpass.view.ambassador.AmbassadorDashboard"
+109-->D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:73:13-64
 110            android:exported="false" />
 110-->D:\SCHOOL WORK\3RD YEAR\MOBILE DEVELOPMENT\Coursework\AmbassaPass\app\src\main\AndroidManifest.xml:74:13-37
 111        <activity

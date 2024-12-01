@@ -70,7 +70,7 @@
             android:name=".view.LoginActivityAdmin"
             android:exported="false" />
         <activity
-            android:name=".view.AmbassadorDashboard"
+            android:name=".view.ambassador.AmbassadorDashboard"
             android:exported="false" />
         <activity
             android:name=".view.admin.AdminDashboard"

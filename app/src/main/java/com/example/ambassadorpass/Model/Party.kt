@@ -10,6 +10,10 @@ data class Party(
     val partyLocation: String,
     val ticketPrice: Int,
     val ticketsAvailable: Int,
-    val ticketsSold: Int
-)
+    val ticketsSold: Int,
+    val partyLinks: List<String> = listOf()
+) {
+
+    constructor() : this("", "", null, "", "", 0, 0, 0)
+}
 
