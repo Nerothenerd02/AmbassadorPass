@@ -3383,6 +3383,7 @@ int id all 0x7f0a0055
 int id allStates 0x7f0a0056
 int id always 0x7f0a0057
 int id ambassadorDashboardTitle 0x7f0a0058
+int id ambassadorDetails 0x7f0a02da
 int id ambassadorEmail 0x7f0a0059
 int id ambassadorInfoContainer 0x7f0a005a
 int id ambassadorMarkupEditText 0x7f0a005b
@@ -3399,7 +3400,9 @@ int id asConfigured 0x7f0a0065
 int id assignAmbassadorButton 0x7f0a0066
 int id assignAmbassadorsButton 0x7f0a0067
 int id async 0x7f0a0068
+int id attendeeName 0x7f0a02d3
 int id attendeeRegistrationTitle 0x7f0a0069
+int id attendeesListView 0x7f0a02d4
 int id auto 0x7f0a006a
 int id autoComplete 0x7f0a006b
 int id autoCompleteToEnd 0x7f0a006c
@@ -3615,6 +3618,7 @@ int id graph_wrap 0x7f0a013d
 int id group_divider 0x7f0a013e
 int id grouping 0x7f0a013f
 int id groups 0x7f0a0140
+int id headerTitle 0x7f0a02cf
 int id header_title 0x7f0a0141
 int id hide_ime_id 0x7f0a0142
 int id hide_in_inspector_tag 0x7f0a0143
@@ -3768,6 +3772,7 @@ int id parent 0x7f0a01d6
 int id parentPanel 0x7f0a01d7
 int id parentRelative 0x7f0a01d8
 int id parent_matrix 0x7f0a01d9
+int id partiesListView 0x7f0a02d0
 int id partyActionButton 0x7f0a01da
 int id partyCard 0x7f0a01db
 int id partyDate 0x7f0a01dc
@@ -3909,6 +3914,7 @@ int id staticPostLayout 0x7f0a0263
 int id status_bar_latest_event_content 0x7f0a0264
 int id stop 0x7f0a0265
 int id stretch 0x7f0a0266
+int id subHeader 0x7f0a02d1
 int id submenuarrow 0x7f0a0267
 int id submitButton 0x7f0a0268
 int id submit_area 0x7f0a0269
@@ -3955,6 +3961,8 @@ int id title_template 0x7f0a0291
 int id toggle 0x7f0a0292
 int id top 0x7f0a0293
 int id topPanel 0x7f0a0294
+int id totalAttendees 0x7f0a02d8
+int id totalEarnings 0x7f0a02d9
 int id touch_outside 0x7f0a0295
 int id transitionToEnd 0x7f0a0296
 int id transitionToStart 0x7f0a0297
@@ -3970,7 +3978,6 @@ int id unchecked 0x7f0a02a0
 int id uniform 0x7f0a02a1
 int id unlabeled 0x7f0a02a2
 int id up 0x7f0a02a3
-int id updateAmbassadorIDsButton 0x7f0a02ce
 int id useLogo 0x7f0a02a4
 int id userDetailsContainer 0x7f0a02a5
 int id userDetailsTextView 0x7f0a02a6
@@ -3979,6 +3986,7 @@ int id validateKeycodeButton 0x7f0a02a8
 int id vertical 0x7f0a02a9
 int id vertical_only 0x7f0a02aa
 int id video_decoder_gl_surface_view 0x7f0a02ab
+int id viewPartiesButton 0x7f0a02d2
 int id view_offset_helper 0x7f0a02ac
 int id view_transition 0x7f0a02ad
 int id view_tree_lifecycle_owner 0x7f0a02ae
@@ -4148,6 +4156,7 @@ int layout activity_party_preview 0x7f0d002b
 int layout activity_photo_preview 0x7f0d002c
 int layout activity_splash 0x7f0d002d
 int layout activity_video_player_manager 0x7f0d002e
+int layout activity_view_parties 0x7f0d0099
 int layout browser_actions_context_menu_page 0x7f0d002f
 int layout browser_actions_context_menu_row 0x7f0d0030
 int layout custom_dialog 0x7f0d0031
@@ -4167,6 +4176,7 @@ int layout design_navigation_menu_item 0x7f0d003e
 int layout design_text_input_end_icon 0x7f0d003f
 int layout design_text_input_start_icon 0x7f0d0040
 int layout dialog_assign_ambassador 0x7f0d0041
+int layout dialog_attendees 0x7f0d009b
 int layout exo_legacy_player_control_view 0x7f0d0042
 int layout exo_list_divider 0x7f0d0043
 int layout exo_player_control_ffwd_button 0x7f0d0044
@@ -4177,11 +4187,14 @@ int layout exo_styled_settings_list 0x7f0d0048
 int layout exo_styled_settings_list_item 0x7f0d0049
 int layout exo_styled_sub_settings_list_item 0x7f0d004a
 int layout exo_track_selection_dialog 0x7f0d004b
+int layout footer_analysis 0x7f0d009d
 int layout ime_base_split_test_activity 0x7f0d004c
 int layout ime_secondary_split_test_activity 0x7f0d004d
 int layout item_image 0x7f0d004e
 int layout list_item 0x7f0d004f
 int layout list_item_ambassador 0x7f0d0050
+int layout list_item_attendee 0x7f0d009c
+int layout list_item_party 0x7f0d009a
 int layout m3_alert_dialog 0x7f0d0051
 int layout m3_alert_dialog_actions 0x7f0d0052
 int layout m3_alert_dialog_title 0x7f0d0053

@@ -3384,6 +3384,7 @@ id all
 id allStates
 id always
 id ambassadorDashboardTitle
+id ambassadorDetails
 id ambassadorEmail
 id ambassadorInfoContainer
 id ambassadorMarkupEditText
@@ -3400,7 +3401,9 @@ id asConfigured
 id assignAmbassadorButton
 id assignAmbassadorsButton
 id async
+id attendeeName
 id attendeeRegistrationTitle
+id attendeesListView
 id auto
 id autoComplete
 id autoCompleteToEnd
@@ -3616,6 +3619,7 @@ id graph_wrap
 id group_divider
 id grouping
 id groups
+id headerTitle
 id header_title
 id hide_ime_id
 id hide_in_inspector_tag
@@ -3769,6 +3773,7 @@ id parent
 id parentPanel
 id parentRelative
 id parent_matrix
+id partiesListView
 id partyActionButton
 id partyCard
 id partyDate
@@ -3910,6 +3915,7 @@ id staticPostLayout
 id status_bar_latest_event_content
 id stop
 id stretch
+id subHeader
 id submenuarrow
 id submitButton
 id submit_area
@@ -3956,6 +3962,8 @@ id title_template
 id toggle
 id top
 id topPanel
+id totalAttendees
+id totalEarnings
 id touch_outside
 id transitionToEnd
 id transitionToStart
@@ -3971,7 +3979,6 @@ id unchecked
 id uniform
 id unlabeled
 id up
-id updateAmbassadorIDsButton
 id useLogo
 id userDetailsContainer
 id userDetailsTextView
@@ -3980,6 +3987,7 @@ id validateKeycodeButton
 id vertical
 id vertical_only
 id video_decoder_gl_surface_view
+id viewPartiesButton
 id view_offset_helper
 id view_transition
 id view_tree_lifecycle_owner
@@ -4149,6 +4157,7 @@ layout activity_party_preview
 layout activity_photo_preview
 layout activity_splash
 layout activity_video_player_manager
+layout activity_view_parties
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
 layout custom_dialog
@@ -4168,6 +4177,7 @@ layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout dialog_assign_ambassador
+layout dialog_attendees
 layout exo_legacy_player_control_view
 layout exo_list_divider
 layout exo_player_control_ffwd_button
@@ -4178,11 +4188,14 @@ layout exo_styled_settings_list
 layout exo_styled_settings_list_item
 layout exo_styled_sub_settings_list_item
 layout exo_track_selection_dialog
+layout footer_analysis
 layout ime_base_split_test_activity
 layout ime_secondary_split_test_activity
 layout item_image
 layout list_item
 layout list_item_ambassador
+layout list_item_attendee
+layout list_item_party
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title

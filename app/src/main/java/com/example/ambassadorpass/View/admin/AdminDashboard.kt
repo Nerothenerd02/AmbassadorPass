@@ -41,15 +41,11 @@ class AdminDashboard : AppCompatActivity() {
             startActivity(intent)
         }
 
-        // Update Ambassador IDs Button Functionality
-        val updateAmbassadorIDsButton: Button = findViewById(R.id.updateAmbassadorIDsButton)
-        updateAmbassadorIDsButton.setOnClickListener {
-            // Call AmbassadorIDUpdater to update missing ambassador IDs
-            val updater = AmbassadorIDUpdater()
-            updater.assignMissingAmbassadorIDs()
-
-            // Notify the user
-            Toast.makeText(this, "Updating missing Ambassador IDs...", Toast.LENGTH_SHORT).show()
+        // View Parties Button Functionality
+        val viewPartiesButton: Button = findViewById(R.id.viewPartiesButton)
+        viewPartiesButton.setOnClickListener {
+            val intent = Intent(this, ViewParties::class.java)
+            startActivity(intent)
         }
     }
 }

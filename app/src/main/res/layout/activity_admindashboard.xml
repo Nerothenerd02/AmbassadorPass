@@ -89,11 +89,11 @@
         app:layout_constraintHorizontal_bias="0.5" />
 
     <Button
-        android:id="@+id/updateAmbassadorIDsButton"
+        android:id="@+id/viewPartiesButton"
         android:layout_width="300dp"
         android:layout_height="50dp"
         android:layout_marginTop="20dp"
-        android:text="Update Ambassador IDs"
+        android:text="View Parties"
         android:textSize="16sp"
         android:backgroundTint="#880808"
         android:textColor="@android:color/white"
