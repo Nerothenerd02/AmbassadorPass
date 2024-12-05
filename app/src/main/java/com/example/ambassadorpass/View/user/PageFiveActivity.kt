@@ -28,7 +28,6 @@ class PageFiveActivity : AppCompatActivity() {
         // Initialize UI components
         val backButton: ImageButton = findViewById(R.id.backButton)
         val confirmButton: Button = findViewById(R.id.confirmButton)
-        val additionalInfoTextView: TextView = findViewById(R.id.additionalInfoTextView)
         val partyDetailsTextView: TextView = findViewById(R.id.partyDetailsTextView)
         val userDetailsTextView: TextView = findViewById(R.id.userDetailsTextView)
 
@@ -52,16 +51,6 @@ class PageFiveActivity : AppCompatActivity() {
             startActivity(intent)
             finish()
         }
-
-        // Typewriter effect messages
-        val messages = listOf(
-            "We did not forget to give you the location.",
-            "We did not forget to give you the date and time.",
-            "You will receive an email with updates."
-        )
-
-        // Apply the typewriter effect
-        applyTypewriterEffect(additionalInfoTextView, messages)
     }
 
     private fun observeViewModel(
@@ -70,32 +59,18 @@ class PageFiveActivity : AppCompatActivity() {
     ) {
         viewModel.partyDetails.observe(this) { details ->
             details?.let {
-                partyDetailsTextView.text = "Location: ${it["partyLocation"]}"
-                userDetailsTextView.text = "Time: ${it["partyDate"]}"
+                val location = it["partyLocation"] as? String ?: "Location not available"
+                val date = it["partyDate"] as? String ?: "Date not available"
+
+                // Format and set the text
+                partyDetailsTextView.text = "📍 Location: $location"
+                userDetailsTextView.text = "🗓️ Date: $date"
             }
         }
 
         viewModel.errorMessage.observe(this) { error ->
             error?.let {
                 Toast.makeText(this, it, Toast.LENGTH_SHORT).show()
-            }
-        }
-    }
-
-    private fun applyTypewriterEffect(textView: TextView, messages: List<String>) {
-        thread {
-            while (true) {
-                for (message in messages) {
-                    val stringBuilder = StringBuilder()
-                    for (letter in message) {
-                        stringBuilder.append(letter)
-                        Thread.sleep(100) // Adjust speed of typewriting
-                        runOnUiThread {
-                            textView.text = stringBuilder.toString()
-                        }
-                    }
-                    Thread.sleep(1000) // Pause between messages
-                }
             }
         }
     }

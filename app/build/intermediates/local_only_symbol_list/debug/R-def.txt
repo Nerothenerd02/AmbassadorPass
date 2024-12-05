@@ -27,8 +27,6 @@ drawable ic_launcher_foreground
 drawable upload
 id Ticketprice
 id TicketpriceEditText
-id additionalInfoContainer
-id additionalInfoTextView
 id adminEmail
 id adminName
 id ageEditText

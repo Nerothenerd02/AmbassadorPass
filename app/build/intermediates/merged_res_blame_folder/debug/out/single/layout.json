@@ -4,10 +4,6 @@
         "source": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-main-78:\\layout\\activity_ambassadordashboard.xml"
     },
     {
-        "merged": "com.example.ambassadorpass.app-mergeDebugResources-75:/layout/activity_view_parties.xml",
-        "source": "com.example.ambassadorpass.app-main-78:/layout/activity_view_parties.xml"
-    },
-    {
         "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-mergeDebugResources-75:\\layout\\activity_introduction.xml",
         "source": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-main-78:\\layout\\activity_introduction.xml"
     },
@@ -28,12 +24,12 @@
         "source": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-main-78:\\layout\\dialog_assign_ambassador.xml"
     },
     {
-        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-mergeDebugResources-75:\\layout\\activity_page_one.xml",
-        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-main-78:\\layout\\activity_page_one.xml"
-    },
-    {
         "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-mergeDebugResources-75:\\layout\\list_item.xml",
         "source": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-main-78:\\layout\\list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-mergeDebugResources-75:\\layout\\activity_page_one.xml",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-main-78:\\layout\\activity_page_one.xml"
     },
     {
         "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-mergeDebugResources-75:\\layout\\activity_create_party.xml",
@@ -58,6 +54,10 @@
     {
         "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-mergeDebugResources-75:\\layout\\dialog_attendees.xml",
         "source": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-main-78:\\layout\\dialog_attendees.xml"
+    },
+    {
+        "merged": "com.example.ambassadorpass.app-mergeDebugResources-75:/layout/activity_page_five.xml",
+        "source": "com.example.ambassadorpass.app-main-78:/layout/activity_page_five.xml"
     },
     {
         "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-mergeDebugResources-75:\\layout\\activity_page_five.xml",

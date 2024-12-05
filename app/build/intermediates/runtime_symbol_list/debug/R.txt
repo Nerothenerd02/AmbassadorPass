@@ -3369,8 +3369,6 @@ int id action_text 0x7f0a0047
 int id actions 0x7f0a0048
 int id activity_chooser_view_content 0x7f0a0049
 int id add 0x7f0a004a
-int id additionalInfoContainer 0x7f0a004b
-int id additionalInfoTextView 0x7f0a004c
 int id adjust_height 0x7f0a004d
 int id adjust_width 0x7f0a004e
 int id adminEmail 0x7f0a004f
