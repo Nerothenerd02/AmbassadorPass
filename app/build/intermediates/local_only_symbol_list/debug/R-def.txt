@@ -5,6 +5,7 @@ color colorPrimary
 color colorSecondary
 color colorText
 color translucent_white
+dimen recycler_item_spacing
 drawable background
 drawable baseline_add_24
 drawable baseline_dehaze_24
@@ -54,7 +55,6 @@ id createAdminButton
 id createAdminText
 id createPartyButton
 id createPartyTitle
-id dashboardTitle
 id descriptionText
 id detailsContainer
 id emailEditText
@@ -129,6 +129,7 @@ id progress_circular2
 id progress_circular3
 id progress_circular4
 id qrCodeImageView
+id recentPartiesRecyclerView
 id selectPhotosButton
 id sendButton
 id skipButton
@@ -170,6 +171,7 @@ layout dialog_assign_ambassador
 layout dialog_attendees
 layout footer_analysis
 layout item_image
+layout item_recent_party
 layout list_item
 layout list_item_ambassador
 layout list_item_attendee

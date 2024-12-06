@@ -2974,6 +2974,7 @@ dimen notification_small_icon_size_as_large
 dimen notification_subtext_size
 dimen notification_top_pad
 dimen notification_top_pad_large_text
+dimen recycler_item_spacing
 dimen tooltip_corner_radius
 dimen tooltip_horizontal_padding
 dimen tooltip_margin
@@ -3477,7 +3478,6 @@ id custom
 id customPanel
 id cut
 id dark
-id dashboardTitle
 id dataBinding
 id date_picker_actions
 id decelerate
@@ -3826,6 +3826,7 @@ id progress_horizontal
 id qrCodeImageView
 id radio
 id ratio
+id recentPartiesRecyclerView
 id rectangles
 id report_drawn
 id reverseSawtooth
@@ -4190,6 +4191,7 @@ layout footer_analysis
 layout ime_base_split_test_activity
 layout ime_secondary_split_test_activity
 layout item_image
+layout item_recent_party
 layout list_item
 layout list_item_ambassador
 layout list_item_attendee

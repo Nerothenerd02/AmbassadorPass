@@ -6,11 +6,10 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageButton;
-import android.widget.ImageView;
-import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.ambassadorpass.R;
@@ -35,10 +34,7 @@ public final class ActivityAdmindashboardBinding implements ViewBinding {
   public final Button createPartyButton;
 
   @NonNull
-  public final TextView dashboardTitle;
-
-  @NonNull
-  public final ImageView logoImageView;
+  public final RecyclerView recentPartiesRecyclerView;
 
   @NonNull
   public final Button viewPartiesButton;
@@ -46,15 +42,13 @@ public final class ActivityAdmindashboardBinding implements ViewBinding {
   private ActivityAdmindashboardBinding(@NonNull ConstraintLayout rootView,
       @NonNull Button assignAmbassadorsButton, @NonNull ImageButton backButton,
       @NonNull Button createAdmin, @NonNull Button createPartyButton,
-      @NonNull TextView dashboardTitle, @NonNull ImageView logoImageView,
-      @NonNull Button viewPartiesButton) {
+      @NonNull RecyclerView recentPartiesRecyclerView, @NonNull Button viewPartiesButton) {
     this.rootView = rootView;
     this.assignAmbassadorsButton = assignAmbassadorsButton;
     this.backButton = backButton;
     this.createAdmin = createAdmin;
     this.createPartyButton = createPartyButton;
-    this.dashboardTitle = dashboardTitle;
-    this.logoImageView = logoImageView;
+    this.recentPartiesRecyclerView = recentPartiesRecyclerView;
     this.viewPartiesButton = viewPartiesButton;
   }
 
@@ -109,15 +103,9 @@ public final class ActivityAdmindashboardBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.dashboardTitle;
-      TextView dashboardTitle = ViewBindings.findChildViewById(rootView, id);
-      if (dashboardTitle == null) {
-        break missingId;
-      }
-
-      id = R.id.logoImageView;
-      ImageView logoImageView = ViewBindings.findChildViewById(rootView, id);
-      if (logoImageView == null) {
+      id = R.id.recentPartiesRecyclerView;
+      RecyclerView recentPartiesRecyclerView = ViewBindings.findChildViewById(rootView, id);
+      if (recentPartiesRecyclerView == null) {
         break missingId;
       }
 
@@ -128,8 +116,7 @@ public final class ActivityAdmindashboardBinding implements ViewBinding {
       }
 
       return new ActivityAdmindashboardBinding((ConstraintLayout) rootView, assignAmbassadorsButton,
-          backButton, createAdmin, createPartyButton, dashboardTitle, logoImageView,
-          viewPartiesButton);
+          backButton, createAdmin, createPartyButton, recentPartiesRecyclerView, viewPartiesButton);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

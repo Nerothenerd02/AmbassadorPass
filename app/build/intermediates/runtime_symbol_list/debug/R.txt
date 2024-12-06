@@ -2973,6 +2973,7 @@ int dimen notification_small_icon_size_as_large 0x7f070320
 int dimen notification_subtext_size 0x7f070321
 int dimen notification_top_pad 0x7f070322
 int dimen notification_top_pad_large_text 0x7f070323
+int dimen recycler_item_spacing 0x7f07032c
 int dimen tooltip_corner_radius 0x7f070324
 int dimen tooltip_horizontal_padding 0x7f070325
 int dimen tooltip_margin 0x7f070326
@@ -3476,7 +3477,6 @@ int id custom 0x7f0a00b1
 int id customPanel 0x7f0a00b2
 int id cut 0x7f0a00b3
 int id dark 0x7f0a00b4
-int id dashboardTitle 0x7f0a00b5
 int id dataBinding 0x7f0a00b6
 int id date_picker_actions 0x7f0a00b7
 int id decelerate 0x7f0a00b8
@@ -3825,6 +3825,7 @@ int id progress_horizontal 0x7f0a020c
 int id qrCodeImageView 0x7f0a020d
 int id radio 0x7f0a020e
 int id ratio 0x7f0a020f
+int id recentPartiesRecyclerView 0x7f0a02db
 int id rectangles 0x7f0a0210
 int id report_drawn 0x7f0a0211
 int id reverseSawtooth 0x7f0a0212
@@ -4189,6 +4190,7 @@ int layout footer_analysis 0x7f0d009d
 int layout ime_base_split_test_activity 0x7f0d004c
 int layout ime_secondary_split_test_activity 0x7f0d004d
 int layout item_image 0x7f0d004e
+int layout item_recent_party 0x7f0d009e
 int layout list_item 0x7f0d004f
 int layout list_item_ambassador 0x7f0d0050
 int layout list_item_attendee 0x7f0d009c
