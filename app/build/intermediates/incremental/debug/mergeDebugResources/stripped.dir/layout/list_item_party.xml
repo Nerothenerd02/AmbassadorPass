@@ -1,0 +1,102 @@
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/partyCard"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="12dp"
+    android:layout_marginEnd="12dp"
+    android:layout_marginTop="12dp"
+    android:layout_marginBottom="12dp"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="8dp">
+
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white">
+
+    <!-- Party Icon -->
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/partyImage"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/baseline_diamond_24"
+        android:scaleType="centerCrop"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentStart="true" />
+
+    <!-- Party Name -->
+    <TextView
+        android:id="@+id/partyName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Party Name"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:layout_toEndOf="@id/partyImage"
+        android:layout_marginStart="10dp"
+        android:layout_alignTop="@id/partyImage" />
+
+    <!-- Party ID -->
+    <TextView
+        android:id="@+id/partyId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/partyName"
+        android:layout_toEndOf="@id/partyImage"
+        android:layout_marginStart="10dp"
+        android:text="Party ID"
+        android:textSize="14sp"
+        android:textColor="@android:color/darker_gray" />
+
+    <!-- Party Date -->
+    <TextView
+        android:id="@+id/partyDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/partyId"
+        android:layout_toEndOf="@id/partyImage"
+        android:layout_marginStart="10dp"
+        android:text="Party Date"
+        android:textSize="14sp"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="8dp" />
+
+    <!-- Floating Action Button -->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/partyActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baseline_dehaze_24"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="16dp"
+        android:layout_centerVertical="true"
+        android:contentDescription="Party Actions"
+        app:backgroundTint="@android:color/white"
+        app:elevation="4dp"
+        app:maxImageSize="40dp" />
+
+    <!-- Extra Info Container -->
+    <LinearLayout
+        android:id="@+id/extraInfoContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:layout_below="@id/partyDate"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/extraInfoText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Additional Info"
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

@@ -79,13 +79,14 @@ class PartyAdapter(
 
             if (name.isNotEmpty() && email.isNotEmpty()) {
                 // Use ViewModel to create ambassador
-                viewModel.createAmbassadorAccount(email, name, partyId) { isSuccess ->
+                viewModel.handleAmbassadorSubmission(email, name, partyId) { isSuccess, errorMessage ->
                     if (isSuccess) {
                         Toast.makeText(context, "Ambassador assigned successfully", Toast.LENGTH_SHORT).show()
                     } else {
-                        Toast.makeText(context, "Failed to assign ambassador", Toast.LENGTH_SHORT).show()
+                        Toast.makeText(context, "Failed to assign ambassador: $errorMessage", Toast.LENGTH_SHORT).show()
                     }
                 }
+
 
                 // Dismiss the dialog after sending
                 dialog.dismiss()

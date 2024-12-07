@@ -1,282 +1,278 @@
 [
     {
-        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-merged_res-76:\\drawable_baseline_upload_24.xml.flat",
-        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-main-78:\\drawable\\baseline_upload_24.xml"
+        "merged": "com.example.ambassadorpass.app-merged_res-76:/layout_dialog_assign_ambassador.xml.flat",
+        "source": "com.example.ambassadorpass.app-main-78:/layout/dialog_assign_ambassador.xml"
     },
     {
-        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-merged_res-76:\\mipmap-xxxhdpi_ic_launcher_adaptive_fore.png.flat",
-        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-main-78:\\mipmap-xxxhdpi\\ic_launcher_adaptive_fore.png"
+        "merged": "com.example.ambassadorpass.app-merged_res-76:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.ambassadorpass.app-main-78:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-merged_res-76:\\drawable_baseline_diamond_24.xml.flat",
-        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-main-78:\\drawable\\baseline_diamond_24.xml"
+        "merged": "com.example.ambassadorpass.app-merged_res-76:/layout_activity_page_four.xml.flat",
+        "source": "com.example.ambassadorpass.app-main-78:/layout/activity_page_four.xml"
     },
     {
-        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-merged_res-76:\\layout_activity_new_password.xml.flat",
-        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-main-78:\\layout\\activity_new_password.xml"
+        "merged": "com.example.ambassadorpass.app-merged_res-76:/layout_activity_login_admin.xml.flat",
+        "source": "com.example.ambassadorpass.app-main-78:/layout/activity_login_admin.xml"
     },
     {
-        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-merged_res-76:\\layout_activity_forgot_password.xml.flat",
-        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-main-78:\\layout\\activity_forgot_password.xml"
+        "merged": "com.example.ambassadorpass.app-merged_res-76:/layout_activity_create_admin.xml.flat",
+        "source": "com.example.ambassadorpass.app-main-78:/layout/activity_create_admin.xml"
     },
     {
-        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-merged_res-76:\\layout_activity_view_parties.xml.flat",
-        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-main-78:\\layout\\activity_view_parties.xml"
+        "merged": "com.example.ambassadorpass.app-merged_res-76:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.ambassadorpass.app-main-78:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-merged_res-76:\\drawable_baseline_lock_24.xml.flat",
-        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-main-78:\\drawable\\baseline_lock_24.xml"
+        "merged": "com.example.ambassadorpass.app-merged_res-76:/mipmap-xxhdpi_ic_launcher_adaptive_fore.png.flat",
+        "source": "com.example.ambassadorpass.app-main-78:/mipmap-xxhdpi/ic_launcher_adaptive_fore.png"
     },
     {
-        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-merged_res-76:\\drawable_form_background.xml.flat",
-        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-main-78:\\drawable\\form_background.xml"
+        "merged": "com.example.ambassadorpass.app-merged_res-76:/layout_activity_create_party.xml.flat",
+        "source": "com.example.ambassadorpass.app-main-78:/layout/activity_create_party.xml"
     },
     {
-        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-merged_res-76:\\layout_activity_ambassadordashboard.xml.flat",
-        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-main-78:\\layout\\activity_ambassadordashboard.xml"
+        "merged": "com.example.ambassadorpass.app-merged_res-76:/layout_activity_ambassadordashboard.xml.flat",
+        "source": "com.example.ambassadorpass.app-main-78:/layout/activity_ambassadordashboard.xml"
     },
     {
-        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-merged_res-76:\\drawable_baseline_dehaze_24.xml.flat",
-        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-main-78:\\drawable\\baseline_dehaze_24.xml"
+        "merged": "com.example.ambassadorpass.app-merged_res-76:/drawable_baseline_upload_24.xml.flat",
+        "source": "com.example.ambassadorpass.app-main-78:/drawable/baseline_upload_24.xml"
     },
     {
-        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-merged_res-76:\\layout_activity_admindashboard.xml.flat",
-        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-main-78:\\layout\\activity_admindashboard.xml"
+        "merged": "com.example.ambassadorpass.app-merged_res-76:/drawable_baseline_add_24.xml.flat",
+        "source": "com.example.ambassadorpass.app-main-78:/drawable/baseline_add_24.xml"
     },
     {
-        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-merged_res-76:\\drawable_baseline_add_24.xml.flat",
-        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-main-78:\\drawable\\baseline_add_24.xml"
+        "merged": "com.example.ambassadorpass.app-merged_res-76:/mipmap-hdpi_ic_launcher_adaptive_back.png.flat",
+        "source": "com.example.ambassadorpass.app-main-78:/mipmap-hdpi/ic_launcher_adaptive_back.png"
     },
     {
-        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-merged_res-76:\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-main-78:\\layout\\activity_main.xml"
+        "merged": "com.example.ambassadorpass.app-merged_res-76:/drawable_background.jpeg.flat",
+        "source": "com.example.ambassadorpass.app-main-78:/drawable/background.jpeg"
     },
     {
-        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-merged_res-76:\\layout_list_item_party.xml.flat",
-        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-main-78:\\layout\\list_item_party.xml"
+        "merged": "com.example.ambassadorpass.app-merged_res-76:/mipmap-hdpi_ic_launcher_adaptive_fore.png.flat",
+        "source": "com.example.ambassadorpass.app-main-78:/mipmap-hdpi/ic_launcher_adaptive_fore.png"
     },
     {
-        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-merged_res-76:\\drawable_upload.png.flat",
-        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-main-78:\\drawable\\upload.png"
+        "merged": "com.example.ambassadorpass.app-merged_res-76:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.example.ambassadorpass.app-main-78:/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-merged_res-76:\\mipmap-xhdpi_ic_launcher_adaptive_back.png.flat",
-        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-main-78:\\mipmap-xhdpi\\ic_launcher_adaptive_back.png"
+        "merged": "com.example.ambassadorpass.app-merged_res-76:/drawable_baseline_dehaze_24.xml.flat",
+        "source": "com.example.ambassadorpass.app-main-78:/drawable/baseline_dehaze_24.xml"
     },
     {
-        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-merged_res-76:\\mipmap-mdpi_ic_launcher_adaptive_back.png.flat",
-        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-main-78:\\mipmap-mdpi\\ic_launcher_adaptive_back.png"
+        "merged": "com.example.ambassadorpass.app-merged_res-76:/raw_videoone.3gp.flat",
+        "source": "com.example.ambassadorpass.app-main-78:/raw/videoone.3gp"
     },
     {
-        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-merged_res-76:\\mipmap-mdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-main-78:\\mipmap-mdpi\\ic_launcher.png"
+        "merged": "com.example.ambassadorpass.app-merged_res-76:/drawable_baseline_skip_next_24.xml.flat",
+        "source": "com.example.ambassadorpass.app-main-78:/drawable/baseline_skip_next_24.xml"
     },
     {
-        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-merged_res-76:\\layout_list_item_attendee.xml.flat",
-        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-main-78:\\layout\\list_item_attendee.xml"
+        "merged": "com.example.ambassadorpass.app-merged_res-76:/drawable_upload.png.flat",
+        "source": "com.example.ambassadorpass.app-main-78:/drawable/upload.png"
     },
     {
-        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-merged_res-76:\\drawable_baseline_person_24.xml.flat",
-        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-main-78:\\drawable\\baseline_person_24.xml"
+        "merged": "com.example.ambassadorpass.app-merged_res-76:/layout_activity_view_parties.xml.flat",
+        "source": "com.example.ambassadorpass.app-main-78:/layout/activity_view_parties.xml"
     },
     {
-        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-merged_res-76:\\layout_activity_page_one.xml.flat",
-        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-main-78:\\layout\\activity_page_one.xml"
+        "merged": "com.example.ambassadorpass.app-merged_res-76:/layout_activity_page_three.xml.flat",
+        "source": "com.example.ambassadorpass.app-main-78:/layout/activity_page_three.xml"
     },
     {
-        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-merged_res-76:\\drawable_baseline_email_24.xml.flat",
-        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-main-78:\\drawable\\baseline_email_24.xml"
+        "merged": "com.example.ambassadorpass.app-merged_res-76:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.example.ambassadorpass.app-main-78:/mipmap-xhdpi/ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-merged_res-76:\\layout_activity_login_admin.xml.flat",
-        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-main-78:\\layout\\activity_login_admin.xml"
+        "merged": "com.example.ambassadorpass.app-merged_res-76:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.example.ambassadorpass.app-main-78:/mipmap-xxhdpi/ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-merged_res-76:\\layout_activity_create_admin.xml.flat",
-        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-main-78:\\layout\\activity_create_admin.xml"
+        "merged": "com.example.ambassadorpass.app-merged_res-76:/drawable_baseline_skip_previous_24.xml.flat",
+        "source": "com.example.ambassadorpass.app-main-78:/drawable/baseline_skip_previous_24.xml"
     },
     {
-        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-merged_res-76:\\mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-main-78:\\mipmap-xhdpi\\ic_launcher.png"
+        "merged": "com.example.ambassadorpass.app-merged_res-76:/mipmap-xxhdpi_ic_launcher_adaptive_back.png.flat",
+        "source": "com.example.ambassadorpass.app-main-78:/mipmap-xxhdpi/ic_launcher_adaptive_back.png"
     },
     {
-        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-merged_res-76:\\drawable_ic_back_red.xml.flat",
-        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-main-78:\\drawable\\ic_back_red.xml"
+        "merged": "com.example.ambassadorpass.app-merged_res-76:/mipmap-xxxhdpi_ic_launcher_adaptive_back.png.flat",
+        "source": "com.example.ambassadorpass.app-main-78:/mipmap-xxxhdpi/ic_launcher_adaptive_back.png"
     },
     {
-        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-merged_res-76:\\raw_videoone.3gp.flat",
-        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-main-78:\\raw\\videoone.3gp"
+        "merged": "com.example.ambassadorpass.app-merged_res-76:/drawable_baseline_person_24.xml.flat",
+        "source": "com.example.ambassadorpass.app-main-78:/drawable/baseline_person_24.xml"
     },
     {
-        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-merged_res-76:\\drawable_baseline_skip_previous_24.xml.flat",
-        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-main-78:\\drawable\\baseline_skip_previous_24.xml"
+        "merged": "com.example.ambassadorpass.app-merged_res-76:/layout_activity_page_one.xml.flat",
+        "source": "com.example.ambassadorpass.app-main-78:/layout/activity_page_one.xml"
     },
     {
-        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-merged_res-76:\\xml_data_extraction_rules.xml.flat",
-        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-main-78:\\xml\\data_extraction_rules.xml"
+        "merged": "com.example.ambassadorpass.app-merged_res-76:/drawable_gemini.png.flat",
+        "source": "com.example.ambassadorpass.app-main-78:/drawable/gemini.png"
     },
     {
-        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-merged_res-76:\\layout_activity_video_player_manager.xml.flat",
-        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-main-78:\\layout\\activity_video_player_manager.xml"
+        "merged": "com.example.ambassadorpass.app-merged_res-76:/layout_activity_new_password.xml.flat",
+        "source": "com.example.ambassadorpass.app-main-78:/layout/activity_new_password.xml"
     },
     {
-        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-merged_res-76:\\layout_activity_create_party.xml.flat",
-        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-main-78:\\layout\\activity_create_party.xml"
+        "merged": "com.example.ambassadorpass.app-merged_res-76:/layout_activity_splash.xml.flat",
+        "source": "com.example.ambassadorpass.app-main-78:/layout/activity_splash.xml"
     },
     {
-        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-merged_res-76:\\layout_list_item_ambassador.xml.flat",
-        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-main-78:\\layout\\list_item_ambassador.xml"
+        "merged": "com.example.ambassadorpass.app-merged_res-76:/drawable_baseline_send_24.xml.flat",
+        "source": "com.example.ambassadorpass.app-main-78:/drawable/baseline_send_24.xml"
     },
     {
-        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-merged_res-76:\\layout_dialog_assign_ambassador.xml.flat",
-        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-main-78:\\layout\\dialog_assign_ambassador.xml"
+        "merged": "com.example.ambassadorpass.app-merged_res-76:/drawable_fab_background_black.xml.flat",
+        "source": "com.example.ambassadorpass.app-main-78:/drawable/fab_background_black.xml"
     },
     {
-        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-merged_res-76:\\drawable_background.jpeg.flat",
-        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-main-78:\\drawable\\background.jpeg"
+        "merged": "com.example.ambassadorpass.app-merged_res-76:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.ambassadorpass.app-main-78:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-merged_res-76:\\layout_item_image.xml.flat",
-        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-main-78:\\layout\\item_image.xml"
+        "merged": "com.example.ambassadorpass.app-merged_res-76:/drawable_baseline_email_24.xml.flat",
+        "source": "com.example.ambassadorpass.app-main-78:/drawable/baseline_email_24.xml"
     },
     {
-        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-merged_res-76:\\drawable_gemini.png.flat",
-        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-main-78:\\drawable\\gemini.png"
+        "merged": "com.example.ambassadorpass.app-merged_res-76:/layout_activity_video_player_manager.xml.flat",
+        "source": "com.example.ambassadorpass.app-main-78:/layout/activity_video_player_manager.xml"
     },
     {
-        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-merged_res-76:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-main-78:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "com.example.ambassadorpass.app-merged_res-76:/layout_footer_analysis.xml.flat",
+        "source": "com.example.ambassadorpass.app-main-78:/layout/footer_analysis.xml"
     },
     {
-        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-merged_res-76:\\layout_activity_page_three.xml.flat",
-        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-main-78:\\layout\\activity_page_three.xml"
+        "merged": "com.example.ambassadorpass.app-merged_res-76:/mipmap-xhdpi_ic_launcher_adaptive_back.png.flat",
+        "source": "com.example.ambassadorpass.app-main-78:/mipmap-xhdpi/ic_launcher_adaptive_back.png"
     },
     {
-        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-merged_res-76:\\mipmap-xxhdpi_ic_launcher_adaptive_back.png.flat",
-        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-main-78:\\mipmap-xxhdpi\\ic_launcher_adaptive_back.png"
+        "merged": "com.example.ambassadorpass.app-merged_res-76:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.example.ambassadorpass.app-main-78:/mipmap-hdpi/ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-merged_res-76:\\drawable_fab_background_black.xml.flat",
-        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-main-78:\\drawable\\fab_background_black.xml"
+        "merged": "com.example.ambassadorpass.app-merged_res-76:/drawable_baseline_lock_24.xml.flat",
+        "source": "com.example.ambassadorpass.app-main-78:/drawable/baseline_lock_24.xml"
     },
     {
-        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-merged_res-76:\\layout_activity_page_five.xml.flat",
-        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-main-78:\\layout\\activity_page_five.xml"
+        "merged": "com.example.ambassadorpass.app-merged_res-76:/layout_activity_page_two.xml.flat",
+        "source": "com.example.ambassadorpass.app-main-78:/layout/activity_page_two.xml"
     },
     {
-        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-merged_res-76:\\mipmap-hdpi_ic_launcher_adaptive_back.png.flat",
-        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-main-78:\\mipmap-hdpi\\ic_launcher_adaptive_back.png"
-    },
-    {
-        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-merged_res-76:\\layout_activity_page_two.xml.flat",
-        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-main-78:\\layout\\activity_page_two.xml"
-    },
-    {
-        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-merged_res-76:\\layout_activity_assign_ambassadors.xml.flat",
-        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-main-78:\\layout\\activity_assign_ambassadors.xml"
-    },
-    {
-        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-merged_res-76:\\layout_activity_page_four.xml.flat",
-        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-main-78:\\layout\\activity_page_four.xml"
+        "merged": "com.example.ambassadorpass.app-merged_res-76:/mipmap-xxxhdpi_ic_launcher_adaptive_fore.png.flat",
+        "source": "com.example.ambassadorpass.app-main-78:/mipmap-xxxhdpi/ic_launcher_adaptive_fore.png"
     },
     {
         "merged": "com.example.ambassadorpass.app-merged_res-76:/layout_activity_admindashboard.xml.flat",
         "source": "com.example.ambassadorpass.app-main-78:/layout/activity_admindashboard.xml"
     },
     {
-        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-merged_res-76:\\drawable_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-main-78:\\drawable\\ic_launcher_foreground.xml"
+        "merged": "com.example.ambassadorpass.app-merged_res-76:/mipmap-mdpi_ic_launcher_adaptive_back.png.flat",
+        "source": "com.example.ambassadorpass.app-main-78:/mipmap-mdpi/ic_launcher_adaptive_back.png"
     },
     {
-        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-merged_res-76:\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-main-78:\\drawable\\ic_launcher_background.xml"
+        "merged": "com.example.ambassadorpass.app-merged_res-76:/mipmap-mdpi_ic_launcher_adaptive_fore.png.flat",
+        "source": "com.example.ambassadorpass.app-main-78:/mipmap-mdpi/ic_launcher_adaptive_fore.png"
     },
     {
-        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-merged_res-76:\\mipmap-xhdpi_ic_launcher_adaptive_fore.png.flat",
-        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-main-78:\\mipmap-xhdpi\\ic_launcher_adaptive_fore.png"
+        "merged": "com.example.ambassadorpass.app-merged_res-76:/drawable_form_background.xml.flat",
+        "source": "com.example.ambassadorpass.app-main-78:/drawable/form_background.xml"
     },
     {
-        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-merged_res-76:\\layout_item_recent_party.xml.flat",
-        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-main-78:\\layout\\item_recent_party.xml"
+        "merged": "com.example.ambassadorpass.app-merged_res-76:/drawable_circular_background.xml.flat",
+        "source": "com.example.ambassadorpass.app-main-78:/drawable/circular_background.xml"
     },
     {
-        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-merged_res-76:\\layout_activity_introduction.xml.flat",
-        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-main-78:\\layout\\activity_introduction.xml"
+        "merged": "com.example.ambassadorpass.app-merged_res-76:/layout_item_recent_party.xml.flat",
+        "source": "com.example.ambassadorpass.app-main-78:/layout/item_recent_party.xml"
     },
     {
-        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-merged_res-76:\\mipmap-mdpi_ic_launcher_adaptive_fore.png.flat",
-        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-main-78:\\mipmap-mdpi\\ic_launcher_adaptive_fore.png"
+        "merged": "com.example.ambassadorpass.app-merged_res-76:/layout_activity_forgot_password.xml.flat",
+        "source": "com.example.ambassadorpass.app-main-78:/layout/activity_forgot_password.xml"
     },
     {
-        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-merged_res-76:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-main-78:\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "com.example.ambassadorpass.app-merged_res-76:/drawable_baseline_diamond_24.xml.flat",
+        "source": "com.example.ambassadorpass.app-main-78:/drawable/baseline_diamond_24.xml"
     },
     {
-        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-merged_res-76:\\xml_backup_rules.xml.flat",
-        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-main-78:\\xml\\backup_rules.xml"
+        "merged": "com.example.ambassadorpass.app-merged_res-76:/layout_activity_main.xml.flat",
+        "source": "com.example.ambassadorpass.app-main-78:/layout/activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-merged_res-76:\\mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-main-78:\\mipmap-xxxhdpi\\ic_launcher.png"
+        "merged": "com.example.ambassadorpass.app-merged_res-76:/layout_list_item.xml.flat",
+        "source": "com.example.ambassadorpass.app-main-78:/layout/list_item.xml"
     },
     {
-        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-merged_res-76:\\drawable_baseline_skip_next_24.xml.flat",
-        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-main-78:\\drawable\\baseline_skip_next_24.xml"
+        "merged": "com.example.ambassadorpass.app-merged_res-76:/mipmap-xhdpi_ic_launcher_adaptive_fore.png.flat",
+        "source": "com.example.ambassadorpass.app-main-78:/mipmap-xhdpi/ic_launcher_adaptive_fore.png"
     },
     {
-        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-merged_res-76:\\mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-main-78:\\mipmap-xxhdpi\\ic_launcher.png"
+        "merged": "com.example.ambassadorpass.app-merged_res-76:/layout_list_item_attendee.xml.flat",
+        "source": "com.example.ambassadorpass.app-main-78:/layout/list_item_attendee.xml"
     },
     {
-        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-merged_res-76:\\drawable_baseline_send_24.xml.flat",
-        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-main-78:\\drawable\\baseline_send_24.xml"
+        "merged": "com.example.ambassadorpass.app-merged_res-76:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.example.ambassadorpass.app-main-78:/mipmap-mdpi/ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-merged_res-76:\\mipmap-hdpi_ic_launcher_adaptive_fore.png.flat",
-        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-main-78:\\mipmap-hdpi\\ic_launcher_adaptive_fore.png"
+        "merged": "com.example.ambassadorpass.app-merged_res-76:/drawable_ic_back_red.xml.flat",
+        "source": "com.example.ambassadorpass.app-main-78:/drawable/ic_back_red.xml"
     },
     {
-        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-merged_res-76:\\layout_activity_photo_preview.xml.flat",
-        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-main-78:\\layout\\activity_photo_preview.xml"
+        "merged": "com.example.ambassadorpass.app-merged_res-76:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.ambassadorpass.app-main-78:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-merged_res-76:\\mipmap-xxhdpi_ic_launcher_adaptive_fore.png.flat",
-        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-main-78:\\mipmap-xxhdpi\\ic_launcher_adaptive_fore.png"
+        "merged": "com.example.ambassadorpass.app-merged_res-76:/layout_item_image.xml.flat",
+        "source": "com.example.ambassadorpass.app-main-78:/layout/item_image.xml"
     },
     {
-        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-merged_res-76:\\drawable_custom_edittext.xml.flat",
-        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-main-78:\\drawable\\custom_edittext.xml"
+        "merged": "com.example.ambassadorpass.app-merged_res-76:/layout_list_item_party.xml.flat",
+        "source": "com.example.ambassadorpass.app-main-78:/layout/list_item_party.xml"
     },
     {
-        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-merged_res-76:\\layout_dialog_attendees.xml.flat",
-        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-main-78:\\layout\\dialog_attendees.xml"
+        "merged": "com.example.ambassadorpass.app-merged_res-76:/layout_activity_assign_ambassadors.xml.flat",
+        "source": "com.example.ambassadorpass.app-main-78:/layout/activity_assign_ambassadors.xml"
     },
     {
-        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-merged_res-76:\\layout_activity_party_preview.xml.flat",
-        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-main-78:\\layout\\activity_party_preview.xml"
+        "merged": "com.example.ambassadorpass.app-merged_res-76:/drawable_custom_edittext.xml.flat",
+        "source": "com.example.ambassadorpass.app-main-78:/drawable/custom_edittext.xml"
     },
     {
-        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-merged_res-76:\\drawable_circular_background.xml.flat",
-        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-main-78:\\drawable\\circular_background.xml"
+        "merged": "com.example.ambassadorpass.app-merged_res-76:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.ambassadorpass.app-main-78:/drawable/ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-merged_res-76:\\layout_footer_analysis.xml.flat",
-        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-main-78:\\layout\\footer_analysis.xml"
+        "merged": "com.example.ambassadorpass.app-merged_res-76:/layout_list_item_ambassador.xml.flat",
+        "source": "com.example.ambassadorpass.app-main-78:/layout/list_item_ambassador.xml"
     },
     {
-        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-merged_res-76:\\mipmap-xxxhdpi_ic_launcher_adaptive_back.png.flat",
-        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-main-78:\\mipmap-xxxhdpi\\ic_launcher_adaptive_back.png"
+        "merged": "com.example.ambassadorpass.app-merged_res-76:/xml_backup_rules.xml.flat",
+        "source": "com.example.ambassadorpass.app-main-78:/xml/backup_rules.xml"
     },
     {
-        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-merged_res-76:\\mipmap-hdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-main-78:\\mipmap-hdpi\\ic_launcher.png"
+        "merged": "com.example.ambassadorpass.app-merged_res-76:/layout_activity_photo_preview.xml.flat",
+        "source": "com.example.ambassadorpass.app-main-78:/layout/activity_photo_preview.xml"
     },
     {
-        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-merged_res-76:\\layout_activity_splash.xml.flat",
-        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-main-78:\\layout\\activity_splash.xml"
+        "merged": "com.example.ambassadorpass.app-merged_res-76:/layout_dialog_attendees.xml.flat",
+        "source": "com.example.ambassadorpass.app-main-78:/layout/dialog_attendees.xml"
     },
     {
-        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-merged_res-76:\\layout_list_item.xml.flat",
-        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.0\\com.example.ambassadorpass.app-main-78:\\layout\\list_item.xml"
+        "merged": "com.example.ambassadorpass.app-merged_res-76:/layout_activity_page_five.xml.flat",
+        "source": "com.example.ambassadorpass.app-main-78:/layout/activity_page_five.xml"
+    },
+    {
+        "merged": "com.example.ambassadorpass.app-merged_res-76:/layout_activity_introduction.xml.flat",
+        "source": "com.example.ambassadorpass.app-main-78:/layout/activity_introduction.xml"
+    },
+    {
+        "merged": "com.example.ambassadorpass.app-merged_res-76:/layout_activity_party_preview.xml.flat",
+        "source": "com.example.ambassadorpass.app-main-78:/layout/activity_party_preview.xml"
     }
 ]

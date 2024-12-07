@@ -1,0 +1,10 @@
+{
+  "projects": {
+    "default": "ambassador-cca32"
+  },
+  "dataconnectEmulatorConfig": {
+    "postgres": {
+      "localConnectionString": "postgresql://localhost:5432?sslmode=disable"
+    }
+  }
+}

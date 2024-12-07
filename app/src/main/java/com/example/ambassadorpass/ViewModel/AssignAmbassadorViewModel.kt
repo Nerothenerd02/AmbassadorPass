@@ -14,18 +14,22 @@ class AssignAmbassadorViewModel(private val context: Context) : ViewModel() {
     private val _partyList = MutableLiveData<List<Party>>()
     val partyList: LiveData<List<Party>> get() = _partyList
 
+    // Fetch the list of parties from the repository
     fun fetchParties() {
-        repository.fetchParties { parties ->
+        repository.fetchParties { parties: List<Party> -> // Explicitly define the type
             _partyList.postValue(parties)
         }
     }
 
-    fun createAmbassadorAccount(
+
+    // New function to handle ambassador submission
+    fun handleAmbassadorSubmission(
         email: String,
         name: String,
         partyId: String,
-        callback: (Boolean) -> Unit
+        callback: (Boolean, String?) -> Unit
     ) {
-        repository.createAmbassadorAccount(email, name, partyId, callback)
+        repository.handleAmbassadorSubmission(email, name, partyId, callback)
     }
+
 }
