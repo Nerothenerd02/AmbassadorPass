@@ -7,22 +7,19 @@ import android.widget.Toast
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
-import androidx.annotation.OptIn
-import androidx.media3.common.util.UnstableApi
 import com.example.ambassadorpass.R
 import com.example.ambassadorpass.databinding.ActivityMainBinding
 import com.example.ambassadorpass.repository.KeycodeRepository
 import com.example.ambassadorpass.viewmodel.KeycodeViewModel
 import com.example.ambassadorpass.viewmodel.KeycodeViewModelFactory
 import com.example.ambassadorpass.view.user.PartyPreviewActivity
-import android.util.Log
+import com.google.firebase.firestore.FirebaseFirestore
 
-@OptIn(UnstableApi::class)
 class MainActivity : AppCompatActivity() {
 
     // ViewModel initialization with KeycodeRepository
     private val viewModel: KeycodeViewModel by viewModels {
-        KeycodeViewModelFactory(KeycodeRepository())
+        KeycodeViewModelFactory(KeycodeRepository(FirebaseFirestore.getInstance()))
     }
 
     private lateinit var binding: ActivityMainBinding
@@ -71,7 +68,6 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun navigateToPartyPreview(keycode: String) {
-        Log.d("MainActivity", "Navigating to PartyPreview with keycode: $keycode")
         val intent = Intent(this, PartyPreviewActivity::class.java).apply {
             putExtra("PARTY_LINK", keycode)
         }

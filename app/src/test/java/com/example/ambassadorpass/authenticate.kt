@@ -1,73 +1,86 @@
-// UserRepositoryTest.kt
 package com.example.ambassadorpass.repository
 
+import com.google.firebase.auth.AuthResult
 import com.google.firebase.auth.FirebaseAuth
-import com.google.firebase.auth.FirebaseAuthException
-import io.mockk.coEvery
+import com.google.firebase.firestore.FirebaseFirestore
+import com.google.android.gms.tasks.Task
+import io.mockk.MockKAnnotations
+import io.mockk.every
+import io.mockk.impl.annotations.MockK
 import io.mockk.mockk
 import kotlinx.coroutines.runBlocking
-import kotlinx.coroutines.tasks.await
+import org.junit.Assert.assertFalse
+import org.junit.Assert.assertTrue
 import org.junit.Before
 import org.junit.Test
-import org.junit.Assert.assertTrue
-import org.junit.Assert.assertFalse
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.ExperimentalCoroutinesApi
-import kotlinx.coroutines.test.TestCoroutineDispatcher
-import kotlinx.coroutines.test.resetMain
-import kotlinx.coroutines.test.setMain
-import org.junit.After
 
-@OptIn(ExperimentalCoroutinesApi::class)
 class UserRepositoryTest {
 
+    @MockK
+    private lateinit var firebaseAuth: FirebaseAuth
+
+    @MockK
+    private lateinit var firestore: FirebaseFirestore
+
     private lateinit var userRepository: UserRepository
-    private val mockFirebaseAuth = mockk<FirebaseAuth>(relaxed = true)
-    private val testDispatcher = TestCoroutineDispatcher()
 
     @Before
-    fun setup() {
-        Dispatchers.setMain(testDispatcher) // Set main dispatcher to TestCoroutineDispatcher
-        userRepository = UserRepository(firebaseAuth = mockFirebaseAuth) // Pass the mocked FirebaseAuth instance
-    }
-
-    @After
-    fun teardown() {
-        Dispatchers.resetMain() // Reset main dispatcher
-        testDispatcher.cleanupTestCoroutines()
+    fun setUp() {
+        MockKAnnotations.init(this)
+        userRepository = UserRepository(firebaseAuth, firestore)
     }
 
     @Test
-    fun `test valid authentication`() = runBlocking {
+    fun `authenticate should return true for successful login`() = runBlocking {
         val email = "test@example.com"
-        val password = "password123"
+        val password = "secret123"
 
-        // Mock the sign-in success scenario
-        coEvery { mockFirebaseAuth.signInWithEmailAndPassword(email, password).await() } returns mockk()
+        val mockAuthResult = mockk<AuthResult>()
+        val successfulTask = mockk<Task<AuthResult>>()
+
+        every { successfulTask.isComplete } returns true
+        every { successfulTask.isSuccessful } returns true
+        every { successfulTask.isCanceled } returns false
+        every { successfulTask.exception } returns null
+        every { successfulTask.result } returns mockAuthResult
+
+        every { firebaseAuth.signInWithEmailAndPassword(email, password) } returns successfulTask
 
         val result = userRepository.authenticate(email, password)
         assertTrue(result)
     }
 
     @Test
-    fun `test invalid authentication`() = runBlocking {
-        val email = "invalid@example.com"
-        val password = "wrongpassword"
+    fun `authenticate should return false for a login exception`() = runBlocking {
+        val email = "test@example.com"
+        val password = "secret123"
 
-        // Mock a failed authentication scenario (throw an exception)
-        coEvery { mockFirebaseAuth.signInWithEmailAndPassword(email, password).await() } throws FirebaseAuthException("ERROR", "Invalid credentials")
+        val failedTask = mockk<Task<AuthResult>>()
+
+        every { failedTask.isComplete } returns true
+        every { failedTask.isSuccessful } returns false
+        every { failedTask.isCanceled } returns false
+        every { failedTask.exception } returns Exception("Invalid email or password")
+
+        every { firebaseAuth.signInWithEmailAndPassword(email, password) } returns failedTask
 
         val result = userRepository.authenticate(email, password)
         assertFalse(result)
     }
 
     @Test
-    fun `test empty credentials authentication`() = runBlocking {
-        val email = ""
-        val password = ""
+    fun `authenticate should return false for other exceptions`() = runBlocking {
+        val email = "test@example.com"
+        val password = "secret123"
 
-        // Mock a failed authentication scenario due to empty credentials
-        coEvery { mockFirebaseAuth.signInWithEmailAndPassword(email, password).await() } throws FirebaseAuthException("ERROR", "Invalid credentials")
+        val failedTask = mockk<Task<AuthResult>>()
+
+        every { failedTask.isComplete } returns true
+        every { failedTask.isSuccessful } returns false
+        every { failedTask.isCanceled } returns false
+        every { failedTask.exception } returns Exception("Unexpected error")
+
+        every { firebaseAuth.signInWithEmailAndPassword(email, password) } returns failedTask
 
         val result = userRepository.authenticate(email, password)
         assertFalse(result)
