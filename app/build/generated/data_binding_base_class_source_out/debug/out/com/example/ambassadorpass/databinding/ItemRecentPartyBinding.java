@@ -23,12 +23,16 @@ public final class ItemRecentPartyBinding implements ViewBinding {
   public final TextView partyDate;
 
   @NonNull
+  public final TextView partyId;
+
+  @NonNull
   public final TextView partyName;
 
   private ItemRecentPartyBinding(@NonNull CardView rootView, @NonNull TextView partyDate,
-      @NonNull TextView partyName) {
+      @NonNull TextView partyId, @NonNull TextView partyName) {
     this.rootView = rootView;
     this.partyDate = partyDate;
+    this.partyId = partyId;
     this.partyName = partyName;
   }
 
@@ -65,13 +69,19 @@ public final class ItemRecentPartyBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.partyId;
+      TextView partyId = ViewBindings.findChildViewById(rootView, id);
+      if (partyId == null) {
+        break missingId;
+      }
+
       id = R.id.partyName;
       TextView partyName = ViewBindings.findChildViewById(rootView, id);
       if (partyName == null) {
         break missingId;
       }
 
-      return new ItemRecentPartyBinding((CardView) rootView, partyDate, partyName);
+      return new ItemRecentPartyBinding((CardView) rootView, partyDate, partyId, partyName);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

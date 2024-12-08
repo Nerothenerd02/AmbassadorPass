@@ -44,6 +44,50 @@ class AmbassadorRepository {
         return partyList
     }
 
+    fun getPartiesForAmbassador(ambassadorId: String): LiveData<List<Party>> {
+        val filteredParties = MutableLiveData<List<Party>>()
+
+        // Fetch the partyIds for the ambassador
+        firestore.collection("ambassadors")
+            .document(ambassadorId)
+            .get()
+            .addOnSuccessListener { document ->
+                if (document.exists()) {
+                    val partyIds = document["partyIds"] as? List<String> ?: emptyList()
+
+                    if (partyIds.isEmpty()) {
+                        Log.w(TAG, "No partyIds found for ambassadorId: $ambassadorId")
+                        filteredParties.value = emptyList()
+                        return@addOnSuccessListener
+                    }
+
+                    // Fetch parties matching these partyIds
+                    firestore.collection("parties")
+                        .whereIn("partyId", partyIds)
+                        .get()
+                        .addOnSuccessListener { querySnapshot ->
+                            val parties = querySnapshot.documents.mapNotNull { it.toObject(Party::class.java) }
+                            Log.d(TAG, "Filtered parties: $parties")
+                            filteredParties.value = parties
+                        }
+                        .addOnFailureListener { exception ->
+                            Log.e(TAG, "Failed to fetch filtered parties. Error: ${exception.message}")
+                            filteredParties.value = emptyList()
+                        }
+                } else {
+                    Log.w(TAG, "No ambassador document found for ID: $ambassadorId")
+                    filteredParties.value = emptyList()
+                }
+            }
+            .addOnFailureListener { exception ->
+                Log.e(TAG, "Failed to fetch ambassador document. Error: ${exception.message}")
+                filteredParties.value = emptyList()
+            }
+
+        return filteredParties
+    }
+
+
     // Fetch ambassador names associated with a party
     fun getAmbassadorName(ambassadorId: String): LiveData<List<String>> {
         val ambassadorNames = MutableLiveData<List<String>>()
@@ -119,6 +163,66 @@ class AmbassadorRepository {
 
         return attendees
     }
+    fun getAttendeesByPartyAndAmbassador(ambassadorId: String, partyId: String): LiveData<Pair<List<String>, Double>> {
+        val result = MutableLiveData<Pair<List<String>, Double>>()
+
+        firestore.collection("ambassadors")
+            .document(ambassadorId)
+            .get()
+            .addOnSuccessListener { document ->
+                if (document.exists()) {
+                    val partyLinks = document["partyLinks"] as? List<String> ?: emptyList()
+                    val targetPartyLink = partyLinks.find { it.contains(partyId) } // Find matching partyLink for this partyId
+
+                    if (targetPartyLink != null) {
+                        // Fetch attendees for the partyLink
+                        firestore.collection("attendees")
+                            .whereEqualTo("partyLink", targetPartyLink)
+                            .whereEqualTo("paymentStatus", "paid")
+                            .get()
+                            .addOnSuccessListener { attendeesSnapshot ->
+                                val attendeeNames = attendeesSnapshot.documents.mapNotNull { it.getString("name") }
+
+                                // Fetch party details to calculate commission
+                                firestore.collection("parties")
+                                    .document(partyId)
+                                    .get()
+                                    .addOnSuccessListener { partyDoc ->
+                                        val ticketPrice = partyDoc.getDouble("ticketPrice") ?: 0.0
+                                        val ambassadorMarkup = partyDoc.getDouble("ambassadorMarkup") ?: 0.0
+                                        val ticketsSold = attendeesSnapshot.documents.size
+
+                                        val commissionPerTicket = (ambassadorMarkup / 100) * ticketPrice
+                                        val totalCommission = commissionPerTicket * ticketsSold
+
+                                        result.value = Pair(attendeeNames, totalCommission)
+                                    }
+                                    .addOnFailureListener { exception ->
+                                        Log.e(TAG, "Failed to fetch party details. Error: ${exception.message}")
+                                        result.value = Pair(emptyList(), 0.0)
+                                    }
+                            }
+                            .addOnFailureListener { exception ->
+                                Log.e(TAG, "Failed to fetch attendees. Error: ${exception.message}")
+                                result.value = Pair(emptyList(), 0.0)
+                            }
+                    } else {
+                        Log.w(TAG, "No matching partyLink found for partyId: $partyId")
+                        result.value = Pair(emptyList(), 0.0)
+                    }
+                } else {
+                    Log.w(TAG, "Ambassador document not found for ID: $ambassadorId")
+                    result.value = Pair(emptyList(), 0.0)
+                }
+            }
+            .addOnFailureListener { exception ->
+                Log.e(TAG, "Failed to fetch ambassador document. Error: ${exception.message}")
+                result.value = Pair(emptyList(), 0.0)
+            }
+
+        return result
+    }
+
     fun calculateTotalCommission(ambassadorId: String, partyId: String): LiveData<Pair<List<String>, Double>> {
         val result = MutableLiveData<Pair<List<String>, Double>>()
 
@@ -164,7 +268,5 @@ class AmbassadorRepository {
 
         return result
     }
-
-
 
 }

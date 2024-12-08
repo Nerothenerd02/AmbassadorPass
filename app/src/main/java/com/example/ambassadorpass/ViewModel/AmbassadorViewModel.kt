@@ -12,6 +12,14 @@ class AmbassadorViewModel(private val repository: AmbassadorRepository) : ViewMo
         return repository.getParties()
     }
 
+    fun getPartiesForAmbassador(ambassadorId: String): LiveData<List<Party>> {
+        return repository.getPartiesForAmbassador(ambassadorId)
+    }
+    fun getAttendeesByPartyAndAmbassador(ambassadorId: String, partyId: String): LiveData<Pair<List<String>, Double>> {
+        return repository.getAttendeesByPartyAndAmbassador(ambassadorId, partyId)
+    }
+
+
     fun getAmbassadorName(partyId: String): LiveData<List<String>> {
         return repository.getAmbassadorName(partyId)
     }

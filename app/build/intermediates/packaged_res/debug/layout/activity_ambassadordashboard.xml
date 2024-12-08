@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background"
-    tools:context=".view.admin.AmbassadorDashboardActivity">
+    tools:context=".view.ambassador.AmbassadorDashboard">
 
     <!-- Back Button in the top left corner -->
     <ImageButton
@@ -31,13 +31,13 @@
         app:cardElevation="8dp"
         app:layout_constraintTop_toBottomOf="@id/backButton"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:background="@android:color/white">
+        app:layout_constraintEnd_toEndOf="parent">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:padding="16dp">
+            android:padding="16dp"
+            android:background="@android:color/white">
 
             <!-- Ambassador Title -->
             <TextView

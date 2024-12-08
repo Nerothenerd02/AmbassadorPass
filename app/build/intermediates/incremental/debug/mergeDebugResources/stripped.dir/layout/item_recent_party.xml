@@ -1,15 +1,19 @@
 <androidx.cardview.widget.CardView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="120dp"
-    android:layout_height="120dp"
-    app:cardCornerRadius="12dp"
-    app:cardElevation="8dp">
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp"
+    android:background="@android:color/white"> <!-- Set white background -->
 
-    <RelativeLayout
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:padding="8dp">
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp"
+        android:background="@android:color/white"> <!-- Set white background -->
 
         <TextView
             android:id="@+id/partyName"
@@ -18,21 +22,26 @@
             android:text="Party Name"
             android:textColor="@android:color/black"
             android:textStyle="bold"
-            android:ellipsize="end"
-            android:lines="1"
+            android:textSize="16sp"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:id="@+id/partyId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Party ID"
+            android:textColor="@android:color/darker_gray"
             android:textSize="14sp"
-            android:layout_alignParentTop="true" />
+            android:layout_marginBottom="4dp" />
 
         <TextView
             android:id="@+id/partyDate"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Date"
-            android:textColor="@android:color/darker_gray"
-            android:ellipsize="end"
-            android:lines="1"
-            android:textSize="12sp"
-            android:layout_below="@id/partyName" />
+            android:text="Party Date"
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
 
-    </RelativeLayout>
+    </LinearLayout>
+
 </androidx.cardview.widget.CardView>

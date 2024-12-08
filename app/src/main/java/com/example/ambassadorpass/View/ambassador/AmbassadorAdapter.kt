@@ -46,13 +46,14 @@ class PartyAdapter(private val context: Context, private val parties: List<Party
             if (ambassadorId != null) {
                 val viewModel = ViewModelProvider(context as AppCompatActivity).get(AmbassadorViewModel::class.java)
 
-                viewModel.calculateTotalCommission(ambassadorId, party.partyId)
-                    .observe(context as AppCompatActivity, Observer { (attendees, totalCommission) ->
-                        val attendeeNames = attendees.joinToString("\n")
+                // Fetch attendees and calculate commission for the selected party
+                viewModel.getAttendeesByPartyAndAmbassador(ambassadorId, party.partyId)
+                    .observe(context as AppCompatActivity, Observer { (attendeeNames, totalCommission) ->
+                        val attendeeList = attendeeNames.joinToString("\n")
                         AlertDialog.Builder(context)
-                            .setTitle("Attendees (Paid)")
+                            .setTitle("Party Details")
                             .setMessage(
-                                "Attendees:\n$attendeeNames\n\n" +
+                                "Attendees:\n$attendeeList\n\n" +
                                         "Total Commission: $totalCommission"
                             )
                             .setPositiveButton("OK", null)
@@ -62,6 +63,7 @@ class PartyAdapter(private val context: Context, private val parties: List<Party
                 Toast.makeText(context, "Unable to fetch attendees. User not logged in.", Toast.LENGTH_SHORT).show()
             }
         }
+
 
 
         return view

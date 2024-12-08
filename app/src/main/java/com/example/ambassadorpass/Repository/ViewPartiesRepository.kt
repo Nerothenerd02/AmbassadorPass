@@ -20,19 +20,29 @@ class ViewPartiesRepository {
         firestore.collection("parties")
             .get()
             .addOnSuccessListener { snapshot ->
+                // Process Firestore snapshot
                 val parties = snapshot.documents.map { document ->
                     val data = document.data ?: emptyMap<String, Any>()
-                    val partyDate = (document.get("partyDate") as? Timestamp)?.toDate() // Get Date from Timestamp
-                    data + mapOf("partyDate" to (partyDate ?: "No Date"))
+                    val partyId = document.id // Get party ID from the document ID
+                    val partyDate = (document.get("partyDate") as? Timestamp)?.toDate()
+
+
+                    // Include additional data
+                    data + mapOf(
+                        "partyId" to partyId,
+                        "partyDate" to (partyDate ?: "No Date")
+                    )
                 }
-                partiesList.value = parties
+                partiesList.value = parties // Update LiveData with the processed list
             }
             .addOnFailureListener { exception ->
-                Log.e(TAG, "Error fetching parties: ${exception.message}")
+                // Log the error and set an empty list in case of failure
+                Log.e(TAG, "Error fetching parties: ${exception.message}", exception)
                 partiesList.value = emptyList()
             }
         return partiesList
     }
+
 
     // Fetch attendees and their respective ambassador names for a selected party
     fun getAttendeesWithAmbassadors(partyId: String): LiveData<List<Map<String, String>>> {
